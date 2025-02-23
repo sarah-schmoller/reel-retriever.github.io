@@ -24,7 +24,7 @@ function HomePage() {
         <header class="header"></header>
 
         <div className="titleBar">
-          <img src="./title-bar.png" alt="Reel Retriever Title Bar" />
+          <img src="./titleBar.png" alt="Reel Retriever Title Bar" />
           <div className="titleBarText">
             Bringing you overlooked videos from across YouTube’s history.
           </div>
