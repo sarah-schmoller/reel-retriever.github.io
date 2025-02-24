@@ -29,6 +29,31 @@ function HomePage() {
             Bringing you overlooked videos from across YouTube’s history.
           </div>
         </div>
+
+        {/* MAIN PAGE */}
+        <div class="page">
+
+          {/* LEFT AND CENTER COLUMN CONTAINER */}
+          <div class="leftField"   
+            style={{
+              backgroundImage: "url(./background.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "top center",
+            }}>
+
+            {/* LEFT COLUMN */}
+            <div className="leftColumn">
+              <img
+                src="./left-sidebar-background.png"
+                alt="Left column background"
+                className="leftColumnBackground"
+              />
+            </div>
+
+            
+          </div>
+        </div>
       </div>
     </html>
 
