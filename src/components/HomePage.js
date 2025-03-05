@@ -90,6 +90,10 @@ function HomePage() {
               </div>
             </div>
 
+            {/* CENTER COLUMN */}
+            <div class="centerColumn">
+            </div>
+
             
           </div>
         </div>
