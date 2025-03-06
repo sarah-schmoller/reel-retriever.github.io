@@ -92,6 +92,95 @@ function HomePage() {
 
             {/* CENTER COLUMN */}
             <div class="centerColumn">
+              
+              {/* VIDEO FINDER WIDGET */}
+              <div class="centerWidget">
+                <img
+                  src="./video-background.webp"
+                  alt="Large widget frame"
+                />
+                <div class="innerWidgetField">
+                  <img
+                    src="./video-background-small.png"
+                    alt="Small widget frame"
+                  />
+                  <div className="innerWidgetFieldContents">
+                    <img
+                      src="./section_header_one.png"
+                      alt="Video header top"
+                      className="sectionHeader"
+                    />
+                    <div className="videoPlayer">
+                      <img
+                        src="./video-player-container.png"
+                        alt="Video player background"
+                        className="videoPlayerBackgroundImage"
+                      />
+                      <div className="videoPlayerFilterOverlay">
+                        <div className="overlayTextLabelOne">
+                          Embeddings:
+                        </div>
+                        <select className="filter embeddings">
+                          <option>Embeddable Only</option>
+                          <option>Allow Non-Embeddable</option>
+                        </select>
+                        <div className="overlayTextLabelTwo">
+                          Date:
+                        </div>
+                        <select className="filter dateRange">
+                          <option>All Time</option>
+                          <option>2005–2008</option>
+                          <option>2009–2012</option>
+                          <option>2013–2016</option>
+                        </select>
+                        <div className="overlayTextLabelThree">
+                          File Type:
+                        </div>
+                        <select className="filter uploadType">
+                          <option>All Uploads</option>
+                          <option>DSCF</option>
+                          <option>IMG</option>
+                          <option>MOV</option>
+                        </select>
+                      </div>
+                      <iframe
+                        className="videoEmbedding"
+                        src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                        loading="lazy"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                    <div className="videoControls">
+                      <img
+                        src="./control_panel.png"
+                        alt="Video controls background"
+                        className="videoControlsBackground"
+                      />
+                      <div className="videoControlsContent">
+                        <img
+                          src="./arrow-left.png"
+                          alt="Previous video"
+                          className="videoArrow"
+                          onClick={goPrevious}
+                        />
+                        <img
+                          src="./discover.png"
+                          alt="Discover new video"
+                          className="videoDiscover"
+                          onClick={goNext}
+                        />
+                        <img
+                          src="./arrow-right.png"
+                          alt="Next video"
+                          className="videoArrow"
+                          onClick={goNext}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             
