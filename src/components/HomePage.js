@@ -96,7 +96,7 @@ function HomePage() {
               {/* VIDEO FINDER WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./video-background.webp"
+                  src="./videoBackground.webp"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
