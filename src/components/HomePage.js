@@ -101,7 +101,7 @@ function HomePage() {
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./video-background-small.png"
+                    src="./videoBackgroundSmall.png"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
