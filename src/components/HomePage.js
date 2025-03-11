@@ -153,7 +153,7 @@ function HomePage() {
                     </div>
                     <div className="videoControls">
                       <img
-                        src="./control_panel.png"
+                        src="./controlPanel.png"
                         alt="Video controls background"
                         className="videoControlsBackground"
                       />
