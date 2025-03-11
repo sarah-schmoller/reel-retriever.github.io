@@ -106,13 +106,13 @@ function HomePage() {
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./section_header_one.png"
+                      src="./sectionHeaderOne.png"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="videoPlayer">
                       <img
-                        src="./video-player-container.png"
+                        src="./videoPlayerContainer.png"
                         alt="Video player background"
                         className="videoPlayerBackgroundImage"
                       />
