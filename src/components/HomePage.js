@@ -159,7 +159,7 @@ function HomePage() {
                       />
                       <div className="videoControlsContent">
                         <img
-                          src="./arrow-left.png"
+                          src="./arrowLeft.png"
                           alt="Previous video"
                           className="videoArrow"
                           onClick={goPrevious}
@@ -171,7 +171,7 @@ function HomePage() {
                           onClick={goNext}
                         />
                         <img
-                          src="./arrow-right.png"
+                          src="./arrowRight.png"
                           alt="Next video"
                           className="videoArrow"
                           onClick={goNext}
