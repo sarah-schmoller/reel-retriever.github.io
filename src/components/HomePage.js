@@ -5,6 +5,171 @@ import '../styles/homePageStyles.css';
 
 function HomePage() {
 
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [allVideos, setAllVideos] = useState([
+      {
+        id: "5Sn31FUtuTA",
+        thumbnail: "https://img.youtube.com/vi/5Sn31FUtuTA/mqdefault.jpg",
+        title: "DSCF5684.AVI",
+        channelName: "Ploegie19",
+        uploadDate: "15 years ago",
+        length: "0:26"
+  
+      },
+      {
+        id: "R6p22Tp1lsI",
+        thumbnail: "https://img.youtube.com/vi/R6p22Tp1lsI/mqdefault.jpg",
+        title: "DSCF5684",
+        channelName: "charlie sincinito",
+        uploadDate: "15 years ago",
+        length: "5:12"
+      },
+      {
+        id: "IY3yziDfb3g",
+        thumbnail: "https://img.youtube.com/vi/IY3yziDfb3g/mqdefault.jpg",
+        title: "DSCF5684",
+        channelName: "PlasticLucy",
+        uploadDate: "16 years ago",
+        length: "0:26"
+      },
+      {
+        id: "qt-116gtD5I",
+        thumbnail: "https://img.youtube.com/vi/qt-116gtD5I/mqdefault.jpg",
+        title: "DSCF5684",
+        channelName: "8940sora",
+        uploadDate: "16 years ago",
+        length: "1:01"
+      },
+      {
+        id: "zSRdHbhkCrc",
+        thumbnail: "https://img.youtube.com/vi/zSRdHbhkCrc/mqdefault.jpg",
+        title: "DSCF5684",
+        channelName: "KrAxRACING",
+        uploadDate: "16 years ago",
+        length: "0:20",
+      },
+      {
+        id: "Mi_sMNfNBhs",
+        thumbnail: "https://img.youtube.com/vi/Mi_sMNfNBhs/mqdefault.jpg",
+        title: "DSCF5684",
+        channelName: "Tina Huang",
+        uploadDate: "16 years ago",
+        length: "0:16",
+      },
+      {
+        id: "JXH6lyO2bAI",
+        thumbnail: "https://img.youtube.com/vi/JXH6lyO2bAI/mqdefault.jpg",
+        title: "DSCF5435",
+        channelName: "david henry donald",
+        uploadDate: "13 years ago",
+        length: "0:11",
+      },
+      {
+        id: "xTn5TyIyhMs",
+        thumbnail: "https://img.youtube.com/vi/xTn5TyIyhMs/mqdefault.jpg",
+        title: "DSCF5435.AVI",
+        channelName: "SergLit",
+        uploadDate: "14 years ago",
+        length: "2:26",
+      },
+      {
+        id: "mOMCm-mBGBs",
+        thumbnail: "https://img.youtube.com/vi/mOMCm-mBGBs/mqdefault.jpg",
+        title: "DSCF5435",
+        channelName: "urban",
+        uploadDate: "14 years ago",
+        length: "0:50",
+      },
+      {
+        id: "Q_sc4bIYUkI",
+        thumbnail: "https://img.youtube.com/vi/Q_sc4bIYUkI/mqdefault.jpg",
+        title: "DSCF5435",
+        channelName: "Alberto García",
+        uploadDate: "14 years ago",
+        length: "0:44",
+      },
+      {
+        id: "yB_IfLGQJ5Y",
+        thumbnail: "https://img.youtube.com/vi/yB_IfLGQJ5Y/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "rzorzoster",
+        uploadDate: "12 years ago",
+        length: "0:11",
+      },
+      {
+        id: "F6qJLUcZpj4",
+        thumbnail: "https://img.youtube.com/vi/F6qJLUcZpj4/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "Canale 74",
+        uploadDate: "12 years ago",
+        length: "0:20",
+      },
+      {
+        id: "mU067devfmg",
+        thumbnail: "https://img.youtube.com/vi/mU067devfmg/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "Lari paes",
+        uploadDate: "12 years ago",
+        length: "3:15",
+      },
+      {
+        id: "kR0AI0hpGj8",
+        thumbnail: "https://img.youtube.com/vi/kR0AI0hpGj8/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "Neil Wilson",
+        uploadDate: "12 years ago",
+        length: "0:23",
+      },
+      {
+        id: "m9TxO-fn9AA",
+        thumbnail: "https://img.youtube.com/vi/m9TxO-fn9AA/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "Angelina Black",
+        uploadDate: "12 years ago",
+        length: "1:53",
+      },
+      {
+        id: "FAYXnrcVN6A",
+        thumbnail: "https://img.youtube.com/vi/FAYXnrcVN6A/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "Raymond462",
+        uploadDate: "12 years ago",
+        length: "2:20",
+      },
+      {
+        id: "OJaCNj0RdFM",
+        thumbnail: "https://img.youtube.com/vi/OJaCNj0RdFM/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "zac bot",
+        uploadDate: "13 years ago",
+        length: "0:45",
+      },
+      {
+        id: "QAiqTSo0NNU",
+        thumbnail: "https://img.youtube.com/vi/QAiqTSo0NNU/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "劉懿萱",
+        uploadDate: "13 years ago",
+        length: "3:08",
+      },
+      {
+        id: "3LIObwA0fmk",
+        thumbnail: "https://img.youtube.com/vi/3LIObwA0fmk/mqdefault.jpg",
+        title: "DSCF2856 0",
+        channelName: "Karunyu Kieangjun",
+        uploadDate: "13 years ago",
+        length: "3:58",
+      },
+      {
+        id: "WFI73AOgLBA",
+        thumbnail: "https://img.youtube.com/vi/WFI73AOgLBA/mqdefault.jpg",
+        title: "DSCF2856",
+        channelName: "xavdecat",
+        uploadDate: "13 years ago",
+        length: "0:27",
+      },
+    ]);
+
 
   // HTML FORMATTING
   return (
