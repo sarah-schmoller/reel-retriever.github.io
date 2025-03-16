@@ -171,6 +171,49 @@ function HomePage() {
     ]);
 
 
+
+  const goNext = () => {
+    const leavingVideo = history[historyPointer];
+
+    const newRecents = (() => {
+      const filtered = recentVideos.filter(v => v.id !== leavingVideo.id);
+      return [leavingVideo, ...filtered].slice(0, 10);
+    })();
+
+    setRecentVideos(newRecents);
+
+    const recentIds = new Set(newRecents.map(v => v.id));
+
+    setHistoryPointer(prevPointer => {
+      let nextPointer = prevPointer + 1;
+
+      while (
+        nextPointer < history.length &&
+        recentIds.has(history[nextPointer].id)
+      ) {
+        nextPointer++;
+      }
+
+      if (nextPointer < history.length) {
+        return nextPointer;
+      }
+
+      const historyIds = new Set(history.map(v => v.id));
+      const nextVideo = allVideos.find(
+        v => !historyIds.has(v.id) && !recentIds.has(v.id)
+      );
+
+      if (nextVideo) {
+        const newIndex = history.length;
+        setHistory(prev => [...prev, nextVideo]);
+        return newIndex;
+      }
+
+      return prevPointer;
+    });
+  };
+
+
   // HTML FORMATTING
   return (
     <html lang="en">
