@@ -214,6 +214,23 @@ function HomePage() {
   };
 
 
+  const goPrevious = () => {
+    const leavingVideo = history[historyPointer];
+
+    const nextPointer = Math.max(historyPointer - 1, 0);
+    const nextVideo = history[nextPointer];
+
+    setRecentVideos(prev => {
+      const filtered = prev.filter(v => v.id !== leavingVideo.id);
+      const updated = [leavingVideo, ...filtered].slice(0, 10);
+      return updated.filter(v => v.id !== nextVideo.id);
+    });
+
+    setHistoryPointer(nextPointer);
+  };
+
+
+
   // HTML FORMATTING
   return (
     <html lang="en">
