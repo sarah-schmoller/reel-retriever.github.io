@@ -408,6 +408,70 @@ function HomePage() {
               </div>
             </div>
 
+
+            {/* WATCH HISTORY WIDGET */}
+            <div class="centerWidget">
+              <img
+                src="./recents-background.png"
+                alt="Large widget frame"
+              />
+              <div class="innerWidgetField">
+                <img
+                  src="./recents-background-small.png"
+                  alt="Small widget frame"
+                />
+                <div className="innerWidgetFieldContents">
+                  <img
+                    src="./section_header_two.png"
+                    alt="Video header top"
+                    className="sectionHeader"
+                  />
+                  <div className="recentsWidgetOverlay">
+                    <div className="recentsList">
+                      {recentVideos.length === 0 ? (
+                        <div className="recentsEmptyState">
+                          <img
+                            src="./empty_history.webp"
+                            alt="No recent videos yet"
+                            className="recentsEmptyStateImage"
+                          />
+                          <div className="recentsEmptyStateText">
+                              No watch history is currently available.
+                          </div>
+                          <div className="recentsEmptyStateTextSmall">
+                              Start discovering videos above!
+                          </div>
+                        </div>
+                      ) : (
+                        recentVideos.map((video) => (
+                          <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                            <img
+                              src={video.thumbnail}
+                              alt={video.title}
+                              className="recentsThumbnail"
+                            />
+                            <div className="recentsInfo">
+                              <div className="recentsTitle">{video.title}</div>
+
+                              <div className="recentsMetadata">
+                                <span className="recentsChannelName">
+                                  {video.channelName}
+                                </span>
+                                <span className="recentsDot"> • </span>
+                                <span className="recentsDate">
+                                  {video.uploadDate}
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        ))
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             
           </div>
         </div>
