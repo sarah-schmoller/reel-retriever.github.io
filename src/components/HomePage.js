@@ -412,7 +412,7 @@ function HomePage() {
             {/* WATCH HISTORY WIDGET */}
             <div class="centerWidget">
               <img
-                src="./recents-background.png"
+                src="./recentsBackground.png"
                 alt="Large widget frame"
               />
               <div class="innerWidgetField">
