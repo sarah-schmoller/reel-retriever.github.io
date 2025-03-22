@@ -431,7 +431,7 @@ function HomePage() {
                       {recentVideos.length === 0 ? (
                         <div className="recentsEmptyState">
                           <img
-                            src="./empty_history.webp"
+                            src="./emptyHistory.webp"
                             alt="No recent videos yet"
                             className="recentsEmptyStateImage"
                           />
