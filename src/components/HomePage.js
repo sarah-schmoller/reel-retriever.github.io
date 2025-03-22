@@ -417,12 +417,12 @@ function HomePage() {
               />
               <div class="innerWidgetField">
                 <img
-                  src="./recents-background-small.png"
+                  src="./recentsBackgroundSmall.png"
                   alt="Small widget frame"
                 />
                 <div className="innerWidgetFieldContents">
                   <img
-                    src="./section_header_two.png"
+                    src="./sectionHeaderTwo.png"
                     alt="Video header top"
                     className="sectionHeader"
                   />
