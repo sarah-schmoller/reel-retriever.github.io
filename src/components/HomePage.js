@@ -229,6 +229,32 @@ function HomePage() {
     setHistoryPointer(nextPointer);
   };
 
+    const handleThumbnailClick = (video) => {
+    const leavingVideo = history[historyPointer];
+
+    setRecentVideos(prev => {
+      const filtered = prev.filter(v => v.id !== leavingVideo.id && v.id !== video.id);
+      return [leavingVideo, ...filtered].slice(0, 10);
+    });
+
+    setHistory(prevHistory => {
+      const pointer = historyPointer;
+
+      if (prevHistory[pointer].id === video.id) return prevHistory;
+
+      const filteredHistory = prevHistory.filter(v => v.id !== video.id);
+      const newHistory = [
+        ...filteredHistory.slice(0, pointer),
+        video,
+        ...filteredHistory.slice(pointer)
+      ];
+
+      return newHistory;
+    });
+
+    setHistoryPointer(historyPointer);
+  };
+
 
 
   // HTML FORMATTING
