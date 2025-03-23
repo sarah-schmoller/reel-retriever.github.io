@@ -501,7 +501,7 @@ function HomePage() {
             {/* ABOUT US WIDGET */}
             <div class="centerWidget">
               <img
-                src="./about-background.png"
+                src="./aboutBackground.png"
                 alt="Large widget frame"
               />
               <div class="innerWidgetField">
