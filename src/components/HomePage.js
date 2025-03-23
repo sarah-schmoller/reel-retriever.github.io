@@ -229,7 +229,7 @@ function HomePage() {
     setHistoryPointer(nextPointer);
   };
 
-    const handleThumbnailClick = (video) => {
+  const handleThumbnailClick = (video) => {
     const leavingVideo = history[historyPointer];
 
     setRecentVideos(prev => {
@@ -497,6 +497,53 @@ function HomePage() {
                 </div>
               </div>
             </div>
+
+            {/* ABOUT US WIDGET */}
+            <div class="centerWidget">
+              <img
+                src="./about-background.png"
+                alt="Large widget frame"
+              />
+              <div class="innerWidgetField">
+                <img
+                  src="./about-background-small.png"
+                  alt="Small widget frame"
+                />
+                <div className="innerWidgetFieldContents">
+                  <img
+                    src="./section_header_three.png"
+                    alt="Video header top"
+                    className="sectionHeader"
+                  />
+                  <div className="aboutUsNotes">
+                    <div className="topCenterLeftPostit">
+                      <img src="./post-it-left.png" alt="Top Center Left" />
+                      <div className="overlayTextPostitLeft">
+                        In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
+                        <span className="highlightSentence">
+                          Reel Retriever helps you find videos that few people have seen, many of which were not filmed with a large audience in  mind.{' '}
+                        </span> 
+                        Discover forgotten recordings of performances, academic projects, auditions, home videos, and other simple windows into the daily lives of folks around the globe.
+                      </div>
+                    </div>
+                    <div className="topCenterRightPostit">
+                      <img src="./post-it-right.png" alt="Top Center Right" />
+                        <div className="overlayTextPostitRight">
+                          <span className="highlightSentence">
+                            How it Works: 
+                            <br/><br/>
+                          </span>  
+                            We periodically search YouTube for videos that receive very little algorithmic exposure and help our users discover them.{' '}
+                          <span className="highlightSentence">
+                            We don’t download or modify videos, 
+                          </span>  
+                            and all views, likes, and comments happen on YouTube.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             
           </div>
