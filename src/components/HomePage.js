@@ -506,7 +506,7 @@ function HomePage() {
               />
               <div class="innerWidgetField">
                 <img
-                  src="./about-background-small.png"
+                  src="./aboutBackgroundSmall.png"
                   alt="Small widget frame"
                 />
                 <div className="innerWidgetFieldContents">
