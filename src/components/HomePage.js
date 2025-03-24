@@ -511,7 +511,7 @@ function HomePage() {
                 />
                 <div className="innerWidgetFieldContents">
                   <img
-                    src="./section_header_three.png"
+                    src="./sectionHeaderThree.png"
                     alt="Video header top"
                     className="sectionHeader"
                   />
