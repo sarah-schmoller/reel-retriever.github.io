@@ -517,7 +517,7 @@ function HomePage() {
                   />
                   <div className="aboutUsNotes">
                     <div className="topCenterLeftPostit">
-                      <img src="./post-it-left.png" alt="Top Center Left" />
+                      <img src="./postItLeft.png" alt="Top Center Left" />
                       <div className="overlayTextPostitLeft">
                         In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
                         <span className="highlightSentence">
