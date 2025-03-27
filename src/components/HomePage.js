@@ -567,6 +567,10 @@ function HomePage() {
                 </div>
               </div>
 
+            {/* RIGHT COLUMN */}
+            <div class="rightColumn">
+              <img src="./right-sidebar.png" alt="Right Sidebar" />
+            </div>
             
           </div>
         </div>
