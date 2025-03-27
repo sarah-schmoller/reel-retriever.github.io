@@ -527,7 +527,7 @@ function HomePage() {
                       </div>
                     </div>
                     <div className="topCenterRightPostit">
-                      <img src="./post-it-right.png" alt="Top Center Right" />
+                      <img src="./postItRight.png" alt="Top Center Right" />
                         <div className="overlayTextPostitRight">
                           <span className="highlightSentence">
                             How it Works: 
