@@ -171,6 +171,28 @@ function HomePage() {
     ]);
 
 
+    const [history, setHistory] = useState([allVideos[0]]);
+    const [historyPointer, setHistoryPointer] = useState(0);
+  
+  
+    const currentVideo = history[historyPointer] || allVideos[0];
+    const [recentVideos, setRecentVideos] = useState([]);
+    const [playableIndices, setPlayableIndices] = useState([]);
+  
+    useEffect(() => {
+      const recentIds = new Set(recentVideos.map(v => v.id));
+      const newPlayableIndices = allVideos
+        .map((_, i) => i)
+        .filter(i => !recentIds.has(allVideos[i].id));
+  
+      setPlayableIndices(newPlayableIndices);
+  
+      if (!newPlayableIndices.includes(currentIndex)) {
+        const firstIndex = newPlayableIndices[0] ?? 0;
+        setCurrentIndex(0);
+      }
+    }, [recentVideos, allVideos]);
+
 
   const goNext = () => {
     const leavingVideo = history[historyPointer];
