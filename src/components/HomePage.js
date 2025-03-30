@@ -569,7 +569,7 @@ function HomePage() {
 
             {/* RIGHT COLUMN */}
             <div class="rightColumn">
-              <img src="./right-sidebar.png" alt="Right Sidebar" />
+              <img src="./rightSidebar.png" alt="Right Sidebar" />
             </div>
             
           </div>
