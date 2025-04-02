@@ -574,6 +574,20 @@ function HomePage() {
             
           </div>
         </div>
+
+
+      {/* MOBILE BODY */}
+      <div id="mobileBody">
+        <header className="mobileHeader"></header>
+          <div className="mobileTitleBar">
+            <img src="./title-bar-mobile.png" alt="Reel Retriever Title Bar" />
+          </div>
+          <div className="mobilePage">
+
+            
+          </div>
+        </div>
+
       </div>
     </html>
 
