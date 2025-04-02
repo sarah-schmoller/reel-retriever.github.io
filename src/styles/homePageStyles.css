@@ -504,3 +504,61 @@
       color: #47361d;
       font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
     }
+
+    
+    /* About Us Widget */
+
+    .aboutUsNotes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      min-height: 300px;
+      max-width: 670px;
+    }
+
+    .topCenterLeftPostit, .topCenterRightPostit {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .overlayTextPostitLeft {
+      position: absolute;
+      padding: 15px;
+      padding-top: 35px;
+      color: #47361d;
+      font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .overlayTextPostitRight {
+      position: absolute;
+      padding: 15px;
+      padding-top: 65px;
+      color: #47361d;
+      font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .rightColumn {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .rightColumn img {
+      max-width: 200px;
+      width: auto;
+      height: auto;
+      display: block;
+    }
