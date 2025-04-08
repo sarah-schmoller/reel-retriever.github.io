@@ -624,7 +624,7 @@ function HomePage() {
             {/* MOBILE CENTER COLUMN */}
             <div className="mobileCenterColumnBackground"   
               style={{
-                backgroundImage: "url(./background-mobile.png)",
+                backgroundImage: "url(./backgroundMobile.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "contain",
                 backgroundPosition: "top center",
