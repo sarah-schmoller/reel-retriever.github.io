@@ -630,6 +630,87 @@ function HomePage() {
                 backgroundPosition: "top center",
               }}>
               <div className="mobileCenterColumnContents">
+
+                {/* MOBILE VIDEO FINDER WIDGET */}
+                <div className="mobileCenterWidget large-widget">
+                  <img
+                    src="./video-background.webp"
+                    alt="Large widget frame"
+                  />
+                  <div className="mobileInnerWidgetField">
+                    <img
+                      src="./video-background-small.png"
+                      alt="Small widget frame"
+                    />
+                    <div className="mobileInnerWidgetFieldContents">
+                      <img
+                        src="./section_header_one.png"
+                        alt="Video header top"
+                        className="mobileSectionHeader"
+                      />
+                      <div className="videoPlayer">
+                        <img
+                          src="./video-player-container.png"
+                          alt="Video player background"
+                          className="videoPlayerBackgroundImage"
+                        />
+                        <div className="videoPlayerFilterOverlay">
+                          <select className="mobileFilter mobileEmbeddings">
+                            <option>Embeddable Only</option>
+                            <option>Allow Non-Embeddable</option>
+                          </select>
+                          <select className="mobileFilter mobileDateRange">
+                            <option>All Time</option>
+                            <option>2005–2008</option>
+                            <option>2009–2012</option>
+                            <option>2013–2016</option>
+                          </select>
+                          <select className="mobileFilter mobileUploadType">
+                            <option>All Uploads</option>
+                            <option>DSCF</option>
+                            <option>IMG</option>
+                            <option>MOV</option>
+                          </select>
+                        </div>
+                        <iframe
+                          className="videoEmbedding"
+                          src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                          loading="lazy"
+                          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                      <div className="videoControls">
+                        <img
+                          src="./control_panel.png"
+                          alt="Video controls background"
+                          className="mobileVideoControlsBackground"
+                        />
+                        <div className="mobileVideoControlsContent">
+                          <img
+                            src="./arrow-left.png"
+                            alt="Previous video"
+                            className="mobileVideoArrow"
+                            onClick={goPrevious}
+                          />
+                          <img
+                            src="./discover.png"
+                            alt="Discover new video"
+                            className="mobileVideoDiscover"
+                            onClick={goNext}
+                          />
+                          <img
+                            src="./arrow-right.png"
+                            alt="Next video"
+                            className="mobileVideoArrow"
+                            onClick={goNext}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
