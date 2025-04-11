@@ -624,3 +624,21 @@
     object-fit: contain;
     top: 3%;
   }
+
+
+/* MOBILE BODY */
+
+  .mobileTitleBar {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0 auto;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .mobileTitleBar img {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    max-width: 100%;
+  }
