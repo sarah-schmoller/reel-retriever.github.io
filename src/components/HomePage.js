@@ -711,6 +711,70 @@ function HomePage() {
                   </div>
                 </div>
 
+
+              {/* MOBILE WATCH HISTORY WIDGET */}
+              <div class="mobileCenterWidget large-widget">
+                <img
+                  src="./recents-background.png"
+                  alt="Large widget frame"
+                />
+                <div class="mobileInnerWidgetField">
+                  <img
+                    src="./recents-background-small.png"
+                    alt="Small widget frame"
+                  />
+                  <div className="mobileInnerWidgetFieldContents">
+                    <img
+                      src="./section_header_two.png"
+                      alt="Video header top"
+                      className="mobileSectionHeader"
+                    />
+                    <div className="recentsWidgetOverlay">
+                      <div className="mobileRecentsList">
+                        {recentVideos.length === 0 ? (
+                          <div className="recentsEmptyState">
+                            <img
+                              src="./empty_history.webp"
+                              alt="No recent videos yet"
+                              className="mobileRecentsEmptyStateImage"
+                            />
+                            <div className="mobileRecentsEmptyStateText">
+                                No watch history is currently available.
+                            </div>
+                            <div className="mobileRecentsEmptyStateTextSmall">
+                                Start discovering videos above!
+                            </div>
+                          </div>
+                        ) : (
+                          recentVideos.slice().reverse().map((video) => (
+                            <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                              <img
+                                src={video.thumbnail}
+                                alt={video.title}
+                                className="recentsThumbnail"
+                              />
+                              <div className="recentsInfo">
+                                <div className="recentsTitle">{video.title}</div>
+
+                                  <div className="recentsMetadata">
+                                  <span className="recentsChannelName">
+                                    {video.channelName}
+                                  </span>
+                                  <span className="recentsDot"> • </span>
+                                  <span className="recentsDate">
+                                    {video.uploadDate}
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               </div>
             </div>
           </div>
