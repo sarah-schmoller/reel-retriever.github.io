@@ -5,225 +5,222 @@ import '../styles/homePageStyles.css';
 
 function HomePage() {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [allVideos, setAllVideos] = useState([
-      {
-        id: "5Sn31FUtuTA",
-        thumbnail: "https://img.youtube.com/vi/5Sn31FUtuTA/mqdefault.jpg",
-        title: "DSCF5684.AVI",
-        channelName: "Ploegie19",
-        uploadDate: "15 years ago",
-        length: "0:26"
-  
-      },
-      {
-        id: "R6p22Tp1lsI",
-        thumbnail: "https://img.youtube.com/vi/R6p22Tp1lsI/mqdefault.jpg",
-        title: "DSCF5684",
-        channelName: "charlie sincinito",
-        uploadDate: "15 years ago",
-        length: "5:12"
-      },
-      {
-        id: "IY3yziDfb3g",
-        thumbnail: "https://img.youtube.com/vi/IY3yziDfb3g/mqdefault.jpg",
-        title: "DSCF5684",
-        channelName: "PlasticLucy",
-        uploadDate: "16 years ago",
-        length: "0:26"
-      },
-      {
-        id: "qt-116gtD5I",
-        thumbnail: "https://img.youtube.com/vi/qt-116gtD5I/mqdefault.jpg",
-        title: "DSCF5684",
-        channelName: "8940sora",
-        uploadDate: "16 years ago",
-        length: "1:01"
-      },
-      {
-        id: "zSRdHbhkCrc",
-        thumbnail: "https://img.youtube.com/vi/zSRdHbhkCrc/mqdefault.jpg",
-        title: "DSCF5684",
-        channelName: "KrAxRACING",
-        uploadDate: "16 years ago",
-        length: "0:20",
-      },
-      {
-        id: "Mi_sMNfNBhs",
-        thumbnail: "https://img.youtube.com/vi/Mi_sMNfNBhs/mqdefault.jpg",
-        title: "DSCF5684",
-        channelName: "Tina Huang",
-        uploadDate: "16 years ago",
-        length: "0:16",
-      },
-      {
-        id: "JXH6lyO2bAI",
-        thumbnail: "https://img.youtube.com/vi/JXH6lyO2bAI/mqdefault.jpg",
-        title: "DSCF5435",
-        channelName: "david henry donald",
-        uploadDate: "13 years ago",
-        length: "0:11",
-      },
-      {
-        id: "xTn5TyIyhMs",
-        thumbnail: "https://img.youtube.com/vi/xTn5TyIyhMs/mqdefault.jpg",
-        title: "DSCF5435.AVI",
-        channelName: "SergLit",
-        uploadDate: "14 years ago",
-        length: "2:26",
-      },
-      {
-        id: "mOMCm-mBGBs",
-        thumbnail: "https://img.youtube.com/vi/mOMCm-mBGBs/mqdefault.jpg",
-        title: "DSCF5435",
-        channelName: "urban",
-        uploadDate: "14 years ago",
-        length: "0:50",
-      },
-      {
-        id: "Q_sc4bIYUkI",
-        thumbnail: "https://img.youtube.com/vi/Q_sc4bIYUkI/mqdefault.jpg",
-        title: "DSCF5435",
-        channelName: "Alberto García",
-        uploadDate: "14 years ago",
-        length: "0:44",
-      },
-      {
-        id: "yB_IfLGQJ5Y",
-        thumbnail: "https://img.youtube.com/vi/yB_IfLGQJ5Y/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "rzorzoster",
-        uploadDate: "12 years ago",
-        length: "0:11",
-      },
-      {
-        id: "F6qJLUcZpj4",
-        thumbnail: "https://img.youtube.com/vi/F6qJLUcZpj4/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "Canale 74",
-        uploadDate: "12 years ago",
-        length: "0:20",
-      },
-      {
-        id: "mU067devfmg",
-        thumbnail: "https://img.youtube.com/vi/mU067devfmg/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "Lari paes",
-        uploadDate: "12 years ago",
-        length: "3:15",
-      },
-      {
-        id: "kR0AI0hpGj8",
-        thumbnail: "https://img.youtube.com/vi/kR0AI0hpGj8/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "Neil Wilson",
-        uploadDate: "12 years ago",
-        length: "0:23",
-      },
-      {
-        id: "m9TxO-fn9AA",
-        thumbnail: "https://img.youtube.com/vi/m9TxO-fn9AA/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "Angelina Black",
-        uploadDate: "12 years ago",
-        length: "1:53",
-      },
-      {
-        id: "FAYXnrcVN6A",
-        thumbnail: "https://img.youtube.com/vi/FAYXnrcVN6A/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "Raymond462",
-        uploadDate: "12 years ago",
-        length: "2:20",
-      },
-      {
-        id: "OJaCNj0RdFM",
-        thumbnail: "https://img.youtube.com/vi/OJaCNj0RdFM/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "zac bot",
-        uploadDate: "13 years ago",
-        length: "0:45",
-      },
-      {
-        id: "QAiqTSo0NNU",
-        thumbnail: "https://img.youtube.com/vi/QAiqTSo0NNU/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "劉懿萱",
-        uploadDate: "13 years ago",
-        length: "3:08",
-      },
-      {
-        id: "3LIObwA0fmk",
-        thumbnail: "https://img.youtube.com/vi/3LIObwA0fmk/mqdefault.jpg",
-        title: "DSCF2856 0",
-        channelName: "Karunyu Kieangjun",
-        uploadDate: "13 years ago",
-        length: "3:58",
-      },
-      {
-        id: "WFI73AOgLBA",
-        thumbnail: "https://img.youtube.com/vi/WFI73AOgLBA/mqdefault.jpg",
-        title: "DSCF2856",
-        channelName: "xavdecat",
-        uploadDate: "13 years ago",
-        length: "0:27",
-      },
-    ]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [allVideos, setAllVideos] = useState([
+    {
+      id: "5Sn31FUtuTA",
+      thumbnail: "https://img.youtube.com/vi/5Sn31FUtuTA/mqdefault.jpg",
+      title: "DSCF5684.AVI",
+      channelName: "Ploegie19",
+      uploadDate: "15 years ago",
+      length: "0:26"
+
+    },
+    {
+      id: "R6p22Tp1lsI",
+      thumbnail: "https://img.youtube.com/vi/R6p22Tp1lsI/mqdefault.jpg",
+      title: "DSCF5684",
+      channelName: "charlie sincinito",
+      uploadDate: "15 years ago",
+      length: "5:12"
+    },
+    {
+      id: "IY3yziDfb3g",
+      thumbnail: "https://img.youtube.com/vi/IY3yziDfb3g/mqdefault.jpg",
+      title: "DSCF5684",
+      channelName: "PlasticLucy",
+      uploadDate: "16 years ago",
+      length: "0:26"
+    },
+    {
+      id: "qt-116gtD5I",
+      thumbnail: "https://img.youtube.com/vi/qt-116gtD5I/mqdefault.jpg",
+      title: "DSCF5684",
+      channelName: "8940sora",
+      uploadDate: "16 years ago",
+      length: "1:01"
+    },
+    {
+      id: "zSRdHbhkCrc",
+      thumbnail: "https://img.youtube.com/vi/zSRdHbhkCrc/mqdefault.jpg",
+      title: "DSCF5684",
+      channelName: "KrAxRACING",
+      uploadDate: "16 years ago",
+      length: "0:20",
+    },
+    {
+      id: "Mi_sMNfNBhs",
+      thumbnail: "https://img.youtube.com/vi/Mi_sMNfNBhs/mqdefault.jpg",
+      title: "DSCF5684",
+      channelName: "Tina Huang",
+      uploadDate: "16 years ago",
+      length: "0:16",
+    },
+    {
+      id: "JXH6lyO2bAI",
+      thumbnail: "https://img.youtube.com/vi/JXH6lyO2bAI/mqdefault.jpg",
+      title: "DSCF5435",
+      channelName: "david henry donald",
+      uploadDate: "13 years ago",
+      length: "0:11",
+    },
+    {
+      id: "xTn5TyIyhMs",
+      thumbnail: "https://img.youtube.com/vi/xTn5TyIyhMs/mqdefault.jpg",
+      title: "DSCF5435.AVI",
+      channelName: "SergLit",
+      uploadDate: "14 years ago",
+      length: "2:26",
+    },
+    {
+      id: "mOMCm-mBGBs",
+      thumbnail: "https://img.youtube.com/vi/mOMCm-mBGBs/mqdefault.jpg",
+      title: "DSCF5435",
+      channelName: "urban",
+      uploadDate: "14 years ago",
+      length: "0:50",
+    },
+    {
+      id: "Q_sc4bIYUkI",
+      thumbnail: "https://img.youtube.com/vi/Q_sc4bIYUkI/mqdefault.jpg",
+      title: "DSCF5435",
+      channelName: "Alberto García",
+      uploadDate: "14 years ago",
+      length: "0:44",
+    },
+    {
+      id: "yB_IfLGQJ5Y",
+      thumbnail: "https://img.youtube.com/vi/yB_IfLGQJ5Y/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "rzorzoster",
+      uploadDate: "12 years ago",
+      length: "0:11",
+    },
+    {
+      id: "F6qJLUcZpj4",
+      thumbnail: "https://img.youtube.com/vi/F6qJLUcZpj4/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "Canale 74",
+      uploadDate: "12 years ago",
+      length: "0:20",
+    },
+    {
+      id: "mU067devfmg",
+      thumbnail: "https://img.youtube.com/vi/mU067devfmg/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "Lari paes",
+      uploadDate: "12 years ago",
+      length: "3:15",
+    },
+    {
+      id: "kR0AI0hpGj8",
+      thumbnail: "https://img.youtube.com/vi/kR0AI0hpGj8/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "Neil Wilson",
+      uploadDate: "12 years ago",
+      length: "0:23",
+    },
+    {
+      id: "m9TxO-fn9AA",
+      thumbnail: "https://img.youtube.com/vi/m9TxO-fn9AA/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "Angelina Black",
+      uploadDate: "12 years ago",
+      length: "1:53",
+    },
+    {
+      id: "FAYXnrcVN6A",
+      thumbnail: "https://img.youtube.com/vi/FAYXnrcVN6A/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "Raymond462",
+      uploadDate: "12 years ago",
+      length: "2:20",
+    },
+    {
+      id: "OJaCNj0RdFM",
+      thumbnail: "https://img.youtube.com/vi/OJaCNj0RdFM/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "zac bot",
+      uploadDate: "13 years ago",
+      length: "0:45",
+    },
+    {
+      id: "QAiqTSo0NNU",
+      thumbnail: "https://img.youtube.com/vi/QAiqTSo0NNU/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "劉懿萱",
+      uploadDate: "13 years ago",
+      length: "3:08",
+    },
+    {
+      id: "3LIObwA0fmk",
+      thumbnail: "https://img.youtube.com/vi/3LIObwA0fmk/mqdefault.jpg",
+      title: "DSCF2856 0",
+      channelName: "Karunyu Kieangjun",
+      uploadDate: "13 years ago",
+      length: "3:58",
+    },
+    {
+      id: "WFI73AOgLBA",
+      thumbnail: "https://img.youtube.com/vi/WFI73AOgLBA/mqdefault.jpg",
+      title: "DSCF2856",
+      channelName: "xavdecat",
+      uploadDate: "13 years ago",
+      length: "0:27",
+    },
+  ]);
+
+  const [history, setHistory] = useState([allVideos[0]]);
+  const [historyPointer, setHistoryPointer] = useState(0);
 
 
-    const [history, setHistory] = useState([allVideos[0]]);
-    const [historyPointer, setHistoryPointer] = useState(0);
-  
-  
-    const currentVideo = history[historyPointer] || allVideos[0];
-    const [recentVideos, setRecentVideos] = useState([]);
-    const [playableIndices, setPlayableIndices] = useState([]);
-  
-    useEffect(() => {
-      const recentIds = new Set(recentVideos.map(v => v.id));
-      const newPlayableIndices = allVideos
-        .map((_, i) => i)
-        .filter(i => !recentIds.has(allVideos[i].id));
-  
-      setPlayableIndices(newPlayableIndices);
-  
-      if (!newPlayableIndices.includes(currentIndex)) {
-        const firstIndex = newPlayableIndices[0] ?? 0;
-        setCurrentIndex(0);
+  const currentVideo = history[historyPointer] || allVideos[0];
+  const [recentVideos, setRecentVideos] = useState([]);
+  const [playableIndices, setPlayableIndices] = useState([]);
+
+  useEffect(() => {
+    const recentIds = new Set(recentVideos.map(v => v.id));
+    const newPlayableIndices = allVideos
+      .map((_, i) => i)
+      .filter(i => !recentIds.has(allVideos[i].id));
+
+    setPlayableIndices(newPlayableIndices);
+
+    if (!newPlayableIndices.includes(currentIndex)) {
+      const firstIndex = newPlayableIndices[0] ?? 0;
+      setCurrentIndex(0);
+    }
+  }, [recentVideos, allVideos]);
+
+  useEffect(() => {
+
+    let body = document.getElementById('body');
+    let mobileBody = document.getElementById('mobileBody');
+
+    isMobile = isMobile();
+    if (isMobile) {
+
+      if (!body.classList.contains('noDisplay')) {
+        body.classList.toggle('noDisplay');
       }
-    }, [recentVideos, allVideos]);
 
-
-    useEffect(() => {
-  
-      let body = document.getElementById('body');
-      let mobileBody = document.getElementById('mobileBody');
-  
-      isMobile = isMobile();
-      if (isMobile) {
-  
-        if (!body.classList.contains('noDisplay')) {
-          body.classList.toggle('noDisplay');
-        }
-  
-        if (mobileBody.classList.contains('noDisplay')) {
-          mobileBody.classList.toggle('noDisplay');
-        }
-  
-      } else {
-        
-        if (!mobileBody.classList.contains('noDisplay')) {
-          mobileBody.classList.toggle('noDisplay');
-        }
-  
-        if (body.classList.contains('noDisplay')) {
-          body.classList.toggle('noDisplay');
-        }
-  
+      if (mobileBody.classList.contains('noDisplay')) {
+        mobileBody.classList.toggle('noDisplay');
       }
+
+    } else {
       
-    })
+      if (!mobileBody.classList.contains('noDisplay')) {
+        mobileBody.classList.toggle('noDisplay');
+      }
 
+      if (body.classList.contains('noDisplay')) {
+        body.classList.toggle('noDisplay');
+      }
+
+    }
+    
+  })
 
   const goNext = () => {
     const leavingVideo = history[historyPointer];
@@ -282,6 +279,7 @@ function HomePage() {
     setHistoryPointer(nextPointer);
   };
 
+
   const handleThumbnailClick = (video) => {
     const leavingVideo = history[historyPointer];
 
@@ -334,11 +332,12 @@ function HomePage() {
         <header class="header"></header>
 
         <div className="titleBar">
-          <img src="./titleBar.png" alt="Reel Retriever Title Bar" />
+          <img src="./title-bar.png" alt="Reel Retriever Title Bar" />
           <div className="titleBarText">
             Bringing you overlooked videos from across YouTube’s history.
           </div>
         </div>
+
 
         {/* MAIN PAGE */}
         <div class="page">
@@ -352,16 +351,17 @@ function HomePage() {
               backgroundPosition: "top center",
             }}>
 
+
             {/* LEFT COLUMN */}
             <div className="leftColumn">
               <img
-                src="./leftSidebarBackground.png"
+                src="./left-sidebar-background.png"
                 alt="Left column background"
                 className="leftColumnBackground"
               />
               <div className="leftColumnContent">
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./left-widget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       219,482 {" "}
@@ -370,7 +370,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./left-widget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     Oldest upload posted in {" "}
                     <span className="highlightedText">
@@ -379,7 +379,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./left-widget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       1,482 {" "}
@@ -388,7 +388,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidgetBottom.png" alt="Left Widget Bottom" />
+                  <img src="./left-widget-bottom.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextLowerWidget">
                     <span className="highlightedText">
                       Can't find what you're looking for?
@@ -400,29 +400,30 @@ function HomePage() {
               </div>
             </div>
 
+
             {/* CENTER COLUMN */}
             <div class="centerColumn">
-              
+
               {/* VIDEO FINDER WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./videoBackground.webp"
+                  src="./video-background.webp"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./videoBackgroundSmall.png"
+                    src="./video-background-small.png"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderOne.png"
+                      src="./section_header_one.png"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="videoPlayer">
                       <img
-                        src="./videoPlayerContainer.png"
+                        src="./video-player-container.png"
                         alt="Video player background"
                         className="videoPlayerBackgroundImage"
                       />
@@ -463,13 +464,13 @@ function HomePage() {
                     </div>
                     <div className="videoControls">
                       <img
-                        src="./controlPanel.png"
+                        src="./control_panel.png"
                         alt="Video controls background"
                         className="videoControlsBackground"
                       />
                       <div className="videoControlsContent">
                         <img
-                          src="./arrowLeft.png"
+                          src="./arrow-left.png"
                           alt="Previous video"
                           className="videoArrow"
                           onClick={goPrevious}
@@ -481,7 +482,7 @@ function HomePage() {
                           onClick={goNext}
                         />
                         <img
-                          src="./arrowRight.png"
+                          src="./arrow-right.png"
                           alt="Next video"
                           className="videoArrow"
                           onClick={goNext}
@@ -491,313 +492,93 @@ function HomePage() {
                   </div>
                 </div>
               </div>
-            </div>
 
-
-            {/* WATCH HISTORY WIDGET */}
-            <div class="centerWidget">
-              <img
-                src="./recentsBackground.png"
-                alt="Large widget frame"
-              />
-              <div class="innerWidgetField">
+              {/* WATCH HISTORY WIDGET */}
+              <div class="centerWidget">
                 <img
-                  src="./recentsBackgroundSmall.png"
-                  alt="Small widget frame"
+                  src="./recents-background.png"
+                  alt="Large widget frame"
                 />
-                <div className="innerWidgetFieldContents">
+                <div class="innerWidgetField">
                   <img
-                    src="./sectionHeaderTwo.png"
-                    alt="Video header top"
-                    className="sectionHeader"
+                    src="./recents-background-small.png"
+                    alt="Small widget frame"
                   />
-                  <div className="recentsWidgetOverlay">
-                    <div className="recentsList">
-                      {recentVideos.length === 0 ? (
-                        <div className="recentsEmptyState">
-                          <img
-                            src="./emptyHistory.webp"
-                            alt="No recent videos yet"
-                            className="recentsEmptyStateImage"
-                          />
-                          <div className="recentsEmptyStateText">
-                              No watch history is currently available.
-                          </div>
-                          <div className="recentsEmptyStateTextSmall">
-                              Start discovering videos above!
-                          </div>
-                        </div>
-                      ) : (
-                        recentVideos.map((video) => (
-                          <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                  <div className="innerWidgetFieldContents">
+                    <img
+                      src="./section_header_two.png"
+                      alt="Video header top"
+                      className="sectionHeader"
+                    />
+                    <div className="recentsWidgetOverlay">
+                      <div className="recentsList">
+                        {recentVideos.length === 0 ? (
+                          <div className="recentsEmptyState">
                             <img
-                              src={video.thumbnail}
-                              alt={video.title}
-                              className="recentsThumbnail"
+                              src="./empty_history.webp"
+                              alt="No recent videos yet"
+                              className="recentsEmptyStateImage"
                             />
-                            <div className="recentsInfo">
-                              <div className="recentsTitle">{video.title}</div>
-
-                              <div className="recentsMetadata">
-                                <span className="recentsChannelName">
-                                  {video.channelName}
-                                </span>
-                                <span className="recentsDot"> • </span>
-                                <span className="recentsDate">
-                                  {video.uploadDate}
-                                </span>
-                              </div>
+                            <div className="recentsEmptyStateText">
+                                No watch history is currently available.
+                            </div>
+                            <div className="recentsEmptyStateTextSmall">
+                                Start discovering videos above!
                             </div>
                           </div>
-                        ))
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* ABOUT US WIDGET */}
-            <div class="centerWidget">
-              <img
-                src="./aboutBackground.png"
-                alt="Large widget frame"
-              />
-              <div class="innerWidgetField">
-                <img
-                  src="./aboutBackgroundSmall.png"
-                  alt="Small widget frame"
-                />
-                <div className="innerWidgetFieldContents">
-                  <img
-                    src="./sectionHeaderThree.png"
-                    alt="Video header top"
-                    className="sectionHeader"
-                  />
-                  <div className="aboutUsNotes">
-                    <div className="topCenterLeftPostit">
-                      <img src="./postItLeft.png" alt="Top Center Left" />
-                      <div className="overlayTextPostitLeft">
-                        In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
-                        <span className="highlightSentence">
-                          Reel Retriever helps you find videos that few people have seen, many of which were not filmed with a large audience in  mind.{' '}
-                        </span> 
-                        Discover forgotten recordings of performances, academic projects, auditions, home videos, and other simple windows into the daily lives of folks around the globe.
-                      </div>
-                    </div>
-                    <div className="topCenterRightPostit">
-                      <img src="./postItRight.png" alt="Top Center Right" />
-                        <div className="overlayTextPostitRight">
-                          <span className="highlightSentence">
-                            How it Works: 
-                            <br/><br/>
-                          </span>  
-                            We periodically search YouTube for videos that receive very little algorithmic exposure and help our users discover them.{' '}
-                          <span className="highlightSentence">
-                            We don’t download or modify videos, 
-                          </span>  
-                            and all views, likes, and comments happen on YouTube.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            {/* RIGHT COLUMN */}
-            <div class="rightColumn">
-              <img src="./rightSidebar.png" alt="Right Sidebar" />
-            </div>
-            
-          </div>
-        </div>
-
-
-      {/* MOBILE BODY */}
-      <div id="mobileBody">
-        <header className="mobileHeader"></header>
-          <div className="mobileTitleBar">
-            <img src="./titleBarMobile.png" alt="Reel Retriever Title Bar" />
-          </div>
-          <div className="mobilePage">
-
-            {/* MOBILE CENTER COLUMN */}
-            <div className="mobileCenterColumnBackground"   
-              style={{
-                backgroundImage: "url(./backgroundMobile.png)",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
-                backgroundPosition: "top center",
-              }}>
-              <div className="mobileCenterColumnContents">
-
-                {/* MOBILE VIDEO FINDER WIDGET */}
-                <div className="mobileCenterWidget large-widget">
-                  <img
-                    src="./video-background.webp"
-                    alt="Large widget frame"
-                  />
-                  <div className="mobileInnerWidgetField">
-                    <img
-                      src="./video-background-small.png"
-                      alt="Small widget frame"
-                    />
-                    <div className="mobileInnerWidgetFieldContents">
-                      <img
-                        src="./section_header_one.png"
-                        alt="Video header top"
-                        className="mobileSectionHeader"
-                      />
-                      <div className="videoPlayer">
-                        <img
-                          src="./video-player-container.png"
-                          alt="Video player background"
-                          className="videoPlayerBackgroundImage"
-                        />
-                        <div className="videoPlayerFilterOverlay">
-                          <select className="mobileFilter mobileEmbeddings">
-                            <option>Embeddable Only</option>
-                            <option>Allow Non-Embeddable</option>
-                          </select>
-                          <select className="mobileFilter mobileDateRange">
-                            <option>All Time</option>
-                            <option>2005–2008</option>
-                            <option>2009–2012</option>
-                            <option>2013–2016</option>
-                          </select>
-                          <select className="mobileFilter mobileUploadType">
-                            <option>All Uploads</option>
-                            <option>DSCF</option>
-                            <option>IMG</option>
-                            <option>MOV</option>
-                          </select>
-                        </div>
-                        <iframe
-                          className="videoEmbedding"
-                          src={`https://www.youtube.com/embed/${currentVideo.id}`}
-                          loading="lazy"
-                          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                        />
-                      </div>
-                      <div className="videoControls">
-                        <img
-                          src="./control_panel.png"
-                          alt="Video controls background"
-                          className="mobileVideoControlsBackground"
-                        />
-                        <div className="mobileVideoControlsContent">
-                          <img
-                            src="./arrow-left.png"
-                            alt="Previous video"
-                            className="mobileVideoArrow"
-                            onClick={goPrevious}
-                          />
-                          <img
-                            src="./discover.png"
-                            alt="Discover new video"
-                            className="mobileVideoDiscover"
-                            onClick={goNext}
-                          />
-                          <img
-                            src="./arrow-right.png"
-                            alt="Next video"
-                            className="mobileVideoArrow"
-                            onClick={goNext}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                {/* MOBILE WATCH HISTORY WIDGET */}
-                <div class="mobileCenterWidget large-widget">
-                  <img
-                    src="./recents-background.png"
-                    alt="Large widget frame"
-                  />
-                  <div class="mobileInnerWidgetField">
-                    <img
-                      src="./recents-background-small.png"
-                      alt="Small widget frame"
-                    />
-                    <div className="mobileInnerWidgetFieldContents">
-                      <img
-                        src="./section_header_two.png"
-                        alt="Video header top"
-                        className="mobileSectionHeader"
-                      />
-                      <div className="recentsWidgetOverlay">
-                        <div className="mobileRecentsList">
-                          {recentVideos.length === 0 ? (
-                            <div className="recentsEmptyState">
+                        ) : (
+                          recentVideos.map((video) => (
+                            <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
                               <img
-                                src="./empty_history.webp"
-                                alt="No recent videos yet"
-                                className="mobileRecentsEmptyStateImage"
+                                src={video.thumbnail}
+                                alt={video.title}
+                                className="recentsThumbnail"
                               />
-                              <div className="mobileRecentsEmptyStateText">
-                                  No watch history is currently available.
-                              </div>
-                              <div className="mobileRecentsEmptyStateTextSmall">
-                                  Start discovering videos above!
-                              </div>
-                            </div>
-                          ) : (
-                            recentVideos.slice().reverse().map((video) => (
-                              <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
-                                <img
-                                  src={video.thumbnail}
-                                  alt={video.title}
-                                  className="recentsThumbnail"
-                                />
-                                <div className="recentsInfo">
-                                  <div className="recentsTitle">{video.title}</div>
+                              <div className="recentsInfo">
+                                <div className="recentsTitle">{video.title}</div>
 
-                                    <div className="recentsMetadata">
-                                    <span className="recentsChannelName">
-                                      {video.channelName}
-                                    </span>
-                                    <span className="recentsDot"> • </span>
-                                    <span className="recentsDate">
-                                      {video.uploadDate}
-                                    </span>
-                                  </div>
+                                <div className="recentsMetadata">
+                                  <span className="recentsChannelName">
+                                    {video.channelName}
+                                  </span>
+                                  <span className="recentsDot"> • </span>
+                                  <span className="recentsDate">
+                                    {video.uploadDate}
+                                  </span>
                                 </div>
                               </div>
-                            ))
-                          )}
-                        </div>
+                            </div>
+                          ))
+                        )}
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                {/* MOBILE ABOUT US WIDGET */}
-                <div className="mobileCenterWidget large-widget">
+              {/* ABOUT US WIDGET */}
+              <div class="centerWidget">
+                <img
+                  src="./about-background.png"
+                  alt="Large widget frame"
+                />
+                <div class="innerWidgetField">
                   <img
-                    src="./about-background.png"
-                    alt="Large widget frame"
+                    src="./about-background-small.png"
+                    alt="Small widget frame"
                   />
-                  <div class="mobileInnerWidgetField">
+                  <div className="innerWidgetFieldContents">
                     <img
-                      src="./about-background-small.png"
-                      alt="Small widget frame"
+                      src="./section_header_three.png"
+                      alt="Video header top"
+                      className="sectionHeader"
                     />
-                    <div className="mobileInnerWidgetFieldContents">
-                      <img
-                        src="./section_header_three.png"
-                        alt="Video header top"
-                        className="mobileSectionHeader"
-                      />
-                      <div className="mobileAboutUsNotes">
-                        <div className="topCenterLeftPostit">
+                    <div className="aboutUsNotes">
+                      <div className="topCenterLeftPostit">
                         <img src="./post-it-left.png" alt="Top Center Left" />
-                        <div className="mobileOverlayTextPostitLeft">
+                        <div className="overlayTextPostitLeft">
                           In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
-                          <span className="mobileHighlightSentence">
+                          <span className="highlightSentence">
                             Reel Retriever helps you find videos that few people have seen, many of which were not filmed with a large audience in  mind.{' '}
                           </span> 
                           Discover forgotten recordings of performances, academic projects, auditions, home videos, and other simple windows into the daily lives of folks around the globe.
@@ -805,13 +586,13 @@ function HomePage() {
                       </div>
                       <div className="topCenterRightPostit">
                         <img src="./post-it-right.png" alt="Top Center Right" />
-                          <div className="mobileOverlayTextPostitRight">
-                            <span className="mobileHighlightSentence">
+                          <div className="overlayTextPostitRight">
+                            <span className="highlightSentence">
                               How it Works: 
                               <br/><br/>
                             </span>  
                               We periodically search YouTube for videos that receive very little algorithmic exposure and help our users discover them.{' '}
-                            <span className="mobileHighlightSentence">
+                            <span className="highlightSentence">
                               We don’t download or modify videos, 
                             </span>  
                               and all views, likes, and comments happen on YouTube.
@@ -821,12 +602,233 @@ function HomePage() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
 
+
+            {/* RIGHT COLUMN */}
+            <div class="rightColumn">
+              <img src="./right-sidebar.png" alt="Right Sidebar" />
+            </div>
+
+          </div>
+        </div>
+
+
+      {/* MOBILE BODY */}
+      <div id="mobileBody">
+        <header className="mobileHeader"></header>
+          <div className="mobileTitleBar">
+            <img src="./title-bar-mobile.png" alt="Reel Retriever Title Bar" />
+          </div>
+          <div className="mobilePage">
+
+
+            {/* MOBILE CENTER COLUMN */}
+            <div className="mobileCenterColumnBackground"   
+              style={{
+                backgroundImage: "url(./background-mobile.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "top center",
+              }}>
+            <div className="mobileCenterColumnContents">
+
+
+              {/* MOBILE VIDEO FINDER WIDGET */}
+              <div className="mobileCenterWidget large-widget">
+                <img
+                  src="./video-background.webp"
+                  alt="Large widget frame"
+                />
+                <div className="mobileInnerWidgetField">
+                  <img
+                    src="./video-background-small.png"
+                    alt="Small widget frame"
+                  />
+                  <div className="mobileInnerWidgetFieldContents">
+                    <img
+                      src="./section_header_one.png"
+                      alt="Video header top"
+                      className="mobileSectionHeader"
+                    />
+                    <div className="videoPlayer">
+                      <img
+                        src="./video-player-container.png"
+                        alt="Video player background"
+                        className="videoPlayerBackgroundImage"
+                      />
+                      <div className="videoPlayerFilterOverlay">
+                        <select className="mobileFilter mobileEmbeddings">
+                          <option>Embeddable Only</option>
+                          <option>Allow Non-Embeddable</option>
+                        </select>
+                        <select className="mobileFilter mobileDateRange">
+                          <option>All Time</option>
+                          <option>2005–2008</option>
+                          <option>2009–2012</option>
+                          <option>2013–2016</option>
+                        </select>
+                        <select className="mobileFilter mobileUploadType">
+                          <option>All Uploads</option>
+                          <option>DSCF</option>
+                          <option>IMG</option>
+                          <option>MOV</option>
+                        </select>
+                      </div>
+                      <iframe
+                        className="videoEmbedding"
+                        src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                        loading="lazy"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                    <div className="videoControls">
+                      <img
+                        src="./control_panel.png"
+                        alt="Video controls background"
+                        className="mobileVideoControlsBackground"
+                      />
+                      <div className="mobileVideoControlsContent">
+                        <img
+                          src="./arrow-left.png"
+                          alt="Previous video"
+                          className="mobileVideoArrow"
+                          onClick={goPrevious}
+                        />
+                        <img
+                          src="./discover.png"
+                          alt="Discover new video"
+                          className="mobileVideoDiscover"
+                          onClick={goNext}
+                        />
+                        <img
+                          src="./arrow-right.png"
+                          alt="Next video"
+                          className="mobileVideoArrow"
+                          onClick={goNext}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              {/* MOBILE WATCH HISTORY WIDGET */}
+              <div class="mobileCenterWidget large-widget">
+                <img
+                  src="./recents-background.png"
+                  alt="Large widget frame"
+                />
+                <div class="mobileInnerWidgetField">
+                  <img
+                    src="./recents-background-small.png"
+                    alt="Small widget frame"
+                  />
+                  <div className="mobileInnerWidgetFieldContents">
+                    <img
+                      src="./section_header_two.png"
+                      alt="Video header top"
+                      className="mobileSectionHeader"
+                    />
+                    <div className="recentsWidgetOverlay">
+                      <div className="mobileRecentsList">
+                        {recentVideos.length === 0 ? (
+                          <div className="recentsEmptyState">
+                            <img
+                              src="./empty_history.webp"
+                              alt="No recent videos yet"
+                              className="mobileRecentsEmptyStateImage"
+                            />
+                            <div className="mobileRecentsEmptyStateText">
+                                No watch history is currently available.
+                            </div>
+                            <div className="mobileRecentsEmptyStateTextSmall">
+                                Start discovering videos above!
+                            </div>
+                          </div>
+                        ) : (
+                          recentVideos.slice().reverse().map((video) => (
+                            <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                              <img
+                                src={video.thumbnail}
+                                alt={video.title}
+                                className="recentsThumbnail"
+                              />
+                              <div className="recentsInfo">
+                                <div className="recentsTitle">{video.title}</div>
+
+                                  <div className="recentsMetadata">
+                                  <span className="recentsChannelName">
+                                    {video.channelName}
+                                  </span>
+                                  <span className="recentsDot"> • </span>
+                                  <span className="recentsDate">
+                                    {video.uploadDate}
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              {/* MOBILE ABOUT US WIDGET */}
+              <div className="mobileCenterWidget large-widget">
+                <img
+                  src="./about-background.png"
+                  alt="Large widget frame"
+                />
+                <div class="mobileInnerWidgetField">
+                  <img
+                    src="./about-background-small.png"
+                    alt="Small widget frame"
+                  />
+                  <div className="mobileInnerWidgetFieldContents">
+                    <img
+                      src="./section_header_three.png"
+                      alt="Video header top"
+                      className="mobileSectionHeader"
+                    />
+                    <div className="mobileAboutUsNotes">
+                      <div className="topCenterLeftPostit">
+                      <img src="./post-it-left.png" alt="Top Center Left" />
+                      <div className="mobileOverlayTextPostitLeft">
+                        In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
+                        <span className="mobileHighlightSentence">
+                          Reel Retriever helps you find videos that few people have seen, many of which were not filmed with a large audience in  mind.{' '}
+                        </span> 
+                        Discover forgotten recordings of performances, academic projects, auditions, home videos, and other simple windows into the daily lives of folks around the globe.
+                      </div>
+                    </div>
+                    <div className="topCenterRightPostit">
+                      <img src="./post-it-right.png" alt="Top Center Right" />
+                        <div className="mobileOverlayTextPostitRight">
+                          <span className="mobileHighlightSentence">
+                            How it Works: 
+                            <br/><br/>
+                          </span>  
+                            We periodically search YouTube for videos that receive very little algorithmic exposure and help our users discover them.{' '}
+                          <span className="mobileHighlightSentence">
+                            We don’t download or modify videos, 
+                          </span>  
+                            and all views, likes, and comments happen on YouTube.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </html>
 
