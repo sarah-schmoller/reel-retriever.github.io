@@ -712,68 +712,115 @@ function HomePage() {
                 </div>
 
 
-              {/* MOBILE WATCH HISTORY WIDGET */}
-              <div class="mobileCenterWidget large-widget">
-                <img
-                  src="./recents-background.png"
-                  alt="Large widget frame"
-                />
-                <div class="mobileInnerWidgetField">
+                {/* MOBILE WATCH HISTORY WIDGET */}
+                <div class="mobileCenterWidget large-widget">
                   <img
-                    src="./recents-background-small.png"
-                    alt="Small widget frame"
+                    src="./recents-background.png"
+                    alt="Large widget frame"
                   />
-                  <div className="mobileInnerWidgetFieldContents">
+                  <div class="mobileInnerWidgetField">
                     <img
-                      src="./section_header_two.png"
-                      alt="Video header top"
-                      className="mobileSectionHeader"
+                      src="./recents-background-small.png"
+                      alt="Small widget frame"
                     />
-                    <div className="recentsWidgetOverlay">
-                      <div className="mobileRecentsList">
-                        {recentVideos.length === 0 ? (
-                          <div className="recentsEmptyState">
-                            <img
-                              src="./empty_history.webp"
-                              alt="No recent videos yet"
-                              className="mobileRecentsEmptyStateImage"
-                            />
-                            <div className="mobileRecentsEmptyStateText">
-                                No watch history is currently available.
-                            </div>
-                            <div className="mobileRecentsEmptyStateTextSmall">
-                                Start discovering videos above!
-                            </div>
-                          </div>
-                        ) : (
-                          recentVideos.slice().reverse().map((video) => (
-                            <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                    <div className="mobileInnerWidgetFieldContents">
+                      <img
+                        src="./section_header_two.png"
+                        alt="Video header top"
+                        className="mobileSectionHeader"
+                      />
+                      <div className="recentsWidgetOverlay">
+                        <div className="mobileRecentsList">
+                          {recentVideos.length === 0 ? (
+                            <div className="recentsEmptyState">
                               <img
-                                src={video.thumbnail}
-                                alt={video.title}
-                                className="recentsThumbnail"
+                                src="./empty_history.webp"
+                                alt="No recent videos yet"
+                                className="mobileRecentsEmptyStateImage"
                               />
-                              <div className="recentsInfo">
-                                <div className="recentsTitle">{video.title}</div>
-
-                                  <div className="recentsMetadata">
-                                  <span className="recentsChannelName">
-                                    {video.channelName}
-                                  </span>
-                                  <span className="recentsDot"> • </span>
-                                  <span className="recentsDate">
-                                    {video.uploadDate}
-                                  </span>
-                                </div>
+                              <div className="mobileRecentsEmptyStateText">
+                                  No watch history is currently available.
+                              </div>
+                              <div className="mobileRecentsEmptyStateTextSmall">
+                                  Start discovering videos above!
                               </div>
                             </div>
-                          ))
-                        )}
+                          ) : (
+                            recentVideos.slice().reverse().map((video) => (
+                              <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
+                                <img
+                                  src={video.thumbnail}
+                                  alt={video.title}
+                                  className="recentsThumbnail"
+                                />
+                                <div className="recentsInfo">
+                                  <div className="recentsTitle">{video.title}</div>
+
+                                    <div className="recentsMetadata">
+                                    <span className="recentsChannelName">
+                                      {video.channelName}
+                                    </span>
+                                    <span className="recentsDot"> • </span>
+                                    <span className="recentsDate">
+                                      {video.uploadDate}
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            ))
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+
+                {/* MOBILE ABOUT US WIDGET */}
+                <div className="mobileCenterWidget large-widget">
+                  <img
+                    src="./about-background.png"
+                    alt="Large widget frame"
+                  />
+                  <div class="mobileInnerWidgetField">
+                    <img
+                      src="./about-background-small.png"
+                      alt="Small widget frame"
+                    />
+                    <div className="mobileInnerWidgetFieldContents">
+                      <img
+                        src="./section_header_three.png"
+                        alt="Video header top"
+                        className="mobileSectionHeader"
+                      />
+                      <div className="mobileAboutUsNotes">
+                        <div className="topCenterLeftPostit">
+                        <img src="./post-it-left.png" alt="Top Center Left" />
+                        <div className="mobileOverlayTextPostitLeft">
+                          In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
+                          <span className="mobileHighlightSentence">
+                            Reel Retriever helps you find videos that few people have seen, many of which were not filmed with a large audience in  mind.{' '}
+                          </span> 
+                          Discover forgotten recordings of performances, academic projects, auditions, home videos, and other simple windows into the daily lives of folks around the globe.
+                        </div>
+                      </div>
+                      <div className="topCenterRightPostit">
+                        <img src="./post-it-right.png" alt="Top Center Right" />
+                          <div className="mobileOverlayTextPostitRight">
+                            <span className="mobileHighlightSentence">
+                              How it Works: 
+                              <br/><br/>
+                            </span>  
+                              We periodically search YouTube for videos that receive very little algorithmic exposure and help our users discover them.{' '}
+                            <span className="mobileHighlightSentence">
+                              We don’t download or modify videos, 
+                            </span>  
+                              and all views, likes, and comments happen on YouTube.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
