@@ -332,7 +332,7 @@ function HomePage() {
         <header class="header"></header>
 
         <div className="titleBar">
-          <img src="./title-bar.png" alt="Reel Retriever Title Bar" />
+          <img src="./titleBar.png" alt="Reel Retriever Title Bar" />
           <div className="titleBarText">
             Bringing you overlooked videos from across YouTube’s history.
           </div>
@@ -355,13 +355,13 @@ function HomePage() {
             {/* LEFT COLUMN */}
             <div className="leftColumn">
               <img
-                src="./left-sidebar-background.png"
+                src="./leftSidebarBackground.png"
                 alt="Left column background"
                 className="leftColumnBackground"
               />
               <div className="leftColumnContent">
                 <div className="leftColumnTile">
-                  <img src="./left-widget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       219,482 {" "}
@@ -370,7 +370,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./left-widget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     Oldest upload posted in {" "}
                     <span className="highlightedText">
@@ -379,7 +379,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./left-widget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       1,482 {" "}
@@ -388,7 +388,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./left-widget-bottom.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidgetBottom.png" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextLowerWidget">
                     <span className="highlightedText">
                       Can't find what you're looking for?
@@ -407,23 +407,23 @@ function HomePage() {
               {/* VIDEO FINDER WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./video-background.webp"
+                  src="./videoBackground.webp"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./video-background-small.png"
+                    src="./videoBackgroundSmall.png"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./section_header_one.png"
+                      src="./sectionHeaderOne.png"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="videoPlayer">
                       <img
-                        src="./video-player-container.png"
+                        src="./videoPlayerContainer.png"
                         alt="Video player background"
                         className="videoPlayerBackgroundImage"
                       />
@@ -464,13 +464,13 @@ function HomePage() {
                     </div>
                     <div className="videoControls">
                       <img
-                        src="./control_panel.png"
+                        src="./controlPanel.png"
                         alt="Video controls background"
                         className="videoControlsBackground"
                       />
                       <div className="videoControlsContent">
                         <img
-                          src="./arrow-left.png"
+                          src="./arrowLeft.png"
                           alt="Previous video"
                           className="videoArrow"
                           onClick={goPrevious}
@@ -482,7 +482,7 @@ function HomePage() {
                           onClick={goNext}
                         />
                         <img
-                          src="./arrow-right.png"
+                          src="./arrowRight.png"
                           alt="Next video"
                           className="videoArrow"
                           onClick={goNext}
@@ -496,17 +496,17 @@ function HomePage() {
               {/* WATCH HISTORY WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./recents-background.png"
+                  src="./recentsBackground.png"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./recents-background-small.png"
+                    src="./recentsBackgroundSmall.png"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./section_header_two.png"
+                      src="./sectionHeaderTwo.png"
                       alt="Video header top"
                       className="sectionHeader"
                     />
@@ -515,7 +515,7 @@ function HomePage() {
                         {recentVideos.length === 0 ? (
                           <div className="recentsEmptyState">
                             <img
-                              src="./empty_history.webp"
+                              src="./emptyHistory.webp"
                               alt="No recent videos yet"
                               className="recentsEmptyStateImage"
                             />
@@ -559,23 +559,23 @@ function HomePage() {
               {/* ABOUT US WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./about-background.png"
+                  src="./aboutBackground.png"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./about-background-small.png"
+                    src="./aboutBackgroundSmall.png"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./section_header_three.png"
+                      src="./sectionHeaderThree.png"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="aboutUsNotes">
                       <div className="topCenterLeftPostit">
-                        <img src="./post-it-left.png" alt="Top Center Left" />
+                        <img src="./postItLeft.png" alt="Top Center Left" />
                         <div className="overlayTextPostitLeft">
                           In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
                           <span className="highlightSentence">
@@ -585,7 +585,7 @@ function HomePage() {
                         </div>
                       </div>
                       <div className="topCenterRightPostit">
-                        <img src="./post-it-right.png" alt="Top Center Right" />
+                        <img src="./postItRight.png" alt="Top Center Right" />
                           <div className="overlayTextPostitRight">
                             <span className="highlightSentence">
                               How it Works: 
@@ -608,7 +608,7 @@ function HomePage() {
 
             {/* RIGHT COLUMN */}
             <div class="rightColumn">
-              <img src="./right-sidebar.png" alt="Right Sidebar" />
+              <img src="./rightSidebar.png" alt="Right Sidebar" />
             </div>
 
           </div>
