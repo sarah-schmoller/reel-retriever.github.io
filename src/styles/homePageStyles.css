@@ -704,3 +704,32 @@
       height: auto;
       object-fit: contain;
     }
+
+  .mobileRecentsEmptyStateImage {
+    padding-top: 7.8%;
+    padding-bottom: 20px;
+    max-width: 20%;
+    height: auto;
+    opacity: 0.9;
+  }
+
+  .mobileRecentsEmptyStateText {
+    margin-top: 1%;
+    font-size: clamp(11px, 3vw, 30px);
+    font-weight: bold;
+    color: #47361d;
+    font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+  }
+
+  .mobileRecentsEmptyStateTextSmall {
+    margin-top: 1%;
+    font-size: clamp(10px, 2.5vw, 30px);
+    color: #47361d;
+    font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+  }
+
+  .mobileHighlightSentence {
+    font-weight: bold;
+    color: #bf6f24;
+    font-size: clamp(9px, 2.2vw, 30px);
+  }
