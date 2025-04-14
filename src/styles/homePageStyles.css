@@ -733,3 +733,72 @@
     color: #bf6f24;
     font-size: clamp(9px, 2.2vw, 30px);
   }
+
+  .mobileAboutUsNotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .mobileOverlayTextPostitLeft {
+    position: absolute;
+    padding: 15px;
+    padding-top: 7%;
+    color: #47361d;
+    font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+    font-size: clamp(9px, 2vw, 30px);
+    line-height: 1.5;
+    white-space: pre-wrap;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    overflow-y: scroll;
+    max-height: 77%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+
+  .mobileOverlayTextPostitLeft::after {
+    content: "";
+    position: sticky;
+    bottom: -15%;
+    height: 18vw;
+    display: block;
+    background: linear-gradient(to bottom, transparent, #f5c176);
+    pointer-events: none;
+  }
+
+  .mobileOverlayTextPostitRight {
+    position: absolute;
+    padding: 15px;
+    padding-top: 10%;
+    color: #47361d;
+    font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+    font-size: clamp(9px, 2vw, 30px);
+    line-height: 1.5;
+    white-space: pre-wrap;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    overflow-y: scroll;
+    max-height: 77%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+
+  @media (max-width: 420px) {
+    .mobileOverlayTextPostitRight::after {
+      content: "";
+      position: sticky;
+      bottom: -15%;
+      height: 18vw;
+      display: block;
+      background: linear-gradient(to bottom, transparent, #f5c176);
+      pointer-events: none;
+    }
+  }
