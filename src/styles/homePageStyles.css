@@ -7,7 +7,7 @@
     padding: 0;
   }
 
-  .body {
+  body {
     background-color: #006d7a;
     font-family: sans-serif;
   }
@@ -32,7 +32,20 @@
   }
 
 
-  /* BODY */
+/* MOBILE HEADER */
+
+  .header-mobile {
+    background-color: #005f6a68;
+    border-bottom: 2px solid #003f46;
+    height: 12vw;
+    min-height: 50px;
+    /*position: sticky;
+    top: 0;
+    z-index: 100;*/
+  }
+
+
+/* BODY */
 
   /* Main Layout */
 
@@ -44,6 +57,45 @@
     padding-bottom: 40px;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+
+  /* Title Bar */
+
+  .title-bar {
+    display: block;
+    flex: none;
+    height: 74px;
+    margin: 12px auto 0 auto;
+    position: relative;
+    width: min(1120px, calc(100vw - 100px));
+  }
+
+  .titleBarWrapper {
+    min-width: 360px;
+    width: 100%;
+  }
+
+  .titleBar {
+    display: block;
+    flex: none;
+    height: 74px;
+    margin-top: 12px;
+    margin-left: max(30px, calc((100vw - 1120px) / 2));
+    margin-right: auto;
+    position: relative;
+    width: 1120px;
+  }
+
+  .titleBarText {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    inset: 0;
+    justify-content: center;
+    padding: 18px;
+    position: absolute;
+    text-align: center;
   }
 
 
@@ -563,6 +615,7 @@
       display: block;
     }
 
+
   /* Shared Styles */
 
   .overlayText {
@@ -626,6 +679,7 @@
   }
 
 
+
 /* MOBILE BODY */
 
   .mobileTitleBar {
@@ -642,68 +696,6 @@
     min-width: 0;
     max-width: 100%;
   }
-
-
-  /* Shared Styles */
-
-  .mobileInnerWidgetField {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 93%;
-    padding: 0;
-  }
-
-  .mobileInnerWidgetFieldContents {
-    position: absolute;
-    top: 1%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2%;
-    padding-top: 1px;
-    z-index: 2;
-  }
-
-    .mobilePage {
-      grid-template-columns: 1fr;
-      padding: 10px;
-    }
-
-    .mobileCenterColumnBackground {
-      grid-column: auto;
-      grid-template-columns: 1fr;
-      padding: 0;
-      min-width: 340px;
-    }
-
-    .mobileCenterWidget {
-      padding-top: 0.7%;
-      padding-bottom: 0.7%;
-      padding-left: 2%;
-      padding-right: 2%;
-      min-height: auto;
-    }
-
-    .mobileCenterColumnContents {
-      min-width: 0;
-      padding-top: 4px;
-      padding-bottom: 4px;
-      width: 100%;
-    }
-
-    .mobileSectionHeader {
-      align-self: flex-start;
-      margin-left: 4%;
-      max-width: 90%;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      height: auto;
-      object-fit: contain;
-    }
 
   .mobileRecentsEmptyStateImage {
     padding-top: 7.8%;
@@ -802,3 +794,90 @@
       pointer-events: none;
     }
   }
+
+  .mobileInnerWidgetField {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 93%;
+    padding: 0;
+  }
+
+  .mobileInnerWidgetFieldContents {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    padding-top: 1px;
+    z-index: 2;
+  }
+
+    .mobilePage {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+
+    .mobileCenterColumnBackground {
+      grid-column: auto;
+      grid-template-columns: 1fr;
+      padding: 0;
+      min-width: 340px;
+    }
+
+    .mobileCenterWidget {
+      padding-top: 0.7%;
+      padding-bottom: 0.7%;
+      padding-left: 2%;
+      padding-right: 2%;
+      min-height: auto;
+    }
+
+    .mobileCenterColumnContents {
+      min-width: 0;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 100%;
+    }
+
+    .mobileSectionHeader {
+      align-self: flex-start;
+      margin-left: 4%;
+      max-width: 90%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      height: auto;
+      object-fit: contain;
+    }
+
+
+  .logo {
+    align-self: flex-start;
+  }
+
+  .recentsTitle {
+    font-weight: bold;
+    color: #bb6b20;
+    font-size: 15px;
+    display: block; 
+  }
+
+  .noDisplay {
+    display: none;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .large-widget {
+    position: relative;
+    width: 100%;
+  }
+
