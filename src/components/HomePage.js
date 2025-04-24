@@ -332,7 +332,7 @@ function HomePage() {
         <header class="header"></header>
 
         <div className="titleBar">
-          <img src="./titleBar.png" alt="Reel Retriever Title Bar" />
+          <img src="./titleBar.webp" alt="Reel Retriever Title Bar" />
           <div className="titleBarText">
             Bringing you overlooked videos from across YouTube’s history.
           </div>
@@ -345,7 +345,7 @@ function HomePage() {
           {/* LEFT AND CENTER COLUMN CONTAINER */}
           <div class="leftField"   
             style={{
-              backgroundImage: "url(./background.png)",
+              backgroundImage: "url(./background.webp)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "contain",
               backgroundPosition: "top center",
@@ -355,13 +355,13 @@ function HomePage() {
             {/* LEFT COLUMN */}
             <div className="leftColumn">
               <img
-                src="./leftSidebarBackground.png"
+                src="./leftSidebarBackground.webp"
                 alt="Left column background"
                 className="leftColumnBackground"
               />
               <div className="leftColumnContent">
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.webp" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       219,482 {" "}
@@ -370,7 +370,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.webp" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     Oldest upload posted in {" "}
                     <span className="highlightedText">
@@ -379,7 +379,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidget.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidget.webp" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextUpperWidgets">
                     <span className="highlightedText">
                       1,482 {" "}
@@ -388,7 +388,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="leftColumnTile">
-                  <img src="./leftWidgetBottom.png" alt="Left Widget Bottom" />
+                  <img src="./leftWidgetBottom.webp" alt="Left Widget Bottom" />
                   <div className="overlayText" id="overlayTextLowerWidget">
                     <span className="highlightedText">
                       Can't find what you're looking for?
@@ -412,18 +412,18 @@ function HomePage() {
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./videoBackgroundSmall.png"
+                    src="./videoBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderOne.png"
+                      src="./sectionHeaderOne.webp"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="videoPlayer">
                       <img
-                        src="./videoPlayerContainer.png"
+                        src="./videoPlayerContainer.webp"
                         alt="Video player background"
                         className="videoPlayerBackgroundImage"
                       />
@@ -464,25 +464,25 @@ function HomePage() {
                     </div>
                     <div className="videoControls">
                       <img
-                        src="./controlPanel.png"
+                        src="./controlPanel.webp"
                         alt="Video controls background"
                         className="videoControlsBackground"
                       />
                       <div className="videoControlsContent">
                         <img
-                          src="./arrowLeft.png"
+                          src="./arrowLeft.webp"
                           alt="Previous video"
                           className="videoArrow"
                           onClick={goPrevious}
                         />
                         <img
-                          src="./discover.png"
+                          src="./discover.webp"
                           alt="Discover new video"
                           className="videoDiscover"
                           onClick={goNext}
                         />
                         <img
-                          src="./arrowRight.png"
+                          src="./arrowRight.webp"
                           alt="Next video"
                           className="videoArrow"
                           onClick={goNext}
@@ -496,17 +496,17 @@ function HomePage() {
               {/* WATCH HISTORY WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./recentsBackground.png"
+                  src="./recentsBackground.webp"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./recentsBackgroundSmall.png"
+                    src="./recentsBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderTwo.png"
+                      src="./sectionHeaderTwo.webp"
                       alt="Video header top"
                       className="sectionHeader"
                     />
@@ -559,23 +559,23 @@ function HomePage() {
               {/* ABOUT US WIDGET */}
               <div class="centerWidget">
                 <img
-                  src="./aboutBackground.png"
+                  src="./aboutBackground.webp"
                   alt="Large widget frame"
                 />
                 <div class="innerWidgetField">
                   <img
-                    src="./aboutBackgroundSmall.png"
+                    src="./aboutBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="innerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderThree.png"
+                      src="./sectionHeaderThree.webp"
                       alt="Video header top"
                       className="sectionHeader"
                     />
                     <div className="aboutUsNotes">
                       <div className="topCenterLeftPostit">
-                        <img src="./postItLeft.png" alt="Top Center Left" />
+                        <img src="./postItLeft.webp" alt="Top Center Left" />
                         <div className="overlayTextPostitLeft">
                           In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
                           <span className="highlightSentence">
@@ -585,7 +585,7 @@ function HomePage() {
                         </div>
                       </div>
                       <div className="topCenterRightPostit">
-                        <img src="./postItRight.png" alt="Top Center Right" />
+                        <img src="./postItRight.webp" alt="Top Center Right" />
                           <div className="overlayTextPostitRight">
                             <span className="highlightSentence">
                               How it Works: 
@@ -608,7 +608,7 @@ function HomePage() {
 
             {/* RIGHT COLUMN */}
             <div class="rightColumn">
-              <img src="./rightSidebar.png" alt="Right Sidebar" />
+              <img src="./rightSidebar.webp" alt="Right Sidebar" />
             </div>
 
           </div>
@@ -619,7 +619,7 @@ function HomePage() {
       <div id="mobileBody">
         <header className="mobileHeader"></header>
           <div className="mobileTitleBar">
-            <img src="./titleBarMobile.png" alt="Reel Retriever Title Bar" />
+            <img src="./titleBarMobile.webp" alt="Reel Retriever Title Bar" />
           </div>
           <div className="mobilePage">
 
@@ -627,7 +627,7 @@ function HomePage() {
             {/* MOBILE CENTER COLUMN */}
             <div className="mobileCenterColumnBackground"   
               style={{
-                backgroundImage: "url(./backgroundMobile.png)",
+                backgroundImage: "url(./backgroundMobile.webp)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "contain",
                 backgroundPosition: "top center",
@@ -643,18 +643,18 @@ function HomePage() {
                 />
                 <div className="mobileInnerWidgetField">
                   <img
-                    src="./videoBackgroundSmall.png"
+                    src="./videoBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="mobileInnerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderOne.png"
+                      src="./sectionHeaderOne.webp"
                       alt="Video header top"
                       className="mobileSectionHeader"
                     />
                     <div className="videoPlayer">
                       <img
-                        src="./videoPlayerContainer.png"
+                        src="./videoPlayerContainer.webp"
                         alt="Video player background"
                         className="videoPlayerBackgroundImage"
                       />
@@ -686,25 +686,25 @@ function HomePage() {
                     </div>
                     <div className="videoControls">
                       <img
-                        src="./controlPanel.png"
+                        src="./controlPanel.webp"
                         alt="Video controls background"
                         className="mobileVideoControlsBackground"
                       />
                       <div className="mobileVideoControlsContent">
                         <img
-                          src="./arrowLeft.png"
+                          src="./arrowLeft.webp"
                           alt="Previous video"
                           className="mobileVideoArrow"
                           onClick={goPrevious}
                         />
                         <img
-                          src="./discover.png"
+                          src="./discover.webp"
                           alt="Discover new video"
                           className="mobileVideoDiscover"
                           onClick={goNext}
                         />
                         <img
-                          src="./arrowRight.png"
+                          src="./arrowRight.webp"
                           alt="Next video"
                           className="mobileVideoArrow"
                           onClick={goNext}
@@ -719,17 +719,17 @@ function HomePage() {
               {/* MOBILE WATCH HISTORY WIDGET */}
               <div className="mobileCenterWidget large-widget">
                 <img
-                  src="./recents-background.png"
+                  src="./recents-background.webp"
                   alt="Large widget frame"
                 />
                 <div className="mobileInnerWidgetField">
                   <img
-                    src="./recentsBackgroundSmall.png"
+                    src="./recentsBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="mobileInnerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderTwo.png"
+                      src="./sectionHeaderTwo.webp"
                       alt="Video header top"
                       className="mobileSectionHeader"
                     />
@@ -783,23 +783,23 @@ function HomePage() {
               {/* MOBILE ABOUT US WIDGET */}
               <div className="mobileCenterWidget large-widget">
                 <img
-                  src="./aboutBackground.png"
+                  src="./aboutBackground.webp"
                   alt="Large widget frame"
                 />
                 <div className="mobileInnerWidgetField">
                   <img
-                    src="./aboutBackgroundSmall.png"
+                    src="./aboutBackgroundSmall.webp"
                     alt="Small widget frame"
                   />
                   <div className="mobileInnerWidgetFieldContents">
                     <img
-                      src="./sectionHeaderThree.png"
+                      src="./sectionHeaderThree.webp"
                       alt="Video header top"
                       className="mobileSectionHeader"
                     />
                     <div className="mobileAboutUsNotes">
                       <div className="topCenterLeftPostit">
-                      <img src="./postItLeft.png" alt="Top Center Left" />
+                      <img src="./postItLeft.webp" alt="Top Center Left" />
                       <div className="mobileOverlayTextPostitLeft">
                         In the age of social media algorithms, it can feel impossible to recapture the quieter, more human style of the early internet.{' '}
                         <span className="mobileHighlightSentence">
@@ -809,7 +809,7 @@ function HomePage() {
                       </div>
                     </div>
                     <div className="topCenterRightPostit">
-                      <img src="./postItRight.png" alt="Top Center Right" />
+                      <img src="./postItRight.webp" alt="Top Center Right" />
                         <div className="mobileOverlayTextPostitRight">
                           <span className="mobileHighlightSentence">
                             How it Works: 
