@@ -172,11 +172,46 @@ function HomePage() {
 
   const [history, setHistory] = useState([allVideos[0]]);
   const [historyPointer, setHistoryPointer] = useState(0);
-
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const currentVideo = history[historyPointer] || allVideos[0];
   const [recentVideos, setRecentVideos] = useState([]);
   const [playableIndices, setPlayableIndices] = useState([]);
+  
+
+  useEffect(() => {
+    const images = Array.from(document.images);
+    let loadedCount = 0;
+
+    if (images.length === 0) {
+      setIsLoaded(true);
+      return;
+    }
+
+    const handleLoad = () => {
+      loadedCount++;
+      if (loadedCount === images.length) {
+        setIsLoaded(true);
+      }
+    };
+
+    images.forEach((img) => {
+      if (img.complete) {
+        handleLoad();
+      } else {
+        img.addEventListener("load", handleLoad);
+        img.addEventListener("error", handleLoad); // prevents hanging
+      }
+    });
+
+    return () => {
+      images.forEach((img) => {
+        img.removeEventListener("load", handleLoad);
+        img.removeEventListener("error", handleLoad);
+      });
+    };
+  }, []);
+
 
   useEffect(() => {
     const recentIds = new Set(recentVideos.map(v => v.id));
@@ -191,6 +226,7 @@ function HomePage() {
       setCurrentIndex(0);
     }
   }, [recentVideos, allVideos]);
+
 
   useEffect(() => {
 
@@ -316,7 +352,12 @@ function HomePage() {
 
   // HTML FORMATTING
   return (
-    <html lang="en">
+    <div
+      style={{
+        opacity: isLoaded ? 1 : 0,
+        transition: "opacity 0.4s ease",
+      }}
+    >
       <head>
         <meta charset="UTF-8" />
         <title>Reel Retriever</title>
@@ -830,7 +871,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-    </html>
+    </div>
 
   );
 }
