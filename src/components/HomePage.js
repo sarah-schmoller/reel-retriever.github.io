@@ -206,7 +206,7 @@ function HomePage() {
           const img = new Image();
           img.src = src;
           img.onload = resolve;
-          img.onerror = resolve; // NEVER block
+          img.onerror = resolve;
         });
       })
     ).then(() => {
@@ -235,8 +235,8 @@ function HomePage() {
     let body = document.getElementById('body');
     let mobileBody = document.getElementById('mobileBody');
 
-    isMobile = isMobile();
-    if (isMobile) {
+    let mobileCheck = isMobile();
+    if (mobileCheck) {
 
       if (!body.classList.contains('noDisplay')) {
         body.classList.toggle('noDisplay');
@@ -351,7 +351,7 @@ function HomePage() {
     return check;
   }
 
-
+  
   // HTML FORMATTING
   return (
     <div>
@@ -750,7 +750,7 @@ function HomePage() {
 
 
               {/* MOBILE WATCH HISTORY WIDGET */}
-              <div className="mobileCenterWidget large-widget">
+              <div className="mobileCenterWidget largeWidget">
                 <img
                   src="./recentsBackground.webp"
                   alt="Large widget frame"
@@ -814,7 +814,7 @@ function HomePage() {
 
 
               {/* MOBILE ABOUT US WIDGET */}
-              <div className="mobileCenterWidget large-widget">
+              <div className="mobileCenterWidget largeWidget">
                 <img
                   src="./aboutBackground.webp"
                   alt="Large widget frame"
