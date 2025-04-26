@@ -172,44 +172,46 @@ function HomePage() {
 
   const [history, setHistory] = useState([allVideos[0]]);
   const [historyPointer, setHistoryPointer] = useState(0);
-  const [isLoaded, setIsLoaded] = useState(false);
+
 
   const currentVideo = history[historyPointer] || allVideos[0];
   const [recentVideos, setRecentVideos] = useState([]);
   const [playableIndices, setPlayableIndices] = useState([]);
-  
+
+  const [isReady, setIsReady] = useState(false);
+
 
   useEffect(() => {
-    const images = Array.from(document.images);
-    let loadedCount = 0;
+    const imagesToPreload = [
+      "./titleBar.webp",
+      "./background.webp",
+      "./leftSidebarBackground.webp",
+      "./leftWidget.webp",
+      "./leftWidgetBottom.webp",
+      "./videoBackground.webp",
+      "./videoBackgroundSmall.webp",
+      "./videoPlayerContainer.webp",
+      "./controlPanel.webp",
+      "./recentsBackground.webp",
+      "./recentsBackgroundSmall.webp",
+      "./aboutBackground.webp",
+      "./aboutBackgroundSmall.webp",
+      "./postItLeft.webp",
+      "./postItRight.webp",
+    ];
 
-    if (images.length === 0) {
-      setIsLoaded(true);
-      return;
-    }
-
-    const handleLoad = () => {
-      loadedCount++;
-      if (loadedCount === images.length) {
-        setIsLoaded(true);
-      }
-    };
-
-    images.forEach((img) => {
-      if (img.complete) {
-        handleLoad();
-      } else {
-        img.addEventListener("load", handleLoad);
-        img.addEventListener("error", handleLoad); // prevents hanging
-      }
+    Promise.all(
+      imagesToPreload.map((src) => {
+        return new Promise((resolve) => {
+          const img = new Image();
+          img.src = src;
+          img.onload = resolve;
+          img.onerror = resolve; // NEVER block
+        });
+      })
+    ).then(() => {
+      setIsReady(true);
     });
-
-    return () => {
-      images.forEach((img) => {
-        img.removeEventListener("load", handleLoad);
-        img.removeEventListener("error", handleLoad);
-      });
-    };
   }, []);
 
 
@@ -352,17 +354,7 @@ function HomePage() {
 
   // HTML FORMATTING
   return (
-    <div
-      style={{
-        opacity: isLoaded ? 1 : 0,
-        transition: "opacity 0.4s ease",
-      }}
-    >
-      <head>
-        <meta charset="UTF-8" />
-        <title>Reel Retriever</title>
-        <link rel="stylesheet" href="styles.css" />
-      </head>
+    <div>
 
 
       {/* DESKTOP BODY */}
@@ -760,7 +752,7 @@ function HomePage() {
               {/* MOBILE WATCH HISTORY WIDGET */}
               <div className="mobileCenterWidget large-widget">
                 <img
-                  src="./recents-background.webp"
+                  src="./recentsBackground.webp"
                   alt="Large widget frame"
                 />
                 <div className="mobileInnerWidgetField">
@@ -877,4 +869,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
