@@ -181,7 +181,30 @@ function HomePage() {
   const [isReady, setIsReady] = useState(false);
 
 const imagesToPreload = [
-  '/titleBar.webp'
+  '/aboutBackground.webp',
+  '/aboutBackgroundSmall.webp',
+  '/arrowLeft.webp',
+  '/arrowRight.webp',
+  '/background.webp',
+  '/backgroundMobile.webp',
+  '/controlPanel.webp',
+  '/emptyHistory.webp',
+  '/leftSidebarBackground.webp',
+  '/leftWidget.webp',
+  '/leftWidgetBottom.webp',
+  '/postItLeft.webp',
+  '/postItRight.webp',
+  '/recentsBackground.webp',
+  '/recentsBackgroundSmall.webp',
+  '/rightSidebar.webp',
+  '/sectionHeaderOne.webp',
+  '/sectionHeaderThree.webp',
+  '/sectionHeaderTwo.webp',
+  '/titleBar.webp',
+  '/titleBarMobile.webp',
+  '/videoBackground.webp',
+  '/videoBackgroundSmall.webp',
+  '/videoPlayerContainer.webp'
 ];
 
 useEffect(() => {
