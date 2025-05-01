@@ -792,12 +792,12 @@ if (!isReady) return;
                             <img
                               src="./emptyHistory.webp"
                               alt="No recent videos yet"
-                              className="recentsEmptyStateImage"
+                              className="mobileRecentsEmptyStateImage"
                             />
-                            <div className="recentsEmptyStateText">
+                            <div className="mobileRecentsEmptyStateText">
                                 No watch history is currently available.
                             </div>
-                            <div className="recentsEmptyStateTextSmall">
+                            <div className="mobileRecentsEmptyStateTextSmall">
                                 Start discovering videos above!
                             </div>
                           </div>
@@ -812,7 +812,7 @@ if (!isReady) return;
                               <div className="recentsInfo">
                                 <div className="recentsTitle">{video.title}</div>
 
-                                <div className="recentsMetadata">
+                                  <div className="recentsMetadata">
                                   <span className="recentsChannelName">
                                     {video.channelName}
                                   </span>
