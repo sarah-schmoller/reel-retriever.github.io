@@ -792,17 +792,17 @@ if (!isReady) return;
                             <img
                               src="./emptyHistory.webp"
                               alt="No recent videos yet"
-                              className="mobileRecentsEmptyStateImage"
+                              className="recentsEmptyStateImage"
                             />
-                            <div className="mobileRecentsEmptyStateText">
+                            <div className="recentsEmptyStateText">
                                 No watch history is currently available.
                             </div>
-                            <div className="mobileRecentsEmptyStateTextSmall">
+                            <div className="recentsEmptyStateTextSmall">
                                 Start discovering videos above!
                             </div>
                           </div>
                         ) : (
-                          recentVideos.slice().reverse().map((video) => (
+                          recentVideos.map((video) => (
                             <div key={video.id} className="recentsItem" onClick={() => handleThumbnailClick(video)}>
                               <img
                                 src={video.thumbnail}
@@ -812,7 +812,7 @@ if (!isReady) return;
                               <div className="recentsInfo">
                                 <div className="recentsTitle">{video.title}</div>
 
-                                  <div className="recentsMetadata">
+                                <div className="recentsMetadata">
                                   <span className="recentsChannelName">
                                     {video.channelName}
                                   </span>
