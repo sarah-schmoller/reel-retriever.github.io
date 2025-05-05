@@ -507,8 +507,9 @@ if (!isReady) return;
                         </select>
                       </div>
                       <iframe
+                        key={currentVideo.id}
                         className="videoEmbedding"
-                        src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                        src={`https://www.youtube.com/embed/${currentVideo.id}?rel=0&modestbranding=1`}
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
@@ -729,8 +730,9 @@ if (!isReady) return;
                         </select>
                       </div>
                       <iframe
+                        key={currentVideo.id}
                         className="videoEmbedding"
-                        src={`https://www.youtube.com/embed/${currentVideo.id}`}
+                        src={`https://www.youtube.com/embed/${currentVideo.id}?rel=0&modestbranding=1`}
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
