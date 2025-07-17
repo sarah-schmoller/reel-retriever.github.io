@@ -2,18 +2,18 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/homePageStyles.css';
-import shard1 from '../../videos/shard-1.json';
-import shard2 from '../../videos/shard-2.json';
-import shard3 from '../../videos/shard-3.json';
-import shard4 from '../../videos/shard-4.json';
-import shard5 from '../../videos/shard-5.json';
-import shard6 from '../../videos/shard-6.json';
-import share7 from '../../videos/shard-7.json';
-import shard8 from '../../videos/shard-8.json';
-import shard9 from '../../videos/shard-9.json';
-import shard10 from '../../videos/shard-10.json';
-import shard11 from '../../videos/shard-11.json';
-import shard12 from '../../videos/shard-12.json';
+import shard1 from '../videos/shard-1.json';
+import shard2 from '../videos/shard-2.json';
+import shard3 from '../videos/shard-3.json';
+import shard4 from '../videos/shard-4.json';
+import shard5 from '../videos/shard-5.json';
+import shard6 from '../videos/shard-6.json';
+import shard7 from '../videos/shard-7.json';
+import shard8 from '../videos/shard-8.json';
+import shard9 from '../videos/shard-9.json';
+import shard10 from '../videos/shard-10.json';
+import shard11 from '../videos/shard-11.json';
+import shard12 from '../videos/shard-12.json';
 
 function HomePage() {
 
@@ -22,6 +22,7 @@ function HomePage() {
     10: shard10, 11: shard11, 12: shard12 };
 
 
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [currentShard, setCurrentShard] = useState(1);
   const [allVideos, setAllVideos] = useState(shard1);
   const [progress, setProgress] = useState(() => {
