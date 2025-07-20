@@ -1,28 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/homePageStyles.css';
-import shard1 from '../videos/shard-1.json';
-import shard2 from '../videos/shard-2.json';
-import shard3 from '../videos/shard-3.json';
-import shard4 from '../videos/shard-4.json';
-import shard5 from '../videos/shard-5.json';
-import shard6 from '../videos/shard-6.json';
-import shard7 from '../videos/shard-7.json';
-import shard8 from '../videos/shard-8.json';
-import shard9 from '../videos/shard-9.json';
-import shard10 from '../videos/shard-10.json';
-import shard11 from '../videos/shard-11.json';
-import shard12 from '../videos/shard-12.json';
+
+const CDN_BASE = 'https://cdn.jsdelivr.net/gh/sarah-schmoller/reel-retriever.github.io@gh-pages/videos';
 
 function HomePage() {
 
-  const shards = { 1: shard1, 2: shard2, 3: shard3, 4: shard4,
-    5: shard5, 6: shard6, 7: shard7, 8: shard8, 9: shard9,
-    10: shard10, 11: shard11, 12: shard12 };
-
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentShard, setCurrentShard] = useState(1);
-  const [allVideos, setAllVideos] = useState(shard1);
+  const [allVideos, setAllVideos] = useState([]);
+  const [shardDataReady, setShardDataReady] = useState(false);
   const [progress, setProgress] = useState(() => {
       const saved = localStorage.getItem("progress");
 
@@ -75,15 +61,39 @@ function HomePage() {
 
 
   useEffect(() => {
-    if (history.length === 0) {
+    if (history.length === 0 && allVideos.length > 0) {
         setHistory([allVideos[0]]);
     }
   }, [allVideos]);
 
   useEffect(() => {
 
-    setCurrentShard(progress.shard);
-    setAllVideos(shards[progress.shard]);
+    const shardToLoad = progress.shard || 1;
+ 
+    fetch(`${CDN_BASE}/shard-${shardToLoad}.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to fetch shard-${shardToLoad}.json: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        setCurrentShard(shardToLoad);
+        setAllVideos(data);
+        setShardDataReady(true);
+      })
+      	
+      .catch((err) => {
+        console.error('Failed to load shard data:', err);
+        if (shardToLoad !== 1) {
+          fetch(`${CDN_BASE}/shard-1.json`)
+            .then((res) => res.json())
+            .then((data) => {
+              setCurrentShard(1);
+              setAllVideos(data);
+              setShardDataReady(true);
+            })
+            .catch((fallbackErr) => console.error('Fallback shard-1 load also failed:', fallbackErr));
+        }
+      });
 
 }, []);
 
@@ -263,7 +273,7 @@ if (!isReady) return;
     return check;
   }
 
-  if (!isReady) {
+  if (!isReady || !shardDataReady) {
     return (
       <div className="loadingScreen">
         {/* optional: spinner or blank */}
