@@ -152,7 +152,8 @@ useEffect(() => {
 
 
   useEffect(() => {
-if (!isReady) return;
+
+    if (!isReady || !shardDataReady) return;
 
     let body = document.getElementById('body');
     let mobileBody = document.getElementById('mobileBody');
