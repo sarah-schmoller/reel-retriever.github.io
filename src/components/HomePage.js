@@ -5,10 +5,12 @@ const CDN_BASE = 'https://cdn.jsdelivr.net/gh/sarah-schmoller/reel-retriever.git
 
 function HomePage() {
 
+  const isLoadingShard = useRef(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentShard, setCurrentShard] = useState(1);
   const [allVideos, setAllVideos] = useState([]);
   const [shardDataReady, setShardDataReady] = useState(false);
+  const [shardCount, setShardCount] = useState(12);
   const [progress, setProgress] = useState(() => {
       const saved = localStorage.getItem("progress");
 
@@ -66,6 +68,7 @@ function HomePage() {
     }
   }, [allVideos]);
 
+
   useEffect(() => {
 
     const shardToLoad = progress.shard || 1;
@@ -95,6 +98,14 @@ function HomePage() {
         }
       });
 
+}, []);
+
+
+useEffect(() => {
+  fetch(`${CDN_BASE}/manifest.json`, { cache: 'no-store' })
+    .then((res) => res.json())
+    .then((manifest) => setShardCount(manifest.shardCount || 12))
+    .catch((err) => console.error('Failed to load manifest:', err));
 }, []);
 
 
@@ -183,47 +194,75 @@ useEffect(() => {
     
   })
 
-  const goNext = () => {
-    const leavingVideo = history[historyPointer];
+const loadNextShardVideos = async (nextShardNum) => {
+  const manifestRes = await fetch(`${CDN_BASE}/manifest.json`, { 
+    cache: 'no-store' 
+  });
 
-    const newRecents = (() => {
-      const filtered = recentVideos.filter(v => v.id !== leavingVideo.id);
-      return [leavingVideo, ...filtered].slice(0, 10);
-    })();
+  const manifest = await manifestRes.json();
 
-    setRecentVideos(newRecents);
+  const res = await fetch(
+    `${CDN_BASE}/shard-${nextShardNum}.json?v=${encodeURIComponent(manifest.generatedAt)}`
+  );
 
-    const recentIds = new Set(newRecents.map(v => v.id));
+  if (!res.ok) {
+    throw new Error(`Failed to fetch shard-${nextShardNum}.json: ${res.status}`);
+  }
 
-    setHistoryPointer(prevPointer => {
-      let nextPointer = prevPointer + 1;
+  return {
+    videos: await res.json(),
+    generatedAt: manifest.generatedAt
+  };
+};
 
-      while (
-        nextPointer < history.length &&
-        recentIds.has(history[nextPointer].id)
-      ) {
-        nextPointer++;
-      }
+const goNext = async () => {
+  const leavingVideo = history[historyPointer];
 
-      if (nextPointer < history.length) {
-        return nextPointer;
-      }
+  const newRecents = (() => {
+    const filtered = recentVideos.filter(v => v.id !== leavingVideo.id);
+    return [leavingVideo, ...filtered].slice(0, 10);
+  })();
 
-      const historyIds = new Set(history.map(v => v.id));
-      const nextVideo = allVideos.find(
+  setRecentVideos(newRecents);
+
+  const recentIds = new Set(newRecents.map(v => v.id));
+
+  let nextPointer = historyPointer + 1;
+
+  while (
+    nextPointer < history.length &&
+    recentIds.has(history[nextPointer].id)
+  ) {
+    nextPointer++;
+  }
+
+  if (nextPointer < history.length) {
+    setHistoryPointer(nextPointer);
+    return;
+  }
+
+  const historyIds = new Set(history.map(v => v.id));
+
+  let nextVideo = allVideos.find(
+    v => !historyIds.has(v.id) && !recentIds.has(v.id)
+  );
+
+  if (!nextVideo) {
+    const newShardVideos = await loadNextShard();
+
+    if (newShardVideos) {
+      nextVideo = newShardVideos.find(
         v => !historyIds.has(v.id) && !recentIds.has(v.id)
       );
+    }
+  }
 
-      if (nextVideo) {
-        const newIndex = history.length;
-        setHistory(prev => [...prev, nextVideo]);
-        return newIndex;
-      }
-
-      return prevPointer;
-    });
-  };
-
+  if (nextVideo) {
+    const newIndex = history.length;
+    setHistory(prev => [...prev, nextVideo]);
+    setHistoryPointer(newIndex);
+  }
+};
 
   const goPrevious = () => {
     const leavingVideo = history[historyPointer];
@@ -265,6 +304,52 @@ useEffect(() => {
     });
 
     setHistoryPointer(historyPointer);
+  };
+
+
+  const loadNextShard = async () => {
+    if (isLoadingShard.current) {
+      return null;
+    }
+
+    isLoadingShard.current = true;
+
+    try {
+      const nextShard = currentShard + 1;
+
+      if (nextShard > shardCount) {
+        return null;
+      }
+
+      const manifestRes = await fetch(
+        `${CDN_BASE}/manifest.json`,
+        { cache: 'no-store' }
+      );
+
+      const manifest = await manifestRes.json();
+
+      const videosRes = await fetch(
+        `${CDN_BASE}/shard-${nextShard}.json?v=${encodeURIComponent(manifest.generatedAt)}`
+      );
+
+      if (!videosRes.ok) {
+        throw new Error(`Failed loading shard ${nextShard}`);
+      }
+
+      const videos = await videosRes.json();
+
+      setCurrentShard(nextShard);
+      setAllVideos(videos);
+
+      return videos;
+
+    } catch (err) {
+      console.error("Failed loading next shard:", err);
+      return null;
+
+    } finally {
+      isLoadingShard.current = false;
+    }
   };
 
 
