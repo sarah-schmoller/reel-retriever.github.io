@@ -354,18 +354,6 @@
     "embeddable": true
   },
   {
-    "id": "JvRP83bA5FI",
-    "title": "DSCF1299",
-    "thumbnail": "https://i.ytimg.com/vi/JvRP83bA5FI/default.jpg",
-    "channelName": "yoykoyou",
-    "uploadDate": "2010-09-15T09:00:41Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "4-cdv24ATlI",
     "title": "DSCF1124",
     "thumbnail": "https://i.ytimg.com/vi/4-cdv24ATlI/default.jpg",
@@ -416,18 +404,6 @@
     "thumbnail": "https://i.ytimg.com/vi/hC805DBVj_A/default.jpg",
     "channelName": "Faye Johnson",
     "uploadDate": "2010-02-21T12:22:58Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "QNIbm4cFV8Q",
-    "title": "DSCF0749",
-    "thumbnail": "https://i.ytimg.com/vi/QNIbm4cFV8Q/default.jpg",
-    "channelName": "Michael Lindstrom",
-    "uploadDate": "2012-04-23T06:48:40Z",
     "fileType": "DSCF",
     "tags": {
       "homeVideo": true
@@ -722,18 +698,6 @@
     "embeddable": true
   },
   {
-    "id": "3tx2a31uMYI",
-    "title": "DSCF1138",
-    "thumbnail": "https://i.ytimg.com/vi/3tx2a31uMYI/default.jpg",
-    "channelName": "jacobparker1983",
-    "uploadDate": "2018-03-30T22:36:37Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "pgUQDu6Cyq4",
     "title": "DSCF1237",
     "thumbnail": "https://i.ytimg.com/vi/pgUQDu6Cyq4/default.jpg",
@@ -792,18 +756,6 @@
       "homeVideo": {
         "BOOL": true
       }
-    },
-    "embeddable": true
-  },
-  {
-    "id": "znPct5Hx5cc",
-    "title": "DSCF0641",
-    "thumbnail": "https://i.ytimg.com/vi/znPct5Hx5cc/default.jpg",
-    "channelName": "Ruth Martin",
-    "uploadDate": "2012-10-26T11:15:40Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
     },
     "embeddable": true
   },
@@ -1042,35 +994,11 @@
     "embeddable": true
   },
   {
-    "id": "p4rJLze_uZY",
-    "title": "DSCF1094",
-    "thumbnail": "https://i.ytimg.com/vi/p4rJLze_uZY/default.jpg",
-    "channelName": "Matthew Denton",
-    "uploadDate": "2009-06-11T16:21:15Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "AA2RWfMfeeA",
     "title": "DSCF0240",
     "thumbnail": "https://i.ytimg.com/vi/AA2RWfMfeeA/default.jpg",
     "channelName": "simranjeetsimar",
     "uploadDate": "2010-12-28T19:23:01Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "tBosSnSmbyY",
-    "title": "DSCF0763",
-    "thumbnail": "https://i.ytimg.com/vi/tBosSnSmbyY/default.jpg",
-    "channelName": "combiec",
-    "uploadDate": "2013-01-07T22:18:41Z",
     "fileType": "DSCF",
     "tags": {
       "homeVideo": true
