@@ -156,18 +156,6 @@
     "embeddable": true
   },
   {
-    "id": "JS7WhRQZgw0",
-    "title": "DSCF1172",
-    "thumbnail": "https://i.ytimg.com/vi/JS7WhRQZgw0/default.jpg",
-    "channelName": "Fanny Teix",
-    "uploadDate": "2013-08-10T19:32:12Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "BLCQI6oTCK8",
     "title": "DSCF0543",
     "thumbnail": "https://i.ytimg.com/vi/BLCQI6oTCK8/default.jpg",
@@ -220,30 +208,6 @@
     "thumbnail": "https://i.ytimg.com/vi/jImznW03pLk/default.jpg",
     "channelName": "Dimitrinka Urumova",
     "uploadDate": "2015-04-12T15:19:17Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "EvyjzmkqII8",
-    "title": "DSCF0344",
-    "thumbnail": "https://i.ytimg.com/vi/EvyjzmkqII8/default.jpg",
-    "channelName": "優生",
-    "uploadDate": "2013-11-10T12:01:28Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "SBZfNSmbZ5s",
-    "title": "DSCF1008",
-    "thumbnail": "https://i.ytimg.com/vi/SBZfNSmbZ5s/default.jpg",
-    "channelName": "okuyamashoichi",
-    "uploadDate": "2011-10-31T11:46:25Z",
     "fileType": "DSCF",
     "tags": {
       "homeVideo": true
@@ -493,18 +457,6 @@
     "embeddable": true
   },
   {
-    "id": "-PToSeYxrdo",
-    "title": "DSCF0380",
-    "thumbnail": "https://i.ytimg.com/vi/-PToSeYxrdo/default.jpg",
-    "channelName": "Huynh TheBao",
-    "uploadDate": "2010-11-04T16:24:02Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "AfYZYCB2w78",
     "title": "DSCF0204",
     "thumbnail": "https://i.ytimg.com/vi/AfYZYCB2w78/default.jpg",
@@ -685,18 +637,6 @@
     "embeddable": true
   },
   {
-    "id": "aMvHqttWAkY",
-    "title": "DSCF0166.AVI",
-    "thumbnail": "https://i.ytimg.com/vi/aMvHqttWAkY/default.jpg",
-    "channelName": "Christy S",
-    "uploadDate": "2012-03-25T03:49:46Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
     "id": "s_hU4XV6qNM",
     "title": "DSCF0942 1",
     "thumbnail": "https://i.ytimg.com/vi/s_hU4XV6qNM/default.jpg",
@@ -731,18 +671,6 @@
       "homeVideo": {
         "BOOL": true
       }
-    },
-    "embeddable": true
-  },
-  {
-    "id": "1tVmLN9VWNc",
-    "title": "DSCF0801.AVI",
-    "thumbnail": "https://i.ytimg.com/vi/1tVmLN9VWNc/default.jpg",
-    "channelName": "hulld21",
-    "uploadDate": "2010-02-18T22:00:41Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
     },
     "embeddable": true
   },
