@@ -3,6 +3,28 @@ import '../styles/homePageStyles.css';
 
 const CDN_BASE = 'https://cdn.jsdelivr.net/gh/sarah-schmoller/reel-retriever.github.io@gh-pages/videos';
 
+const EMBED_OPTIONS = ['Embeddable Only', 'Allow Non-Embeddable'];
+ 
+const DATE_OPTIONS = ['All Time', '2005–2012', '2013–2020', '2021–present'];
+ 
+const DATE_RANGES = {
+  'All Time': null,
+  '2005–2012': [2005, 2012],
+  '2013–2020': [2013, 2020],
+  '2021–present': [2021, 9999],
+};
+ 
+const TYPE_OPTIONS = ['All Uploads', 'Home Video', 'Trail Cam', 'Dash Cam', 'Drone'];
+
+const SPECIALTY_FIELDS = {
+  'Trail Cam': 'trailCam',
+  'Dash Cam': 'dashCam',
+  'Drone': 'drone',
+};
+
+const ALL_SPECIALTY_FIELDS = Object.values(SPECIALTY_FIELDS);
+ 
+
 function HomePage() {
 
   const isLoadingShard = useRef(false);
@@ -11,6 +33,11 @@ function HomePage() {
   const [allVideos, setAllVideos] = useState([]);
   const [shardDataReady, setShardDataReady] = useState(false);
   const [shardCount, setShardCount] = useState(12);
+
+  const [embedFilter, setEmbedFilter] = useState('Embeddable Only');
+  const [dateFilter, setDateFilter] = useState('All Time');
+  const [typeFilter, setTypeFilter] = useState('All Uploads');
+
   const [progress, setProgress] = useState(() => {
       const saved = localStorage.getItem("progress");
 
@@ -33,6 +60,40 @@ function HomePage() {
   const [playableIndices, setPlayableIndices] = useState([]);
 
   const [isReady, setIsReady] = useState(false);
+
+
+  const categoryFlag = (video, field) => {
+    if (video[field] !== undefined) return video[field] === true;
+    return video.tags?.[field] === true;
+  };
+ 
+  const matchesFilters = (video) => {
+    if (!video) return false;
+ 
+    if (embedFilter === 'Embeddable Only' && video.embeddable === false) return false;
+ 
+    const range = DATE_RANGES[dateFilter];
+    if (range) {
+      const year = new Date(video.uploadDate).getFullYear();
+      if (Number.isNaN(year) || year < range[0] || year > range[1]) return false;
+    }
+ 
+    if (typeFilter !== 'All Uploads') {
+      if (typeFilter === 'Home Video') {
+        if (ALL_SPECIALTY_FIELDS.some((f) => categoryFlag(video, f))) return false;
+      } else {
+        if (!categoryFlag(video, SPECIALTY_FIELDS[typeFilter])) return false;
+      }
+    }
+ 
+    return true;
+  };
+ 
+  const filteredVideos = allVideos.filter(matchesFilters);
+ 
+  const currentVideo = history[historyPointer] || filteredVideos[0] || allVideos[0];
+ 
+
 
   const imagesToPreload = [
     '/aboutBackground.webp',
@@ -63,8 +124,8 @@ function HomePage() {
 
 
   useEffect(() => {
-    if (history.length === 0 && allVideos.length > 0) {
-        setHistory([allVideos[0]]);
+    if (history.length === 0 && filteredVideos.length > 0) {
+        setHistory([filteredVideos[0]]);
     }
   }, [allVideos]);
 
@@ -149,9 +210,9 @@ useEffect(() => {
 
   useEffect(() => {
     const recentIds = new Set(recentVideos.map(v => v.id));
-    const newPlayableIndices = allVideos
+    const newPlayableIndices = filteredVideos
       .map((_, i) => i)
-      .filter(i => !recentIds.has(allVideos[i].id));
+      .filter(i => !recentIds.has(filteredVideos[i].id));
 
     setPlayableIndices(newPlayableIndices);
 
@@ -159,11 +220,32 @@ useEffect(() => {
       const firstIndex = newPlayableIndices[0] ?? 0;
       setCurrentIndex(0);
     }
-  }, [recentVideos, allVideos]);
+  }, [recentVideos, allVideos, embedFilter, dateFilter, typeFilter]);
 
 
   useEffect(() => {
 
+    if (!shardDataReady) return;
+    if (filteredVideos.length >= LOW_POOL_THRESHOLD) return;
+    if (currentShard >= shardCount) return;
+    loadNextShard();
+  }, [shardDataReady, allVideos, embedFilter, dateFilter, typeFilter, currentShard, shardCount]);
+
+
+  useEffect(() => {
+    if (!shardDataReady) return;
+    const showing = history[historyPointer];
+    if (showing && matchesFilters(showing)) return;
+ 
+    const replacement = filteredVideos.find((v) => !recentVideos.some(r => r.id === v.id));
+    if (replacement) {
+      setHistory(prev => [...prev, replacement]);
+      setHistoryPointer(history.length);
+    }
+  }, [embedFilter, dateFilter, typeFilter]);
+ 
+ 
+  useEffect(() => {
     if (!isReady || !shardDataReady) return;
 
     let body = document.getElementById('body');
@@ -231,7 +313,7 @@ const goNext = async () => {
 
   while (
     nextPointer < history.length &&
-    recentIds.has(history[nextPointer].id)
+    (recentIds.has(history[nextPointer].id) || !matchesFilters(history[nextPointer]))
   ) {
     nextPointer++;
   }
@@ -243,8 +325,8 @@ const goNext = async () => {
 
   const historyIds = new Set(history.map(v => v.id));
 
-  let nextVideo = allVideos.find(
-    v => !historyIds.has(v.id) && !recentIds.has(v.id)
+  let nextVideo = filteredVideos.find(
+    v => matchesFilters(v) && !historyIds.has(v.id) && !recentIds.has(v.id)
   );
 
   if (!nextVideo) {
@@ -339,7 +421,7 @@ const goNext = async () => {
       const videos = await videosRes.json();
 
       setCurrentShard(nextShard);
-      setAllVideos(videos);
+      setAllVideos(prev => [...prev, ...videos]);
 
       return videos;
 
@@ -367,6 +449,7 @@ const goNext = async () => {
     );
   }
 
+  const noMatches = filteredVideos.length === 0;
   
   // HTML FORMATTING
   return (
@@ -480,37 +563,46 @@ const goNext = async () => {
                         <div className="overlayTextLabelOne">
                           Embeddings:
                         </div>
-                        <select className="filter embeddings">
-                          <option>Embeddable Only</option>
-                          <option>Allow Non-Embeddable</option>
+                        <select className="filter embeddings"
+                          value={embedFilter}
+                          onChange={(e) => setEmbedFilter(e.target.value)}
+                        >
+                          {EMBED_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
                         <div className="overlayTextLabelTwo">
                           Date:
                         </div>
-                        <select className="filter dateRange">
-                          <option>All Time</option>
-                          <option>2005–2008</option>
-                          <option>2009–2012</option>
-                          <option>2013–2016</option>
+                        <select className="filter dateRange"
+                          value={dateFilter}
+                          onChange={(e) => setDateFilter(e.target.value)}
+                        >
+                          {DATE_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
                         <div className="overlayTextLabelThree">
                           File Type:
                         </div>
-                        <select className="filter uploadType">
-                          <option>All Uploads</option>
-                          <option>DSCF</option>
-                          <option>IMG</option>
-                          <option>MOV</option>
+                        <select className="filter uploadType"
+                          value={typeFilter}
+                          onChange={(e) => setTypeFilter(e.target.value)}
+                        >
+                          {TYPE_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
                       </div>
+                      {noMatches ? (
+                        <div className="videoEmbedding noMatchesState">
+                          No videos in today's rotation match this combination —
+                          new videos are added daily, so check back tomorrow.
+                        </div>
+                      ) : (
                       <iframe
-                        key={currentVideo.id}
+                        key={currentVideo?.id}
                         className="videoEmbedding"
                         src={`https://www.youtube.com/embed/${currentVideo.id}?rel=0&modestbranding=1`}
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                       />
+                      )}
                     </div>
                     <div className="videoControls">
                       <img
@@ -709,31 +801,46 @@ const goNext = async () => {
                         className="videoPlayerBackgroundImage"
                       />
                       <div className="videoPlayerFilterOverlay">
-                        <select className="mobileFilter mobileEmbeddings">
-                          <option>Embeddable Only</option>
-                          <option>Allow Non-Embeddable</option>
+
+                        <select
+                          className="mobileFilter mobileEmbeddings"
+                          value={embedFilter}
+                          onChange={(e) => setEmbedFilter(e.target.value)}
+                        >
+                          {EMBED_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
-                        <select className="mobileFilter mobileDateRange">
-                          <option>All Time</option>
-                          <option>2005–2008</option>
-                          <option>2009–2012</option>
-                          <option>2013–2016</option>
+
+                        <select
+                          className="mobileFilter mobileEmbeddings"
+                          value={dateFilter}
+                          onChange={(e) => setDateFilter(e.target.value)}
+                        >
+                          {DATE_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
-                        <select className="mobileFilter mobileUploadType">
-                          <option>All Uploads</option>
-                          <option>DSCF</option>
-                          <option>IMG</option>
-                          <option>MOV</option>
+
+                        <select
+                          className="mobileFilter mobileEmbeddings"
+                          value={typeFilter}
+                          onChange={(e) => setTypeFilter(e.target.value)}
+                        >
+                          {TYPE_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
                       </div>
+                      {noMatches ? (
+                        <div className="videoEmbedding noMatchesState">
+                          No videos in today's rotation match this combination —
+                          new videos are added daily, so check back tomorrow.
+                        </div>
+                      ) : (
                       <iframe
-                        key={currentVideo.id}
+                        key={currentVideo?.id}
                         className="videoEmbedding"
                         src={`https://www.youtube.com/embed/${currentVideo.id}?rel=0&modestbranding=1`}
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                       />
+                      )}
                     </div>
                     <div className="videoControls">
                       <img
