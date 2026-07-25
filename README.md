@@ -69,6 +69,8 @@ I wanted to build something that encouraged curiosity without relying on popular
 
 Reel Retriever is an experiment in rediscovering the internet's less-traveled paths and celebrating the ordinary, creative, and occasionally bizarre things people choose to share.
 
+![](https://github.com/sarah-schmoller/reel-retriever.github.io/blob/main/screenshot.jpg)
+
 ### Disclaimer
 
 Reel Retriever is an independent project and is not affiliated with, endorsed by, or sponsored by YouTube or Google.
