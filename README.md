@@ -3,6 +3,8 @@
 
 Live Site: [reelretriever.com](https://www.reelretriever.com/)
 
+![](https://github.com/sarah-schmoller/reel-retriever.github.io/blob/main/screenshot.jpg)
+
 Reel Retriever is a web application dedicated to discovering the overlooked corners of YouTube. Instead of recommending popular or trending content, Reel Retriever helps users stumble across videos that have received little attention.
 
 From forgotten home movies and amateur performances to school projects, auditions, and everyday moments captured on camera, Reel Retriever offers a window into the lives and experiences of people around the world.
@@ -68,8 +70,6 @@ Modern recommendation algorithms are remarkably good at showing us content we're
 I wanted to build something that encouraged curiosity without relying on popularity, engagement metrics, or personalized recommendations.
 
 Reel Retriever is an experiment in rediscovering the internet's less-traveled paths and celebrating the ordinary, creative, and occasionally bizarre things people choose to share.
-
-![](https://github.com/sarah-schmoller/reel-retriever.github.io/blob/main/screenshot.jpg)
 
 ### Disclaimer
 
