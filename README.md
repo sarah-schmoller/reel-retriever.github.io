@@ -37,7 +37,7 @@ Reel Retriever does not download, modify, or rehost videos. Videos remain on You
 
 ### Tech Stack
 
-  - Frontend
+#### Frontend
 
   - React
 
@@ -45,7 +45,7 @@ Reel Retriever does not download, modify, or rehost videos. Videos remain on You
 
   - HTML / CSS
 
-  - Backend & Infrastructure
+#### Backend & Infrastructure
 
   - AWS Lambda
 
