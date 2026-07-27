@@ -2,6 +2,7 @@
 ## Digging up the videos the algorithm forgot.
 
 Live Site: [reelretriever.com](https://www.reelretriever.com/)
+
 Status: Active Development
 
 Reel Retriever is an ongoing personal project. The application and its supporting infrastructure are still under development, with additional functionality, improvements, and testing planned.
