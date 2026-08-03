@@ -196,9 +196,8 @@
     "uploadDate": "2020-01-23T19:30:02Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -426,9 +425,8 @@
     "uploadDate": "2020-06-09T12:46:49Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -895,9 +893,8 @@
     "uploadDate": "2020-01-27T10:24:27Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -1077,6 +1074,78 @@
     "thumbnail": "https://i.ytimg.com/vi/dCN1QAcEaL0/default.jpg",
     "channelName": "thelongestline",
     "uploadDate": "2010-03-08T02:24:38Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "aqv7iofsUlo",
+    "title": "DSCF1496",
+    "thumbnail": "https://i.ytimg.com/vi/aqv7iofsUlo/default.jpg",
+    "channelName": "jean-pierre zajac",
+    "uploadDate": "2014-09-15T14:59:24Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "cfZPcGIMd-Q",
+    "title": "DSCF0682",
+    "thumbnail": "https://i.ytimg.com/vi/cfZPcGIMd-Q/default.jpg",
+    "channelName": "0829Jrob",
+    "uploadDate": "2012-06-21T14:23:36Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "AEyBOGk9ZcQ",
+    "title": "DSCF0832",
+    "thumbnail": "https://i.ytimg.com/vi/AEyBOGk9ZcQ/default.jpg",
+    "channelName": "Виктор Булыгин",
+    "uploadDate": "2013-07-20T17:52:17Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "qhwpVcZVESo",
+    "title": "DSCF0268",
+    "thumbnail": "https://i.ytimg.com/vi/qhwpVcZVESo/default.jpg",
+    "channelName": "amberwallacephoto",
+    "uploadDate": "2014-06-23T13:59:45Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "kEaks3PtH5U",
+    "title": "DSCF1031",
+    "thumbnail": "https://i.ytimg.com/vi/kEaks3PtH5U/default.jpg",
+    "channelName": "Dalina Zapodeanu",
+    "uploadDate": "2013-10-04T14:42:06Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true
+  },
+  {
+    "id": "Pt7Af3ulGRE",
+    "title": "DSCF1189",
+    "thumbnail": "https://i.ytimg.com/vi/Pt7Af3ulGRE/default.jpg",
+    "channelName": "miguel gonzález",
+    "uploadDate": "2013-01-14T05:44:43Z",
     "fileType": "DSCF",
     "tags": {
       "homeVideo": true
