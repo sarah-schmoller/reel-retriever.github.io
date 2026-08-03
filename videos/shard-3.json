@@ -343,7 +343,8 @@
     "uploadDate": "2019-10-06T20:33:43Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -560,9 +561,8 @@
     "uploadDate": "2020-06-29T15:04:17Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -670,7 +670,8 @@
     "uploadDate": "2021-06-26T03:29:00Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -1168,9 +1169,8 @@
     "uploadDate": "2023-01-15T14:41:33Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -1308,9 +1308,8 @@
     "uploadDate": "2019-04-24T08:00:30Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2093,7 +2092,8 @@
     "uploadDate": "2019-03-08T19:54:42Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2517,9 +2517,8 @@
     "uploadDate": "2020-04-19T10:54:36Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2672,7 +2671,8 @@
     "uploadDate": "2020-09-14T19:11:40Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": true,
+      "trailCam": false
     },
     "embeddable": true
   },
@@ -2816,9 +2816,8 @@
     "uploadDate": "2024-08-31T16:19:04Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2902,7 +2901,8 @@
     "uploadDate": "2020-04-06T10:30:12Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3009,9 +3009,8 @@
     "uploadDate": "2023-06-09T18:00:26Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3155,7 +3154,8 @@
     "uploadDate": "2023-03-22T21:56:30Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3311,7 +3311,8 @@
     "uploadDate": "2020-02-13T02:03:04Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3479,7 +3480,8 @@
     "uploadDate": "2023-09-30T13:11:20Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
