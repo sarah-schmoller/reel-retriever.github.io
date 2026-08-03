@@ -521,7 +521,8 @@
     "uploadDate": "2020-08-29T22:48:44Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -701,9 +702,8 @@
     "uploadDate": "2024-05-19T15:00:51Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -798,6 +798,10 @@
     "channelName": "kryab krysabian",
     "uploadDate": "2024-04-29T16:39:57Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -1209,7 +1213,8 @@
     "uploadDate": "2023-06-21T21:21:02Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -1377,6 +1382,10 @@
     "channelName": "Tim Allman",
     "uploadDate": "2017-11-17T17:48:59Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -1818,6 +1827,10 @@
     "channelName": "NM Game Cam",
     "uploadDate": "2021-03-14T00:42:58Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -2082,9 +2095,8 @@
     "uploadDate": "2020-06-07T20:48:44Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2096,9 +2108,8 @@
     "uploadDate": "2021-06-07T08:24:03Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -2289,6 +2300,10 @@
     "channelName": "StP - Wild forest",
     "uploadDate": "2021-09-27T09:50:35Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -2406,6 +2421,10 @@
     "channelName": "Laetitia Kergozou",
     "uploadDate": "2019-09-17T18:28:06Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -2571,6 +2590,10 @@
     "channelName": "zenonabrzeg",
     "uploadDate": "2024-01-27T16:50:34Z",
     "fileType": "DSCF",
+    "tags": {
+      "homeVideo": false,
+      "trailCam": true
+    },
     "embeddable": true
   },
   {
@@ -3007,7 +3030,8 @@
     "uploadDate": "2021-07-25T22:18:03Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3124,7 +3148,8 @@
     "uploadDate": "2022-05-12T20:05:40Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": true
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
@@ -3244,9 +3269,8 @@
     "uploadDate": "2024-08-31T16:14:15Z",
     "fileType": "DSCF",
     "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
+      "homeVideo": false,
+      "trailCam": true
     },
     "embeddable": true
   },
