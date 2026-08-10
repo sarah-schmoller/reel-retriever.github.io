@@ -1,127 +1,42 @@
 [
   {
-    "id": "RvXwqFDSJMA",
-    "title": "DSCF1343",
-    "thumbnail": "https://i.ytimg.com/vi/RvXwqFDSJMA/default.jpg",
-    "channelName": "gilles27kevin34",
-    "uploadDate": "2010-10-07T05:49:29Z",
-    "fileType": "DSCF",
+    "id": "sPmWP4uhipM",
+    "title": "PICT0020.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/sPmWP4uhipM/default.jpg",
+    "channelName": "David Barreiro Gutiérrez",
+    "uploadDate": "2012-01-06T17:16:36Z",
+    "fileType": "PICT",
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
-    "id": "lxzerPuGFMM",
-    "title": "DSCF1101",
-    "thumbnail": "https://i.ytimg.com/vi/lxzerPuGFMM/default.jpg",
-    "channelName": "cup1us",
-    "uploadDate": "2013-03-06T02:31:29Z",
-    "fileType": "DSCF",
+    "id": "dllBf5YI18U",
+    "title": "PICT0012 2",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/dllBf5YI18U/default.jpg",
+    "channelName": "normand menard",
+    "uploadDate": "2016-08-27T06:23:43Z",
+    "fileType": "PICT",
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "iwCQf2rgQlM",
-    "title": "DSCF0283",
-    "thumbnail": "https://i.ytimg.com/vi/iwCQf2rgQlM/default.jpg",
-    "channelName": "tingo sain",
-    "uploadDate": "2011-06-05T18:36:10Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "qAwkclCIEpg",
-    "title": "DSCF1185",
-    "thumbnail": "https://i.ytimg.com/vi/qAwkclCIEpg/default.jpg",
-    "channelName": "Didier Becart",
-    "uploadDate": "2013-11-13T19:14:18Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "hoxwvI7ZuNQ",
-    "title": "DSCF0518",
-    "thumbnail": "https://i.ytimg.com/vi/hoxwvI7ZuNQ/default.jpg",
-    "channelName": "Shawna Williams",
-    "uploadDate": "2015-09-25T23:06:47Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "ipnsS5QxjOI",
-    "title": "DSCF0277",
-    "thumbnail": "https://i.ytimg.com/vi/ipnsS5QxjOI/default.jpg",
-    "channelName": "Reg Corkum",
-    "uploadDate": "2014-04-01T13:58:50Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "kdfiruj6NUw",
-    "title": "DSCF0183",
-    "thumbnail": "https://i.ytimg.com/vi/kdfiruj6NUw/default.jpg",
-    "channelName": "lowendBHG",
-    "uploadDate": "2014-11-30T02:06:43Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "Nw5DrfUUqdo",
-    "title": "DSCF0658",
-    "thumbnail": "https://i.ytimg.com/vi/Nw5DrfUUqdo/default.jpg",
-    "channelName": "Choquedeculturas",
-    "uploadDate": "2012-10-26T02:27:39Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "tunRhgqjWvE",
-    "title": "DSCF0094",
-    "thumbnail": "https://i.ytimg.com/vi/tunRhgqjWvE/default.jpg",
-    "channelName": "expandinguniverse1",
-    "uploadDate": "2012-08-30T16:34:20Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "aWkackQxxi4",
-    "title": "The diePods  DSCF1548.AVI",
-    "thumbnail": "https://i.ytimg.com/vi/aWkackQxxi4/default.jpg",
-    "channelName": "lisa gourley",
-    "uploadDate": "2012-02-04T18:58:30Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "p1lZFMDWmv4",
     "title": "DSCF0228",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/p1lZFMDWmv4/default.jpg",
     "channelName": "GigaMDP",
     "uploadDate": "2012-09-28T21:57:33Z",
@@ -129,119 +44,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "Lo784WSXTCg",
-    "title": "DSCF0146",
-    "thumbnail": "https://i.ytimg.com/vi/Lo784WSXTCg/default.jpg",
-    "channelName": "Максим Алексейчук",
-    "uploadDate": "2013-03-04T11:31:40Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "kJbzfQPqE4Y",
-    "title": "DSCF0179",
-    "thumbnail": "https://i.ytimg.com/vi/kJbzfQPqE4Y/default.jpg",
-    "channelName": "Washing Machines and Dryers and Power Washers",
-    "uploadDate": "2021-07-20T14:17:42Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "xLPxkZzWAa4",
-    "title": "Chaval Free Lunge October 2011",
-    "thumbnail": "https://i.ytimg.com/vi/xLPxkZzWAa4/default.jpg",
-    "channelName": "Woodberry Ponies",
-    "uploadDate": "2011-10-25T01:28:48Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "HYczAiASwcc",
-    "title": "DSCF0163",
-    "thumbnail": "https://i.ytimg.com/vi/HYczAiASwcc/default.jpg",
-    "channelName": "collins3184",
-    "uploadDate": "2011-12-19T00:58:31Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "GaTqpgRaCMs",
-    "title": "DSCF0088",
-    "thumbnail": "https://i.ytimg.com/vi/GaTqpgRaCMs/default.jpg",
-    "channelName": "Grfilhosdoceu",
-    "uploadDate": "2012-12-20T03:43:02Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "t_PdbJ_3OrY",
-    "title": "DSCF0220",
-    "thumbnail": "https://i.ytimg.com/vi/t_PdbJ_3OrY/default.jpg",
-    "channelName": "weber alves santana",
-    "uploadDate": "2014-03-18T15:38:37Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "SDF1JBf8jbA",
-    "title": "DSCF1276.AVI",
-    "thumbnail": "https://i.ytimg.com/vi/SDF1JBf8jbA/default.jpg",
-    "channelName": "notretourdumonde",
-    "uploadDate": "2010-07-06T00:01:48Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "vp0fRRPJ5iA",
-    "title": "DSCF1037保土ヶ谷キャンドルナイト20140830池でかがり火",
-    "thumbnail": "https://i.ytimg.com/vi/vp0fRRPJ5iA/default.jpg",
-    "channelName": "MIYAGAYAOOTAHARA",
-    "uploadDate": "2014-08-30T23:21:06Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "BhalafnWQz8",
-    "title": "6/4/2017 Raystown Big Island Cliff Jump DSCF0253",
-    "thumbnail": "https://i.ytimg.com/vi/BhalafnWQz8/default.jpg",
-    "channelName": "Lenny Lucas",
-    "uploadDate": "2017-06-05T21:02:35Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "RLvTU_JD0hU",
     "title": "DSCF1349",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/RLvTU_JD0hU/default.jpg",
     "channelName": "Kansai Culture",
     "uploadDate": "2015-07-23T14:42:15Z",
@@ -249,11 +61,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "bsBqkg-6wcg",
     "title": "DSCF0212.avi",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/bsBqkg-6wcg/default.jpg",
     "channelName": "TheEDMILSONPEREIRA",
     "uploadDate": "2012-05-15T18:50:20Z",
@@ -261,11 +78,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "nkIM4pKkFXI",
     "title": "DSCF0066",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/nkIM4pKkFXI/default.jpg",
     "channelName": "WoW Roofing Insulation",
     "uploadDate": "2016-04-06T03:53:30Z",
@@ -273,11 +95,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "hm_XtDpIzwk",
     "title": "DSCF0059",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hm_XtDpIzwk/default.jpg",
     "channelName": "Andy Crouch",
     "uploadDate": "2014-02-09T13:58:53Z",
@@ -287,11 +114,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "qI3UauVbQ2E",
     "title": "DSCF0200",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/qI3UauVbQ2E/default.jpg",
     "channelName": "UnK2012channel",
     "uploadDate": "2012-03-24T15:43:20Z",
@@ -299,11 +131,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "I7RWVOPrWLI",
     "title": "DSCF1030",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/I7RWVOPrWLI/default.jpg",
     "channelName": "chaiyapat noinamthing",
     "uploadDate": "2013-05-27T15:44:28Z",
@@ -311,11 +148,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "E4RES70Evg0",
     "title": "DSCF1555",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/E4RES70Evg0/default.jpg",
     "channelName": "Emanoel Barbosa",
     "uploadDate": "2011-08-21T20:31:13Z",
@@ -323,11 +165,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "vPqGHFAM7Ko",
     "title": "DSCF0662",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/vPqGHFAM7Ko/default.jpg",
     "channelName": "Scotts Honest Reviews",
     "uploadDate": "2012-09-29T03:31:41Z",
@@ -335,11 +182,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "xf3ydnDPVUE",
     "title": "DSCF0049ひろちんの温泉卵8月16日",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/xf3ydnDPVUE/default.jpg",
     "channelName": "野間浩",
     "uploadDate": "2025-08-16T09:42:34Z",
@@ -349,11 +201,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "MAzXuxUK3BM",
     "title": "熱情　passion　　DSCF0140",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/MAzXuxUK3BM/default.jpg",
     "channelName": "e_edger_　独学ピアノとクラシックギター",
     "uploadDate": "2026-04-07T01:40:05Z",
@@ -361,11 +218,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "cQBn9OlLNac",
     "title": "DSCF1034",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/cQBn9OlLNac/default.jpg",
     "channelName": "che aragon",
     "uploadDate": "2013-07-24T13:34:30Z",
@@ -373,11 +235,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Wc9XJX4_LFc",
     "title": "DSCF0241",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Wc9XJX4_LFc/default.jpg",
     "channelName": "wolf 475",
     "uploadDate": "2015-08-23T14:29:18Z",
@@ -385,23 +252,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "fHUycvE2eOA",
-    "title": "DSCF0323.AVI",
-    "thumbnail": "https://i.ytimg.com/vi/fHUycvE2eOA/default.jpg",
-    "channelName": "Jojo Johnson",
-    "uploadDate": "2010-03-16T05:20:58Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "uuVA_7sbwAU",
     "title": "DSCF0099",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/uuVA_7sbwAU/default.jpg",
     "channelName": "49ersspring2013",
     "uploadDate": "2013-10-20T03:38:29Z",
@@ -409,11 +269,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ZEJn-0hyyts",
     "title": "DSCF0778",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ZEJn-0hyyts/default.jpg",
     "channelName": "TheMarutxa",
     "uploadDate": "2012-08-12T11:10:11Z",
@@ -421,11 +286,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Dl4Z7pQlQew",
     "title": "DSCF1143",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Dl4Z7pQlQew/default.jpg",
     "channelName": "afternoont",
     "uploadDate": "2009-09-01T17:37:40Z",
@@ -433,11 +303,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "WqIYiGYI1cI",
+    "title": "PICT0018",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/WqIYiGYI1cI/default.jpg",
+    "channelName": "PedroChanceler",
+    "uploadDate": "2010-08-30T21:19:17Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "uxspDRsHDQk",
     "title": "DSCF1308.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/uxspDRsHDQk/default.jpg",
     "channelName": "49812361",
     "uploadDate": "2011-04-16T10:34:24Z",
@@ -445,11 +337,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ZImFEzwDhGE",
     "title": "DSCF1029",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ZImFEzwDhGE/default.jpg",
     "channelName": "Randy Jussila",
     "uploadDate": "2013-10-26T15:22:55Z",
@@ -457,11 +354,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Mkw-uFgai74",
     "title": "DSCF1025",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Mkw-uFgai74/default.jpg",
     "channelName": "Denis Krizhanovskiy",
     "uploadDate": "2013-06-02T12:53:19Z",
@@ -469,11 +371,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "oT3iiP6yyQc",
     "title": "DSCF0926.MOV",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/oT3iiP6yyQc/default.jpg",
     "channelName": "Juan Carlos Alcantar",
     "uploadDate": "2015-10-29T21:00:20Z",
@@ -481,11 +388,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "P8NnUzRJKww",
     "title": "DSCF0916.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/P8NnUzRJKww/default.jpg",
     "channelName": "firozjdang",
     "uploadDate": "2009-11-28T20:53:23Z",
@@ -493,11 +405,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "hXrGdJw7HU4",
     "title": "DSCF0461科学掘削船JOIDES Resolution号20140531見学会の動画",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hXrGdJw7HU4/default.jpg",
     "channelName": "FLYWITHMETOTHEMOON",
     "uploadDate": "2014-05-31T23:45:06Z",
@@ -505,11 +422,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "DGTbbXfR-f0",
     "title": "DSCF0286",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/DGTbbXfR-f0/default.jpg",
     "channelName": "Eskeleto",
     "uploadDate": "2020-07-19T03:43:24Z",
@@ -517,11 +439,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "GEjEv-n3K_Y",
     "title": "DSCF0693 - javelina lunch 2",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/GEjEv-n3K_Y/default.jpg",
     "channelName": "Steven Janowiecki",
     "uploadDate": "2021-02-13T21:46:05Z",
@@ -530,11 +457,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "iicy7hENcAI",
     "title": "桜島DSCF0732",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/iicy7hENcAI/default.jpg",
     "channelName": "tstm01sora",
     "uploadDate": "2012-11-23T03:25:25Z",
@@ -542,11 +474,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "pRSSGJ8H9zo",
     "title": "DSCF0376",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/pRSSGJ8H9zo/default.jpg",
     "channelName": "lukman lutfi",
     "uploadDate": "2012-05-31T07:41:26Z",
@@ -554,11 +491,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "amMo3WAgQVw",
     "title": "DSCF0057 x264",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/amMo3WAgQVw/default.jpg",
     "channelName": "ASIM SULIMAN",
     "uploadDate": "2011-11-29T10:28:30Z",
@@ -568,11 +510,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "OGyXXFLvWrc",
     "title": "DSCF0308",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OGyXXFLvWrc/default.jpg",
     "channelName": "櫻井幸",
     "uploadDate": "2015-02-07T14:48:13Z",
@@ -580,11 +527,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "nrd56oBc7B4",
     "title": "DSCF1363",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/nrd56oBc7B4/default.jpg",
     "channelName": "Chris Channel",
     "uploadDate": "2014-06-20T15:17:20Z",
@@ -592,11 +544,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "KmKlEcnV8AU",
     "title": "DSCF1367",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/KmKlEcnV8AU/default.jpg",
     "channelName": "Paulina Laz",
     "uploadDate": "2013-06-30T17:16:46Z",
@@ -604,11 +561,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "XXu4TrKcBM0",
     "title": "DSCF1205",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/XXu4TrKcBM0/default.jpg",
     "channelName": "Loversloveliarslie66",
     "uploadDate": "2009-05-12T13:02:18Z",
@@ -616,11 +578,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "9nPNnCpENyA",
     "title": "DSCF0060",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/9nPNnCpENyA/default.jpg",
     "channelName": "apostolic",
     "uploadDate": "2025-03-15T12:29:26Z",
@@ -630,11 +597,33 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
+  },
+  {
+    "id": "pB-4ZmnObbY",
+    "title": "PICT0020",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/pB-4ZmnObbY/default.jpg",
+    "channelName": "cameron johnson",
+    "uploadDate": "2014-07-09T22:15:18Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "eyovutA94tU",
     "title": "DSCF0511",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/eyovutA94tU/default.jpg",
     "channelName": "Rodrigo Zalynas",
     "uploadDate": "2013-02-01T21:37:54Z",
@@ -642,11 +631,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "vlY1h5cgsSk",
     "title": "DSCF0162",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/vlY1h5cgsSk/default.jpg",
     "channelName": "vanessa wells",
     "uploadDate": "2013-07-30T00:44:02Z",
@@ -654,11 +648,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "egWdVwytlgs",
+    "title": "PICT0019",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/egWdVwytlgs/default.jpg",
+    "channelName": "Chris Brown",
+    "uploadDate": "2018-12-20T13:54:16Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "8IPL0RBkUx4",
     "title": "DSCF0126",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/8IPL0RBkUx4/default.jpg",
     "channelName": "aliyah",
     "uploadDate": "2025-06-02T09:27:33Z",
@@ -666,11 +682,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "jaPL7NIgqvU",
     "title": "DSCF1439",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/jaPL7NIgqvU/default.jpg",
     "channelName": "davidjwang",
     "uploadDate": "2012-05-17T06:31:36Z",
@@ -678,11 +699,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "jBd6uGocKg4",
     "title": "DSCF1263",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/jBd6uGocKg4/default.jpg",
     "channelName": "Natalja Finkelstein",
     "uploadDate": "2013-05-22T22:26:41Z",
@@ -690,11 +716,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "f5Pss9HbPkU",
     "title": "Egelcam 2020-06-20 DSCF0071",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/f5Pss9HbPkU/default.jpg",
     "channelName": "Pauline Paulus",
     "uploadDate": "2020-06-21T07:09:51Z",
@@ -703,11 +734,16 @@
       "homeVideo": true,
       "trailCam": false
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "yyoS0BP4W2I",
     "title": "DSCF0117",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/yyoS0BP4W2I/default.jpg",
     "channelName": "XxemopplxX",
     "uploadDate": "2009-02-10T02:18:29Z",
@@ -715,11 +751,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "EtQljsQHDCo",
     "title": "DSCF0517",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/EtQljsQHDCo/default.jpg",
     "channelName": "清水耕太",
     "uploadDate": "2013-12-16T06:58:25Z",
@@ -727,11 +768,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "eFpiaqmMPa4",
     "title": "DSCF0829",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/eFpiaqmMPa4/default.jpg",
     "channelName": "Stephen Murphy",
     "uploadDate": "2009-07-13T15:02:32Z",
@@ -739,11 +785,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "T_4Mu1IHkwg",
     "title": "DSCF0569",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/T_4Mu1IHkwg/default.jpg",
     "channelName": "MIYAGAYAOOTAHARA",
     "uploadDate": "2013-08-18T13:19:38Z",
@@ -751,20 +802,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "BtRKEzhbX8Y",
     "title": "DSCF0026ひろちんの高峠頂上1月8日",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/BtRKEzhbX8Y/default.jpg",
     "channelName": "野間浩",
     "uploadDate": "2026-01-08T10:58:39Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "ESjpsCHru68",
     "title": "DSCF1005.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ESjpsCHru68/default.jpg",
     "channelName": "biljacwil",
     "uploadDate": "2009-12-16T03:37:07Z",
@@ -772,11 +833,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "kCXX-73LHA4",
     "title": "DSCF0331",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/kCXX-73LHA4/default.jpg",
     "channelName": "carenales",
     "uploadDate": "2009-07-28T01:55:30Z",
@@ -784,11 +850,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "lNtp7RmGBuc",
     "title": "DSCF1181",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/lNtp7RmGBuc/default.jpg",
     "channelName": "fabinhosilk",
     "uploadDate": "2010-11-24T00:20:32Z",
@@ -796,20 +867,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "9PxU_f7MlAI",
     "title": "DSCF0027ひろちんの高峠山頂2月26日",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/9PxU_f7MlAI/default.jpg",
     "channelName": "野間浩",
     "uploadDate": "2026-02-26T10:21:45Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "5maRAazXJ2c",
     "title": "DSCF0300",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/5maRAazXJ2c/default.jpg",
     "channelName": "Ricardo D",
     "uploadDate": "2012-02-02T00:52:49Z",
@@ -817,11 +898,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "OcCLdsPjlAg",
     "title": "DSCF1100",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OcCLdsPjlAg/default.jpg",
     "channelName": "алексiй севастопольскiй",
     "uploadDate": "2013-02-18T18:46:31Z",
@@ -829,11 +915,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "iJ8ssqvp6co",
     "title": "DSCF1539",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/iJ8ssqvp6co/default.jpg",
     "channelName": "alena gercyk",
     "uploadDate": "2013-02-21T06:24:23Z",
@@ -841,11 +932,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "fRmMdIwFqFc",
     "title": "DSCF0199.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/fRmMdIwFqFc/default.jpg",
     "channelName": "lols696",
     "uploadDate": "2012-01-08T21:57:24Z",
@@ -853,11 +949,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "LRtcPBWQCwk",
     "title": "DSCF0001",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/LRtcPBWQCwk/default.jpg",
     "channelName": "Mr. Keelboat",
     "uploadDate": "2025-03-02T15:53:23Z",
@@ -865,11 +966,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "c4bX1yIdNw0",
     "title": "DSCF0238",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/c4bX1yIdNw0/default.jpg",
     "channelName": "ZxRlClan",
     "uploadDate": "2012-02-19T02:36:50Z",
@@ -877,11 +983,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "b_UqcfQHCHk",
     "title": "5/3/2014 Brew Club Meeting - Video#1 - DSCF0885",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/b_UqcfQHCHk/default.jpg",
     "channelName": "JeffElliott69",
     "uploadDate": "2014-05-05T22:04:10Z",
@@ -889,11 +1000,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "_b_ENlQm7M0",
     "title": "DSCF1283",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/_b_ENlQm7M0/default.jpg",
     "channelName": "tom24813",
     "uploadDate": "2014-01-03T22:53:57Z",
@@ -901,11 +1017,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Am_P6MPvMP0",
     "title": "DSCF1199.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Am_P6MPvMP0/default.jpg",
     "channelName": "Leona Numbers",
     "uploadDate": "2010-05-02T21:24:26Z",
@@ -913,11 +1034,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "vSQKC7VfVbo",
     "title": "DSCF0121",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/vSQKC7VfVbo/default.jpg",
     "channelName": "jtp120ify",
     "uploadDate": "2018-12-20T04:30:26Z",
@@ -925,11 +1051,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "xtebQp_HGvI",
     "title": "2010 06 01 DSCF0245.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/xtebQp_HGvI/default.jpg",
     "channelName": "Rahul Saini",
     "uploadDate": "2010-06-02T02:38:16Z",
@@ -937,11 +1068,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "xeaLLMT9K8w",
     "title": "DSCF0068.MOV",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/xeaLLMT9K8w/default.jpg",
     "channelName": "derek hennigar",
     "uploadDate": "2012-05-15T21:45:13Z",
@@ -949,11 +1085,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "eQZ6pjYoNfs",
     "title": "The Sparks Boys - DSCF1319",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/eQZ6pjYoNfs/default.jpg",
     "channelName": "Algama",
     "uploadDate": "2021-05-18T08:51:27Z",
@@ -961,11 +1102,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "UKbtcFON_vA",
     "title": "DSCF1542",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/UKbtcFON_vA/default.jpg",
     "channelName": "Erik Hink",
     "uploadDate": "2012-08-31T02:28:36Z",
@@ -973,11 +1119,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "KveBrWcxM-s",
     "title": "DSCF0149",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/KveBrWcxM-s/default.jpg",
     "channelName": "JENNHYE",
     "uploadDate": "2012-03-21T02:50:30Z",
@@ -985,11 +1136,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Vu_suhOaDA4",
     "title": "DSCF0427",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Vu_suhOaDA4/default.jpg",
     "channelName": "Rebecca Goldman-Rawnsley",
     "uploadDate": "2010-10-02T05:33:34Z",
@@ -997,11 +1153,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "DFjcu4kOh9U",
     "title": "PICT0002",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/DFjcu4kOh9U/default.jpg",
     "channelName": "Alec Almeida",
     "uploadDate": "2013-06-03T18:54:09Z",
@@ -1009,11 +1170,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "nzcKVgHKmGQ",
     "title": "DSCF0525",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/nzcKVgHKmGQ/default.jpg",
     "channelName": "rain arteta",
     "uploadDate": "2009-02-27T15:37:06Z",
@@ -1021,11 +1187,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "xuoWxFLS554",
+    "title": "PICT0010",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/xuoWxFLS554/default.jpg",
+    "channelName": "defendarche",
+    "uploadDate": "2011-12-21T20:42:56Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Sjo0cD5Jjqg",
     "title": "DSCF0742",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Sjo0cD5Jjqg/default.jpg",
     "channelName": "af1ramos",
     "uploadDate": "2009-02-05T16:30:32Z",
@@ -1033,11 +1221,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "7fDGYrtzHuY",
     "title": "DSCF1160.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/7fDGYrtzHuY/default.jpg",
     "channelName": "marealucy",
     "uploadDate": "2011-03-29T14:03:50Z",
@@ -1045,11 +1238,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "T-behMyUUhk",
     "title": "DSCF0452",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/T-behMyUUhk/default.jpg",
     "channelName": "Ryton Hitzel",
     "uploadDate": "2016-09-19T04:04:04Z",
@@ -1057,11 +1255,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "GhJro3mTCp8",
     "title": "DSCF0773.avi",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/GhJro3mTCp8/default.jpg",
     "channelName": "2009regato",
     "uploadDate": "2009-12-31T12:30:06Z",
@@ -1069,11 +1272,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "qC1I3azJ8EM",
     "title": "DSCF0179",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/qC1I3azJ8EM/default.jpg",
     "channelName": "2021 Pirates",
     "uploadDate": "2021-10-05T16:24:16Z",
@@ -1081,11 +1289,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "hLhiPWqlS8k",
     "title": "DSCF1104.AVIHappy Hour July30 2010 Retro Rockets Aida dance Standby me",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hLhiPWqlS8k/default.jpg",
     "channelName": "mariaw6",
     "uploadDate": "2010-08-02T02:26:03Z",
@@ -1093,11 +1306,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ZjQog-cV7_o",
     "title": "DSCF0230",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ZjQog-cV7_o/default.jpg",
     "channelName": "Marcelle Vaz",
     "uploadDate": "2013-01-05T19:23:13Z",
@@ -1105,11 +1323,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ZskbzhPt6BU",
     "title": "DSCF0809",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ZskbzhPt6BU/default.jpg",
     "channelName": "jhvguyh",
     "uploadDate": "2012-02-22T21:53:00Z",
@@ -1117,11 +1340,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "dwTLNBkA7hQ",
     "title": "DSCF1446",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/dwTLNBkA7hQ/default.jpg",
     "channelName": "Semyamm Semyamm",
     "uploadDate": "2014-08-27T06:55:09Z",
@@ -1129,11 +1357,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "enVHwKq6FQk",
     "title": "Egelcam 2019-10-23 DSCF0050",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/enVHwKq6FQk/default.jpg",
     "channelName": "Pauline Paulus",
     "uploadDate": "2019-10-24T19:17:57Z",
@@ -1142,11 +1375,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "lzulGmdEPdw",
     "title": "DSCF0184",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/lzulGmdEPdw/default.jpg",
     "channelName": "ukspeeddevelopment",
     "uploadDate": "2011-04-29T12:17:05Z",
@@ -1154,11 +1392,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ffvColseBEk",
     "title": "DSCF0322.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ffvColseBEk/default.jpg",
     "channelName": "gartecinc",
     "uploadDate": "2010-06-05T02:03:26Z",
@@ -1166,11 +1409,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "JcCgcwTZoIs",
     "title": "DSCF1370",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/JcCgcwTZoIs/default.jpg",
     "channelName": "T. T",
     "uploadDate": "2023-03-24T07:18:50Z",
@@ -1178,11 +1426,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "das9Nw9YtUs",
     "title": "DSCF1182",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/das9Nw9YtUs/default.jpg",
     "channelName": "angelita0118",
     "uploadDate": "2009-08-30T14:52:52Z",
@@ -1190,11 +1443,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "LmOFpmKANFg",
     "title": "DSCF0927",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/LmOFpmKANFg/default.jpg",
     "channelName": "TRADING JI",
     "uploadDate": "2016-02-19T04:07:32Z",
@@ -1202,11 +1460,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "w1Yd1Ltwuog",
     "title": "DSCF0082　周りを警戒しながらようやくミケ",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/w1Yd1Ltwuog/default.jpg",
     "channelName": "棚より桜餅",
     "uploadDate": "2025-11-22T15:01:49Z",
@@ -1214,11 +1477,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "6WDYHTJmUz4",
     "title": "DSCF0238",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/6WDYHTJmUz4/default.jpg",
     "channelName": "Milovanovic Milos",
     "uploadDate": "2016-08-08T20:26:41Z",
@@ -1226,11 +1494,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "l8A2sbdvJCc",
     "title": "DSCF1549.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/l8A2sbdvJCc/default.jpg",
     "channelName": "TheKatattack22",
     "uploadDate": "2011-03-31T23:33:06Z",
@@ -1238,11 +1511,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Pq-gLl9D8-0",
     "title": "DSCF0109.MOV",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Pq-gLl9D8-0/default.jpg",
     "channelName": "R Swan",
     "uploadDate": "2011-09-13T23:02:29Z",
@@ -1250,11 +1528,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "L5IHBy9o-mA",
     "title": "DSCF0318",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/L5IHBy9o-mA/default.jpg",
     "channelName": "tansel kardaş",
     "uploadDate": "2013-03-06T11:17:53Z",
@@ -1262,7 +1545,11 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "w8-V08LlQIE",
@@ -1274,11 +1561,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Z0Ceta844Lk",
     "title": "DSCF0500",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Z0Ceta844Lk/default.jpg",
     "channelName": "adm129100",
     "uploadDate": "2018-11-19T20:11:32Z",
@@ -1286,11 +1578,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "rfWEc3e5N7Q",
     "title": "DSCF1031",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/rfWEc3e5N7Q/default.jpg",
     "channelName": "Jose Rodrigues",
     "uploadDate": "2021-12-10T10:58:03Z",
@@ -1298,11 +1595,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "QSZo2i0MJ-s",
     "title": "DSCF0002",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/QSZo2i0MJ-s/default.jpg",
     "channelName": "a25527",
     "uploadDate": "2013-01-02T05:30:19Z",
@@ -1310,11 +1612,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "7zLOYhCWb4c",
     "title": "DSCF0755.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/7zLOYhCWb4c/default.jpg",
     "channelName": "slantnose930",
     "uploadDate": "2012-01-21T22:26:45Z",
@@ -1322,11 +1629,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "k0cjd8W57mc",
     "title": "DSCF0660",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/k0cjd8W57mc/default.jpg",
     "channelName": "missbloom13",
     "uploadDate": "2009-01-23T11:11:26Z",
@@ -1334,11 +1646,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "dvIz2RugraY",
     "title": "DSCF0430",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/dvIz2RugraY/default.jpg",
     "channelName": "rickytrikis",
     "uploadDate": "2009-05-30T11:49:49Z",
@@ -1346,11 +1663,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "oo8D2haVkzs",
     "title": "Singende Ostern DSCF0484.avi",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/oo8D2haVkzs/default.jpg",
     "channelName": "Anja H",
     "uploadDate": "2010-03-23T09:20:59Z",
@@ -1358,11 +1680,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ZYux7-vi_HU",
     "title": "DSCF0394",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ZYux7-vi_HU/default.jpg",
     "channelName": "OhNein1",
     "uploadDate": "2009-11-03T18:50:05Z",
@@ -1370,11 +1697,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "JiVfDIijjVQ",
     "title": "DSCF1223.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/JiVfDIijjVQ/default.jpg",
     "channelName": "asdasda asdasda",
     "uploadDate": "2010-07-01T21:10:53Z",
@@ -1382,11 +1714,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "IfrlpS2AnAU",
     "title": "DSCF1335",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/IfrlpS2AnAU/default.jpg",
     "channelName": "Jadounette",
     "uploadDate": "2012-12-19T02:21:20Z",
@@ -1394,11 +1731,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "3qzTHSxF1nw",
     "title": "DSCF1470浅草寺境内を歩いてみた20130108夜",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/3qzTHSxF1nw/default.jpg",
     "channelName": "MIYAGAYAOOTAHARA",
     "uploadDate": "2013-01-08T22:38:57Z",
@@ -1406,11 +1748,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "xjmbZNB9-WQ",
     "title": "DSCF1482",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/xjmbZNB9-WQ/default.jpg",
     "channelName": "ja daag",
     "uploadDate": "2013-02-15T18:01:19Z",
@@ -1418,11 +1765,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "4nAaCtDL1zw",
     "title": "DSCF1136.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/4nAaCtDL1zw/default.jpg",
     "channelName": "tefibk",
     "uploadDate": "2008-12-08T22:52:39Z",
@@ -1430,11 +1782,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "0zaK0CWJcxo",
     "title": "2010 05 26 DSCF0110.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/0zaK0CWJcxo/default.jpg",
     "channelName": "Rahul Saini",
     "uploadDate": "2010-05-27T04:15:22Z",
@@ -1442,11 +1799,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "cTkaHORhm-0",
     "title": "Mr Zenn - DSCF0189",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/cTkaHORhm-0/default.jpg",
     "channelName": "graddivrot",
     "uploadDate": "2012-11-30T10:11:03Z",
@@ -1454,11 +1816,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "4MwgJmU6rdk",
     "title": "DSCF1219",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/4MwgJmU6rdk/default.jpg",
     "channelName": "0rganizatsiya",
     "uploadDate": "2010-09-11T08:05:40Z",
@@ -1466,11 +1833,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "kXI_vtG3-C0",
     "title": "DSCF0059",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/kXI_vtG3-C0/default.jpg",
     "channelName": "Benet Wiley",
     "uploadDate": "2018-03-07T10:29:42Z",
@@ -1480,11 +1852,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "uPI9LFoM2E8",
     "title": "DSCF0642",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/uPI9LFoM2E8/default.jpg",
     "channelName": "Joseph Kliche",
     "uploadDate": "2015-09-25T04:10:22Z",
@@ -1492,11 +1869,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Gcgr4c07M3M",
     "title": "DSCF1380",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Gcgr4c07M3M/default.jpg",
     "channelName": "lorrie328",
     "uploadDate": "2009-10-18T19:14:47Z",
@@ -1504,11 +1886,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ENe5So59k0w",
     "title": "DSCF0360",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ENe5So59k0w/default.jpg",
     "channelName": "remi",
     "uploadDate": "2015-03-04T10:34:00Z",
@@ -1516,11 +1903,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "rMUln-hwue8",
     "title": "DSCF0559.MOV",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/rMUln-hwue8/default.jpg",
     "channelName": "thedus2",
     "uploadDate": "2010-05-11T09:02:46Z",
@@ -1528,11 +1920,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "3Hr5jmzTd-I",
     "title": "DSCF0146",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/3Hr5jmzTd-I/default.jpg",
     "channelName": "janussniper",
     "uploadDate": "2013-06-24T11:02:18Z",
@@ -1540,11 +1937,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Gim8JftokLw",
     "title": "DSCF0014",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Gim8JftokLw/default.jpg",
     "channelName": "Doug Macke's Trail Camera Videos",
     "uploadDate": "2022-05-18T08:43:21Z",
@@ -1553,11 +1955,16 @@
       "homeVideo": false,
       "trailCam": false
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "FTZY_AVDyxY",
     "title": "DSCF0551",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/FTZY_AVDyxY/default.jpg",
     "channelName": "Алексей Павленко",
     "uploadDate": "2017-06-13T09:51:21Z",
@@ -1565,11 +1972,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "l8OidDZ4lIM",
     "title": "DSCF0481",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/l8OidDZ4lIM/default.jpg",
     "channelName": "Detectivul de Presă ȘOC! ",
     "uploadDate": "2014-04-19T17:53:06Z",
@@ -1577,11 +1989,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "reZqrLrGF4I",
     "title": "DSCF0357",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/reZqrLrGF4I/default.jpg",
     "channelName": "Robert Burberry-Stamper",
     "uploadDate": "2011-10-17T00:31:40Z",
@@ -1589,11 +2006,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "njNmwzr6fv0",
     "title": "DSCF0266.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/njNmwzr6fv0/default.jpg",
     "channelName": "gabrielsilva0",
     "uploadDate": "2010-02-27T21:03:22Z",
@@ -1601,11 +2023,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "n1Dun4bI_-A",
     "title": "DSCF0484",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/n1Dun4bI_-A/default.jpg",
     "channelName": "renatoteodoro100",
     "uploadDate": "2012-02-17T16:13:21Z",
@@ -1613,11 +2040,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "8ilOomsPiFg",
     "title": "DSCF1349 อบรมสัมมนาอนุกรรมการ สร.กฟภ.สาขา กฟต.๒ คร้้งที่ ๑ ประจำปี ๒๕๕๘",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/8ilOomsPiFg/default.jpg",
     "channelName": "chalermporn churung",
     "uploadDate": "2015-06-01T13:01:07Z",
@@ -1625,11 +2057,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "7nY0IzpRmwE",
     "title": "DSCF0881",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/7nY0IzpRmwE/default.jpg",
     "channelName": "mutalov",
     "uploadDate": "2010-12-05T22:23:43Z",
@@ -1637,11 +2074,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "DfExyxFdg1o",
     "title": "DSCF0192",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/DfExyxFdg1o/default.jpg",
     "channelName": "MILENA - Alves",
     "uploadDate": "2011-09-02T18:16:27Z",
@@ -1649,11 +2091,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "EFrmVrelPB8",
     "title": "DSCF0297",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/EFrmVrelPB8/default.jpg",
     "channelName": "pedatalent",
     "uploadDate": "2009-04-20T18:41:22Z",
@@ -1661,11 +2108,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "aQKyO4H-JnA",
     "title": "DSCF0457",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/aQKyO4H-JnA/default.jpg",
     "channelName": "rosa nina mellejor",
     "uploadDate": "2015-10-18T16:08:18Z",
@@ -1673,11 +2125,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "BmYAopUzTio",
     "title": "DSCF0284",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/BmYAopUzTio/default.jpg",
     "channelName": "slbaqua",
     "uploadDate": "2011-03-30T07:51:48Z",
@@ -1685,11 +2142,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "QHJmZqM54eg",
     "title": "DSCF1148",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/QHJmZqM54eg/default.jpg",
     "channelName": "Tada Ｔａ",
     "uploadDate": "2017-02-12T06:39:00Z",
@@ -1697,11 +2159,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "36E1jHtOYHc",
     "title": "DSCF0844",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/36E1jHtOYHc/default.jpg",
     "channelName": "江戸観賞魚",
     "uploadDate": "2017-07-28T10:45:36Z",
@@ -1709,11 +2176,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "x63AU4pafFw",
     "title": "DSCF0158",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/x63AU4pafFw/default.jpg",
     "channelName": "Новости Ульяновска",
     "uploadDate": "2014-05-06T06:13:13Z",
@@ -1721,11 +2193,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "hC1h8UZOkpU",
     "title": "DSCF1148",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hC1h8UZOkpU/default.jpg",
     "channelName": "T. T",
     "uploadDate": "2016-10-21T02:04:15Z",
@@ -1733,11 +2210,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "n-CNtSr-ebA",
     "title": "DSCF1548",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/n-CNtSr-ebA/default.jpg",
     "channelName": "alena gercyk",
     "uploadDate": "2013-02-21T06:26:19Z",
@@ -1745,11 +2227,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "G27u_sWWo4U",
     "title": "DSCF0570",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/G27u_sWWo4U/default.jpg",
     "channelName": "Marifel Osabel",
     "uploadDate": "2012-04-17T08:54:50Z",
@@ -1757,11 +2244,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "tQTDH29BiTw",
     "title": "DSCF0929モーターヨットA新港ふ頭20180427",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/tQTDH29BiTw/default.jpg",
     "channelName": "FLYWITHMETOTHEMOON",
     "uploadDate": "2018-04-27T22:10:29Z",
@@ -1769,11 +2261,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "FdzihckJIn0",
     "title": "DSCF0790",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/FdzihckJIn0/default.jpg",
     "channelName": "Le10Felix",
     "uploadDate": "2011-06-30T04:00:27Z",
@@ -1781,11 +2278,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "58y3FYv-pHA",
+    "title": "PICT0018",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/58y3FYv-pHA/default.jpg",
+    "channelName": "AnthrobotFPV",
+    "uploadDate": "2017-11-25T02:51:28Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "IneYGuSSYKg",
     "title": "DSCF0146",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/IneYGuSSYKg/default.jpg",
     "channelName": "tratamientos agroindustriales",
     "uploadDate": "2018-03-22T17:25:38Z",
@@ -1793,11 +2312,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "w5HYsntl2fY",
     "title": "DSCF0903",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/w5HYsntl2fY/default.jpg",
     "channelName": "Pink Floyd & Coverbands",
     "uploadDate": "2012-11-18T18:31:29Z",
@@ -1805,11 +2329,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "IGhvNm4OhE0",
     "title": "DSCF0535 &amp; 65 Fox Enjoys the Apple Core",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/IGhvNm4OhE0/default.jpg",
     "channelName": "Wildlife in Wareham",
     "uploadDate": "2025-05-09T07:56:11Z",
@@ -1818,11 +2347,16 @@
       "homeVideo": true,
       "trailCam": false
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "gsIs90-PXcE",
     "title": "DSCF0516.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/gsIs90-PXcE/default.jpg",
     "channelName": "eis100",
     "uploadDate": "2011-08-07T07:10:39Z",
@@ -1830,11 +2364,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "yClnUw6AEjA",
     "title": "DSCF1412",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/yClnUw6AEjA/default.jpg",
     "channelName": "kitcat17221",
     "uploadDate": "2009-04-11T13:36:42Z",
@@ -1842,131 +2381,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "ZE2A9nDQGJ0",
-    "title": "DSCF1534",
-    "thumbnail": "https://i.ytimg.com/vi/ZE2A9nDQGJ0/default.jpg",
-    "channelName": "江戸観賞魚",
-    "uploadDate": "2025-03-07T08:06:29Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "0OJ7cZ9ZX28",
-    "title": "DSCF1101",
-    "thumbnail": "https://i.ytimg.com/vi/0OJ7cZ9ZX28/default.jpg",
-    "channelName": "MrRootlevi",
-    "uploadDate": "2013-08-07T13:38:15Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "hG2I1aITwo8",
-    "title": "DSCF0388",
-    "thumbnail": "https://i.ytimg.com/vi/hG2I1aITwo8/default.jpg",
-    "channelName": "batistej2000",
-    "uploadDate": "2015-02-17T16:52:29Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "22fKjE9OME4",
-    "title": "DSCF0557",
-    "thumbnail": "https://i.ytimg.com/vi/22fKjE9OME4/default.jpg",
-    "channelName": "marugen marugen",
-    "uploadDate": "2017-10-27T06:06:50Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "Vz-Qm-1FMUc",
-    "title": "DSCF1239 converted",
-    "thumbnail": "https://i.ytimg.com/vi/Vz-Qm-1FMUc/default.jpg",
-    "channelName": "Patrick45450",
-    "uploadDate": "2012-06-03T18:16:00Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "TI_wczivD3k",
-    "title": "DSCF1468",
-    "thumbnail": "https://i.ytimg.com/vi/TI_wczivD3k/default.jpg",
-    "channelName": "Ana Maria Plastourgos",
-    "uploadDate": "2014-07-11T17:43:58Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "aya8wgDgHtY",
-    "title": "DSCF1342",
-    "thumbnail": "https://i.ytimg.com/vi/aya8wgDgHtY/default.jpg",
-    "channelName": "treemaster01",
-    "uploadDate": "2012-08-09T02:08:07Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "K2MIsObvYWo",
-    "title": "DSCF0094 (2).AVI",
-    "thumbnail": "https://i.ytimg.com/vi/K2MIsObvYWo/default.jpg",
-    "channelName": "Sergio Miguel Parreira",
-    "uploadDate": "2009-12-23T14:32:09Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "ikcr3MuQ0ls",
-    "title": "DSCF0156",
-    "thumbnail": "https://i.ytimg.com/vi/ikcr3MuQ0ls/default.jpg",
-    "channelName": "Michael M",
-    "uploadDate": "2016-11-18T21:21:24Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "rIshW2WAj3Y",
-    "title": "DSCF0854",
-    "thumbnail": "https://i.ytimg.com/vi/rIshW2WAj3Y/default.jpg",
-    "channelName": "Lapwai School District",
-    "uploadDate": "2018-05-23T21:36:51Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "-8D_7URllLQ",
     "title": "DSCF1487",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/-8D_7URllLQ/default.jpg",
     "channelName": "Chelsie1432",
     "uploadDate": "2011-05-11T01:54:09Z",
@@ -1974,11 +2398,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "QmjxcIMbR_k",
     "title": "DSCF1366",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/QmjxcIMbR_k/default.jpg",
     "channelName": "mafer cg",
     "uploadDate": "2012-03-04T20:38:42Z",
@@ -1986,11 +2415,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "POU2jX7b7IQ",
     "title": "DSCF0134",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/POU2jX7b7IQ/default.jpg",
     "channelName": "Jamie Mckellar",
     "uploadDate": "2011-06-28T15:23:07Z",
@@ -1998,23 +2432,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "81Cgb-6h7iw",
-    "title": "DSCF0520",
-    "thumbnail": "https://i.ytimg.com/vi/81Cgb-6h7iw/default.jpg",
-    "channelName": "Maksim Vasilev",
-    "uploadDate": "2012-04-01T18:56:17Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ky0Iu7vlM44",
     "title": "DSCF0386",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ky0Iu7vlM44/default.jpg",
     "channelName": "Jack Farley",
     "uploadDate": "2021-05-11T16:13:13Z",
@@ -2022,11 +2449,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "-TR-XlpVBMk",
     "title": "DSCF0059",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/-TR-XlpVBMk/default.jpg",
     "channelName": "bruce mercer Blameless & Shameless",
     "uploadDate": "2020-01-20T23:12:04Z",
@@ -2036,11 +2468,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "jaatgyPd3Os",
     "title": "DSCF0002 x264",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/jaatgyPd3Os/default.jpg",
     "channelName": "Péter Volosinovszki",
     "uploadDate": "2014-08-08T11:52:06Z",
@@ -2048,11 +2485,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Hm2zQPuGuhc",
     "title": "DSCF0391",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Hm2zQPuGuhc/default.jpg",
     "channelName": "Eikcaj Kuo",
     "uploadDate": "2014-06-08T17:12:27Z",
@@ -2060,11 +2502,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "aACYN8kFtyE",
     "title": "DSCF0099",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/aACYN8kFtyE/default.jpg",
     "channelName": "Adriane Garcias",
     "uploadDate": "2010-05-29T15:05:53Z",
@@ -2072,11 +2519,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "mc7k1sM9LMw",
     "title": "DSCF1506",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/mc7k1sM9LMw/default.jpg",
     "channelName": "BryceWavy",
     "uploadDate": "2016-04-29T18:42:16Z",
@@ -2084,11 +2536,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "erM46O2RKm0",
     "title": "DSCF0807",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/erM46O2RKm0/default.jpg",
     "channelName": "اعلام الاسكندريه",
     "uploadDate": "2015-08-31T12:57:16Z",
@@ -2096,11 +2553,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "wST2OAjo6kA",
     "title": "PICT0002.MOV",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/wST2OAjo6kA/default.jpg",
     "channelName": "MrRupert47",
     "uploadDate": "2011-05-20T19:16:06Z",
@@ -2108,11 +2570,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Vpg5bT9Jrto",
     "title": "DSCF1099",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Vpg5bT9Jrto/default.jpg",
     "channelName": "Suzios",
     "uploadDate": "2009-10-27T22:12:48Z",
@@ -2120,11 +2587,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "N4Od3n-cVak",
     "title": "DSCF0561",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/N4Od3n-cVak/default.jpg",
     "channelName": "Tada Ｔａ",
     "uploadDate": "2016-11-12T07:07:34Z",
@@ -2132,11 +2604,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Pt0xOnwpmj0",
     "title": "DSCF0109",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Pt0xOnwpmj0/default.jpg",
     "channelName": "steve gibbs",
     "uploadDate": "2011-10-17T04:54:16Z",
@@ -2144,121 +2621,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "h491VrOwDD0",
-    "title": "DSCF0646",
-    "thumbnail": "https://i.ytimg.com/vi/h491VrOwDD0/default.jpg",
-    "channelName": "ourmarina",
-    "uploadDate": "2009-07-24T04:11:59Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "VzXiVDWU-m0",
-    "title": "DSCF0376豪華客船サン・プリンセス号が横浜港出港20130506夕方",
-    "thumbnail": "https://i.ytimg.com/vi/VzXiVDWU-m0/default.jpg",
-    "channelName": "FLYWITHMETOTHEMOON",
-    "uploadDate": "2013-05-06T16:01:46Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "Wy8zKY73THs",
-    "title": "DSCF1213",
-    "thumbnail": "https://i.ytimg.com/vi/Wy8zKY73THs/default.jpg",
-    "channelName": "Juana Javier",
-    "uploadDate": "2013-02-22T22:18:08Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "JC5_ymZ6dIE",
-    "title": "DSCF1252",
-    "thumbnail": "https://i.ytimg.com/vi/JC5_ymZ6dIE/default.jpg",
-    "channelName": "Paddy Dunworth",
-    "uploadDate": "2017-04-24T19:24:23Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "_8KxbxBg3Hs",
-    "title": "DSCF1223",
-    "thumbnail": "https://i.ytimg.com/vi/_8KxbxBg3Hs/default.jpg",
-    "channelName": "Miguel Angel Mtz.",
-    "uploadDate": "2012-08-15T04:49:19Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "3lVDzvJb--U",
-    "title": "DSCF0565",
-    "thumbnail": "https://i.ytimg.com/vi/3lVDzvJb--U/default.jpg",
-    "channelName": "Anaïs Dhomps",
-    "uploadDate": "2013-06-13T00:48:13Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "KegKAXTOd1g",
-    "title": "DSCF0044",
-    "thumbnail": "https://i.ytimg.com/vi/KegKAXTOd1g/default.jpg",
-    "channelName": "570rm47",
-    "uploadDate": "2012-05-17T05:14:33Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": {
-        "BOOL": true
-      }
-    },
-    "embeddable": true
-  },
-  {
-    "id": "5tWNIkehyDY",
-    "title": "PICT0004.ASF",
-    "thumbnail": "https://i.ytimg.com/vi/5tWNIkehyDY/default.jpg",
-    "channelName": "蘇志祥",
-    "uploadDate": "2011-08-29T07:06:58Z",
-    "fileType": "PICT",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
-  },
-  {
-    "id": "97pyse7Mpjc",
-    "title": "DSCF1457",
-    "thumbnail": "https://i.ytimg.com/vi/97pyse7Mpjc/default.jpg",
-    "channelName": "bocca1com",
-    "uploadDate": "2009-05-29T05:48:23Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "MZc6blap6mE",
     "title": "DSCF0787",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/MZc6blap6mE/default.jpg",
     "channelName": "mynewlife61",
     "uploadDate": "2013-05-20T01:21:26Z",
@@ -2266,11 +2638,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "QyABBBD0Eec",
     "title": "DSCF1486",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/QyABBBD0Eec/default.jpg",
     "channelName": "MrCnecaverne",
     "uploadDate": "2015-01-01T16:57:57Z",
@@ -2278,23 +2655,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "_5er5BNMSS0",
-    "title": "DSCF1045.MP4",
-    "thumbnail": "https://i.ytimg.com/vi/_5er5BNMSS0/default.jpg",
-    "channelName": "za1grosikpl",
-    "uploadDate": "2009-12-14T00:50:14Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "gZrDfp27fh8",
     "title": "DSCF1070",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/gZrDfp27fh8/default.jpg",
     "channelName": "claudiauoblbdc",
     "uploadDate": "2013-03-16T21:44:19Z",
@@ -2302,11 +2672,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "pIgpYHfTxVM",
     "title": "DSCF0515.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/pIgpYHfTxVM/default.jpg",
     "channelName": "TheSpat24",
     "uploadDate": "2012-02-05T12:58:20Z",
@@ -2314,11 +2689,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "IgOrYs1MG8E",
     "title": "DSCF1271",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/IgOrYs1MG8E/default.jpg",
     "channelName": "Minh Truong",
     "uploadDate": "2019-05-20T07:03:01Z",
@@ -2326,20 +2706,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "toNewRdK3Z0",
     "title": "DSCF2856",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/toNewRdK3Z0/default.jpg",
     "channelName": "石川三育保育園Ⅰ",
     "uploadDate": "2016-09-27T04:27:59Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "0p7IaM3zm4E",
     "title": "DSCF0401水道",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/0p7IaM3zm4E/default.jpg",
     "channelName": "MIYAGAYAOOTAHARA",
     "uploadDate": "2013-04-02T05:54:59Z",
@@ -2347,11 +2737,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "CnNMVKhsNTc",
     "title": "PICT0001",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/CnNMVKhsNTc/default.jpg",
     "channelName": "psq52",
     "uploadDate": "2010-11-27T20:06:34Z",
@@ -2359,11 +2754,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "VXMSgTjsmL8",
     "title": "DSCF0041.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/VXMSgTjsmL8/default.jpg",
     "channelName": "Tiberiu Dascalu Dascalu",
     "uploadDate": "2010-12-27T11:51:27Z",
@@ -2373,11 +2773,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "0fWmXuoKwi4",
     "title": "Beta Motel  DSCF0424",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/0fWmXuoKwi4/default.jpg",
     "channelName": "lisa gourley",
     "uploadDate": "2015-05-23T16:25:19Z",
@@ -2385,11 +2790,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "a0RxQG5TPBA",
     "title": "Balkon 2025 in Rückersdorf Vögel und mehr DSCF0255",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/a0RxQG5TPBA/default.jpg",
     "channelName": "olaf535353",
     "uploadDate": "2025-07-30T14:24:55Z",
@@ -2398,11 +2808,16 @@
       "homeVideo": true,
       "trailCam": false
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "BoWacaMr3yk",
     "title": "DSCF0649",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/BoWacaMr3yk/default.jpg",
     "channelName": "Muriel Van de Voorde",
     "uploadDate": "2017-06-27T17:15:48Z",
@@ -2410,11 +2825,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "wLU9cieztiA",
     "title": "DSCF0485[1]",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/wLU9cieztiA/default.jpg",
     "channelName": "morgamdrn",
     "uploadDate": "2010-01-16T17:42:43Z",
@@ -2422,11 +2842,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "x4OaVwsBsJU",
     "title": "DSCF0482",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/x4OaVwsBsJU/default.jpg",
     "channelName": "chama do avivamento",
     "uploadDate": "2013-08-07T11:57:00Z",
@@ -2434,11 +2859,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "ETaXlsN5620",
+    "title": "PICT0017",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/ETaXlsN5620/default.jpg",
+    "channelName": "Могилевский КСИ",
+    "uploadDate": "2018-03-19T09:52:53Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "iYPA4UWVQDQ",
     "title": "DSCF1083.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/iYPA4UWVQDQ/default.jpg",
     "channelName": "sevpaul",
     "uploadDate": "2010-05-15T18:20:43Z",
@@ -2446,11 +2893,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Abgg5w7ndzw",
     "title": "PICT0003.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Abgg5w7ndzw/default.jpg",
     "channelName": "benito sanchez",
     "uploadDate": "2012-04-08T17:02:37Z",
@@ -2458,11 +2910,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "aAATOOZvPyI",
     "title": "DSCF0236",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/aAATOOZvPyI/default.jpg",
     "channelName": "1911 KY Shoot",
     "uploadDate": "2017-06-11T19:04:17Z",
@@ -2470,20 +2927,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Yu11UmjQFrU",
     "title": "DSCF0035",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Yu11UmjQFrU/default.jpg",
     "channelName": "argonyag",
     "uploadDate": "2013-03-04T16:06:56Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "E7EoMdfMkuQ",
     "title": "DSCF0028",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/E7EoMdfMkuQ/default.jpg",
     "channelName": "Lonni Friedman",
     "uploadDate": "2020-04-11T16:08:25Z",
@@ -2492,11 +2959,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "UQ9bFkKlo1A",
     "title": "DSCF0841",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/UQ9bFkKlo1A/default.jpg",
     "channelName": "suzelle schmitt",
     "uploadDate": "2012-03-28T06:00:57Z",
@@ -2504,11 +2976,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "MzC1_djW8CM",
     "title": "DSCF0685.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/MzC1_djW8CM/default.jpg",
     "channelName": "laurie0803",
     "uploadDate": "2009-12-31T03:25:04Z",
@@ -2516,11 +2993,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "_7Yjp6dJedg",
     "title": "DSCF0762",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/_7Yjp6dJedg/default.jpg",
     "channelName": "Ly Luong",
     "uploadDate": "2014-04-28T08:46:46Z",
@@ -2528,11 +3010,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "sLZenJ2tIEo",
     "title": "DSCF1120",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/sLZenJ2tIEo/default.jpg",
     "channelName": "vuidyy4ever",
     "uploadDate": "2011-04-14T21:18:59Z",
@@ -2540,11 +3027,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "34UUXUUPtUA",
     "title": "DSCF0176",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/34UUXUUPtUA/default.jpg",
     "channelName": "tsyang2001",
     "uploadDate": "2009-08-04T01:30:11Z",
@@ -2552,11 +3044,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "vDxkiU9leOU",
     "title": "DSCF1536 mpeg2video",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/vDxkiU9leOU/default.jpg",
     "channelName": "Flavio Pasuld",
     "uploadDate": "2011-12-07T20:53:35Z",
@@ -2564,7 +3061,11 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "gk4VgqpEKmM",
@@ -2576,20 +3077,47 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "zBZxGB-iPuc",
     "title": "DSCF0019",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/zBZxGB-iPuc/default.jpg",
     "channelName": "jasi moen",
     "uploadDate": "2017-01-24T16:21:53Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
+  },
+  {
+    "id": "k_-HNbPj8qQ",
+    "title": "PICT0018",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/k_-HNbPj8qQ/default.jpg",
+    "channelName": "В Реке Жизни",
+    "uploadDate": "2013-10-05T06:34:23Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "2SdmbMzyinI",
     "title": "DSCF0249",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/2SdmbMzyinI/default.jpg",
     "channelName": "Michael Awad",
     "uploadDate": "2018-04-06T00:31:09Z",
@@ -2597,11 +3125,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "UwbABxpKe3o",
     "title": "DSCF0330",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/UwbABxpKe3o/default.jpg",
     "channelName": "marugen ranntyuu",
     "uploadDate": "2017-03-09T03:25:51Z",
@@ -2609,11 +3142,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "YJdOKOubUh0",
     "title": "DSCF0308",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/YJdOKOubUh0/default.jpg",
     "channelName": "joan agarrado",
     "uploadDate": "2012-06-16T02:24:59Z",
@@ -2621,11 +3159,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "OWUa_3lVzZo",
     "title": "DSCF0085",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OWUa_3lVzZo/default.jpg",
     "channelName": "scleroderma999",
     "uploadDate": "2009-11-01T08:52:38Z",
@@ -2633,11 +3176,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "o1hxg3wQEqs",
     "title": "DSCF0820",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/o1hxg3wQEqs/default.jpg",
     "channelName": "harnerlevrai",
     "uploadDate": "2009-04-30T10:46:56Z",
@@ -2645,11 +3193,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "4nz_qqEvveI",
     "title": "DSCF0062",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/4nz_qqEvveI/default.jpg",
     "channelName": "jose pinedo",
     "uploadDate": "2020-06-28T06:58:49Z",
@@ -2659,11 +3212,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "YV828Pp7Ng0",
     "title": "2013.07.23.10:32 Kaiserliche Hofburg(DSCF0631)",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/YV828Pp7Ng0/default.jpg",
     "channelName": "562843tamacity",
     "uploadDate": "2014-04-23T21:12:38Z",
@@ -2671,11 +3229,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "euwwWGudcN0",
     "title": "DSCF0936",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/euwwWGudcN0/default.jpg",
     "channelName": "新山和敬",
     "uploadDate": "2013-04-12T11:28:18Z",
@@ -2683,11 +3246,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "HA8O92z4qHQ",
     "title": "DSCF0138",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/HA8O92z4qHQ/default.jpg",
     "channelName": "倉内健治",
     "uploadDate": "2013-01-18T17:22:18Z",
@@ -2695,11 +3263,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "umsg4_CcfIQ",
+    "title": "PICT0018.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/umsg4_CcfIQ/default.jpg",
+    "channelName": "ciro silva",
+    "uploadDate": "2010-07-11T16:24:05Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "eDchVHtF5Ak",
     "title": "DSCF0148",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/eDchVHtF5Ak/default.jpg",
     "channelName": "kaegab",
     "uploadDate": "2012-02-16T12:20:30Z",
@@ -2707,11 +3297,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "M3nAr249Enw",
     "title": "DSCF1283",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/M3nAr249Enw/default.jpg",
     "channelName": "Amber D.H.W",
     "uploadDate": "2013-12-23T19:49:25Z",
@@ -2719,11 +3314,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "UYP73hXcccE",
     "title": "DSCF1469",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/UYP73hXcccE/default.jpg",
     "channelName": "Rafal J.",
     "uploadDate": "2015-04-18T20:30:53Z",
@@ -2731,11 +3331,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "_3T2dLTVyYU",
     "title": "DSCF0893",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/_3T2dLTVyYU/default.jpg",
     "channelName": "JUANYTXO",
     "uploadDate": "2011-12-09T18:37:18Z",
@@ -2743,11 +3348,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "Td3Tbl5pV_4",
+    "title": "PICT0017",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/Td3Tbl5pV_4/default.jpg",
+    "channelName": "CurtisJMoss",
+    "uploadDate": "2011-03-21T20:47:54Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "DUOqHFPSuM0",
     "title": "Cala di Cava Usai DSCF1506",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/DUOqHFPSuM0/default.jpg",
     "channelName": "Dario Ridella",
     "uploadDate": "2019-07-13T16:46:03Z",
@@ -2755,11 +3382,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Ta3iBVfwTcQ",
     "title": "DSCF0466",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Ta3iBVfwTcQ/default.jpg",
     "channelName": "Rafael Brait",
     "uploadDate": "2012-06-25T04:19:11Z",
@@ -2767,11 +3399,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "3tkb0r4l4wY",
     "title": "DSCF0866",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/3tkb0r4l4wY/default.jpg",
     "channelName": "Christopher Bayer",
     "uploadDate": "2018-01-25T22:02:28Z",
@@ -2779,11 +3416,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "7DYVnoXjC8I",
     "title": "DSCF0074",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/7DYVnoXjC8I/default.jpg",
     "channelName": "accesstuch",
     "uploadDate": "2012-01-08T18:59:20Z",
@@ -2791,11 +3433,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "hWz98PctZtw",
     "title": "PICT0003",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hWz98PctZtw/default.jpg",
     "channelName": "Detlev Lengsfeld",
     "uploadDate": "2018-09-11T11:29:04Z",
@@ -2803,11 +3450,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "F0HiQCV6tZw",
     "title": "DSCF0591",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/F0HiQCV6tZw/default.jpg",
     "channelName": "Francesco Pace",
     "uploadDate": "2015-05-03T21:47:50Z",
@@ -2815,11 +3467,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "fg2TbP5g9eM",
     "title": "The Sweet Release  DSCF0246",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/fg2TbP5g9eM/default.jpg",
     "channelName": "lisa gourley",
     "uploadDate": "2015-04-24T10:31:58Z",
@@ -2827,11 +3484,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "aE7PexdnyFU",
     "title": "DSCF0854",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/aE7PexdnyFU/default.jpg",
     "channelName": "Dinamizadores Cerro Largo",
     "uploadDate": "2016-12-13T09:27:06Z",
@@ -2839,11 +3501,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "yrXacctcen4",
     "title": "DSCF0752",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/yrXacctcen4/default.jpg",
     "channelName": "Михаил Данилов",
     "uploadDate": "2014-05-27T05:52:24Z",
@@ -2851,11 +3518,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "gBGBXJShezQ",
     "title": "PICT0001",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/gBGBXJShezQ/default.jpg",
     "channelName": "kyle brewer",
     "uploadDate": "2010-08-11T00:57:25Z",
@@ -2863,11 +3535,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "uQ-bUBtsxCk",
     "title": "DSCF1013 - K10iA Xuân 2019",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/uQ-bUBtsxCk/default.jpg",
     "channelName": "Đào Việt Dũng",
     "uploadDate": "2019-02-21T03:48:05Z",
@@ -2875,11 +3552,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "SiDJIHC4nhE",
     "title": "DSCF0140",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/SiDJIHC4nhE/default.jpg",
     "channelName": "saminhaa1",
     "uploadDate": "2008-12-24T05:48:56Z",
@@ -2887,11 +3569,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "b5suwtAcFuI",
     "title": "DSCF1504",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/b5suwtAcFuI/default.jpg",
     "channelName": "robbieleeson",
     "uploadDate": "2010-08-22T23:04:08Z",
@@ -2899,11 +3586,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "PrnVnfwI9kE",
     "title": "DSCF1547.MP4",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/PrnVnfwI9kE/default.jpg",
     "channelName": "27jalisa",
     "uploadDate": "2011-05-23T19:15:45Z",
@@ -2911,11 +3603,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "f0dzNFugjCU",
     "title": "DSCF0388",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/f0dzNFugjCU/default.jpg",
     "channelName": "mihai bacalu",
     "uploadDate": "2013-06-06T18:31:31Z",
@@ -2923,11 +3620,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "9HpDePzZKig",
     "title": "Рыжий персидский котенок   DSCF0514",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/9HpDePzZKig/default.jpg",
     "channelName": "Аlice",
     "uploadDate": "2017-12-09T16:20:55Z",
@@ -2935,11 +3637,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "75K8rt0RbDs",
     "title": "DSCF0607",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/75K8rt0RbDs/default.jpg",
     "channelName": "カツ田50",
     "uploadDate": "2019-07-30T12:44:57Z",
@@ -2947,11 +3654,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "_EoHZZZlGdI",
     "title": "DSCF0200",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/_EoHZZZlGdI/default.jpg",
     "channelName": "Giovannina Ardis",
     "uploadDate": "2011-12-05T03:03:21Z",
@@ -2959,11 +3671,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "nMwZ8j40EzM",
     "title": "DSCF0751",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/nMwZ8j40EzM/default.jpg",
     "channelName": "xman2084",
     "uploadDate": "2010-10-11T07:02:54Z",
@@ -2971,11 +3688,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "y3MGN5Hlk_M",
     "title": "DSCF0003 Fox 7Dec2024 1147pm",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/y3MGN5Hlk_M/default.jpg",
     "channelName": "Wildlife in Pacifica",
     "uploadDate": "2024-12-08T18:00:41Z",
@@ -2984,11 +3706,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "hmZUwSKzkhk",
     "title": "Egelcam 2022-04-25 DSCF0054",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/hmZUwSKzkhk/default.jpg",
     "channelName": "Pauline Paulus",
     "uploadDate": "2022-04-26T20:22:30Z",
@@ -2998,11 +3725,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "O3bIEgnhdj0",
     "title": "DSCF0294",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/O3bIEgnhdj0/default.jpg",
     "channelName": "新山和敬",
     "uploadDate": "2012-01-29T04:07:47Z",
@@ -3010,11 +3742,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "E-iR7DCFtJQ",
     "title": "DSCF1010",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/E-iR7DCFtJQ/default.jpg",
     "channelName": "Unosell Muzik Enstrumanlari",
     "uploadDate": "2012-01-27T08:48:13Z",
@@ -3022,11 +3759,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "uw8hnyPROOY",
     "title": "DSCF1016",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/uw8hnyPROOY/default.jpg",
     "channelName": "VSimas",
     "uploadDate": "2008-12-12T03:40:17Z",
@@ -3034,11 +3776,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "fGXNn-2wGxo",
     "title": "DSCF0758",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/fGXNn-2wGxo/default.jpg",
     "channelName": "東尚",
     "uploadDate": "2013-09-02T01:46:37Z",
@@ -3046,20 +3793,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "1Ofm91nhcFc",
     "title": "DSCF0003",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/1Ofm91nhcFc/default.jpg",
     "channelName": "y s",
     "uploadDate": "2016-09-30T22:40:13Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "BBk666MFsaQ",
     "title": "DSCF1078側方車窓JR東海道線20150630 上野→横浜3of3",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/BBk666MFsaQ/default.jpg",
     "channelName": "FLYWITHMETOTHEMOON",
     "uploadDate": "2015-07-03T20:19:14Z",
@@ -3067,11 +3824,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "6iQA7vX2ekI",
     "title": "PICT0007",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/6iQA7vX2ekI/default.jpg",
     "channelName": "alexandra bogdan",
     "uploadDate": "2017-01-12T15:31:11Z",
@@ -3079,11 +3841,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "f4HSlNzQ0Rk",
     "title": "DSCF0204",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/f4HSlNzQ0Rk/default.jpg",
     "channelName": "Giovana Tamara",
     "uploadDate": "2013-09-14T17:42:18Z",
@@ -3091,11 +3858,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "GWAFzTLkjgA",
     "title": "DSCF0070.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/GWAFzTLkjgA/default.jpg",
     "channelName": "kawami100",
     "uploadDate": "2010-03-28T20:05:21Z",
@@ -3103,11 +3875,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "1DB4GpAMyOk",
     "title": "DSCF1057",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/1DB4GpAMyOk/default.jpg",
     "channelName": "ngammuasaobangvn",
     "uploadDate": "2010-09-13T03:11:47Z",
@@ -3115,11 +3892,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "2PNcFXa66FU",
     "title": "DSCF0653 - Copy.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/2PNcFXa66FU/default.jpg",
     "channelName": "Tamzdane",
     "uploadDate": "2012-03-17T22:27:28Z",
@@ -3127,11 +3909,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "UKc1YHzJqPI",
     "title": "DSCF1081",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/UKc1YHzJqPI/default.jpg",
     "channelName": "anita",
     "uploadDate": "2015-04-08T00:12:31Z",
@@ -3139,11 +3926,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "fJC_smknh7o",
     "title": "DSCF0221",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/fJC_smknh7o/default.jpg",
     "channelName": "crazycrook22",
     "uploadDate": "2009-08-17T20:38:55Z",
@@ -3151,11 +3943,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "mzyRHWji5Lw",
     "title": "DSCF1203",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/mzyRHWji5Lw/default.jpg",
     "channelName": "lene1802",
     "uploadDate": "2010-11-17T12:24:28Z",
@@ -3163,11 +3960,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "OFNDq7rYcfs",
     "title": "DSCF0542",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OFNDq7rYcfs/default.jpg",
     "channelName": "OhNein1",
     "uploadDate": "2009-11-03T21:24:55Z",
@@ -3175,11 +3977,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "6TlNBNNnQDQ",
     "title": "DSCF0479.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/6TlNBNNnQDQ/default.jpg",
     "channelName": "tuffgrrl1107",
     "uploadDate": "2011-10-25T23:24:31Z",
@@ -3187,11 +3994,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "3zg5Lxu4vlg",
     "title": "DSCF0163",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/3zg5Lxu4vlg/default.jpg",
     "channelName": "Michael Foki",
     "uploadDate": "2015-04-09T15:43:42Z",
@@ -3199,11 +4011,33 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "30UJiXSFCz0",
+    "title": "PICT0011",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/30UJiXSFCz0/default.jpg",
+    "channelName": "Сергей Кононенко",
+    "uploadDate": "2017-05-28T08:22:32Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "rM4ylqC5FkI",
     "title": "DSCF1008",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/rM4ylqC5FkI/default.jpg",
     "channelName": "Anita Jones",
     "uploadDate": "2013-03-12T19:25:59Z",
@@ -3211,11 +4045,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "ISFvVhG2vzM",
     "title": "DSCF1058",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/ISFvVhG2vzM/default.jpg",
     "channelName": "Ka fai Fung",
     "uploadDate": "2011-11-26T11:06:00Z",
@@ -3223,11 +4062,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "eit7cHgvsaw",
     "title": "DSCF0274",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/eit7cHgvsaw/default.jpg",
     "channelName": "nicolas dechambe",
     "uploadDate": "2013-02-03T15:25:54Z",
@@ -3235,11 +4079,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "O_k9waBm-Ac",
     "title": "PICT0005",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/O_k9waBm-Ac/default.jpg",
     "channelName": "bigelesba",
     "uploadDate": "2011-03-07T03:07:17Z",
@@ -3247,11 +4096,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "g31ZdHBtknI",
     "title": "DSCF0058",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/g31ZdHBtknI/default.jpg",
     "channelName": "Felipe Augusto",
     "uploadDate": "2011-08-25T17:44:41Z",
@@ -3261,11 +4115,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "z4Vg14_F9k8",
     "title": "DSCF0350",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/z4Vg14_F9k8/default.jpg",
     "channelName": "Stephen Norman",
     "uploadDate": "2011-07-06T13:44:02Z",
@@ -3273,11 +4132,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "TAZemB9ku60",
     "title": "DSCF0085",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/TAZemB9ku60/default.jpg",
     "channelName": "Scorvius",
     "uploadDate": "2009-07-31T15:29:44Z",
@@ -3285,32 +4149,30 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
-  },
-  {
-    "id": "nZiED7sHtyU",
-    "title": "DSCF0471 Stef 2nd half of h2",
-    "thumbnail": "https://i.ytimg.com/vi/nZiED7sHtyU/default.jpg",
-    "channelName": "ikkyodojo",
-    "uploadDate": "2013-10-01T14:11:38Z",
-    "fileType": "DSCF",
-    "tags": {
-      "homeVideo": true
-    },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "OjHJOQ0xxTY",
     "title": "DSCF0024",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OjHJOQ0xxTY/default.jpg",
     "channelName": "fona1904",
     "uploadDate": "2016-09-18T09:36:49Z",
     "fileType": "DSCF",
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "OdzGEPfLGos",
     "title": "DSCF0781",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/OdzGEPfLGos/default.jpg",
     "channelName": "小龍王後援會2013年影片",
     "uploadDate": "2013-06-25T14:30:20Z",
@@ -3318,11 +4180,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "LIH9opYWYmk",
     "title": "DSCF0101.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/LIH9opYWYmk/default.jpg",
     "channelName": "Kristin Walsh",
     "uploadDate": "2010-02-24T04:06:09Z",
@@ -3330,11 +4197,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "S-28cwWzGio",
     "title": "DSCF0262",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/S-28cwWzGio/default.jpg",
     "channelName": "mikenatori",
     "uploadDate": "2010-10-17T11:27:44Z",
@@ -3342,11 +4214,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "6Dys8QpiHME",
     "title": "DSCF0094",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/6Dys8QpiHME/default.jpg",
     "channelName": "pelzi52",
     "uploadDate": "2021-11-29T09:11:20Z",
@@ -3354,11 +4231,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "YUcOAwYyCs0",
     "title": "DSCF0229",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/YUcOAwYyCs0/default.jpg",
     "channelName": "theYTPmaster100",
     "uploadDate": "2011-05-10T21:57:52Z",
@@ -3366,11 +4248,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "Anc8uGyhMKw",
     "title": "DSCF0048",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/Anc8uGyhMKw/default.jpg",
     "channelName": "Pratik Shah",
     "uploadDate": "2025-06-17T00:46:37Z",
@@ -3380,11 +4267,16 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "fWxKLkNbl3g",
     "title": "DSCF0598",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/fWxKLkNbl3g/default.jpg",
     "channelName": "toplady52",
     "uploadDate": "2017-12-14T08:46:04Z",
@@ -3392,11 +4284,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "4ESYGws5cJs",
     "title": "DSCF0201",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/4ESYGws5cJs/default.jpg",
     "channelName": "Jacqueline Forbes",
     "uploadDate": "2013-04-10T21:05:14Z",
@@ -3404,11 +4301,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "8252Yi13vlQ",
     "title": "DSCF0001",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/8252Yi13vlQ/default.jpg",
     "channelName": "金子隆一（剣道をする猫）",
     "uploadDate": "2024-09-14T01:33:07Z",
@@ -3416,11 +4318,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "NZIbSYEcDiw",
     "title": "DSCF0797",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/NZIbSYEcDiw/default.jpg",
     "channelName": "Mad Monk",
     "uploadDate": "2024-05-05T10:20:42Z",
@@ -3429,11 +4336,16 @@
       "homeVideo": true,
       "trailCam": false
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "qyzEhXILjo8",
     "title": "DSCF1140ベイブリッジを渡る20130302朝",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/qyzEhXILjo8/default.jpg",
     "channelName": "MIYAGAYAOOTAHARA",
     "uploadDate": "2013-03-02T03:33:18Z",
@@ -3441,11 +4353,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "RtiQVPrePfA",
     "title": "DSCF0239",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/RtiQVPrePfA/default.jpg",
     "channelName": "roverman40827",
     "uploadDate": "2010-10-23T12:02:03Z",
@@ -3453,11 +4370,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "CRUnElwaD2w",
     "title": "DSCF0001",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/CRUnElwaD2w/default.jpg",
     "channelName": "DJ Paul",
     "uploadDate": "2024-10-30T13:16:59Z",
@@ -3465,11 +4387,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "20R7qAZTOY0",
     "title": "DSCF0224",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/20R7qAZTOY0/default.jpg",
     "channelName": "Ashley Cisneros Mejia",
     "uploadDate": "2012-11-27T18:19:27Z",
@@ -3477,11 +4404,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "cfcOd69_EUM",
     "title": "Dandelion Pipebomb  DSCF1058",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/cfcOd69_EUM/default.jpg",
     "channelName": "lisa gourley",
     "uploadDate": "2017-02-23T08:38:42Z",
@@ -3489,11 +4421,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "1ezLaSKHA8g",
     "title": "DSCF1359",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/1ezLaSKHA8g/default.jpg",
     "channelName": "Evalina Howard",
     "uploadDate": "2013-10-20T05:57:45Z",
@@ -3501,11 +4438,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "aGilC_rTUCY",
     "title": "DSCF0088",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/aGilC_rTUCY/default.jpg",
     "channelName": "Mark Marchok",
     "uploadDate": "2025-12-05T10:14:45Z",
@@ -3514,11 +4456,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "xwsDWmczIz0",
     "title": "DSCF1418",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/xwsDWmczIz0/default.jpg",
     "channelName": "1230ruriyu",
     "uploadDate": "2017-02-06T12:16:43Z",
@@ -3526,11 +4473,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "CxvCAWfx9h4",
     "title": "DSCF0734.AVI",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/CxvCAWfx9h4/default.jpg",
     "channelName": "Leandro B lima",
     "uploadDate": "2010-03-23T05:15:20Z",
@@ -3538,11 +4490,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "2W_KDj5ITVs",
     "title": "DSCF0785",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/2W_KDj5ITVs/default.jpg",
     "channelName": "dreamthater12",
     "uploadDate": "2010-12-16T02:03:55Z",
@@ -3550,11 +4507,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "LrL4Htt7Uy8",
     "title": "DSCF1443",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/LrL4Htt7Uy8/default.jpg",
     "channelName": "mpowell009",
     "uploadDate": "2012-09-27T13:47:01Z",
@@ -3562,11 +4524,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "8za5kzZOuR4",
     "title": "DSCF1025  4x4 santa fe dunkerque plage mer",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/8za5kzZOuR4/default.jpg",
     "channelName": "amelielea",
     "uploadDate": "2009-06-22T15:33:00Z",
@@ -3574,11 +4541,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "VdP6cai5t_4",
     "title": "DSCF1228",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/VdP6cai5t_4/default.jpg",
     "channelName": "marugen ranntyuu",
     "uploadDate": "2017-03-17T01:22:39Z",
@@ -3586,11 +4558,16 @@
     "tags": {
       "homeVideo": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
   },
   {
     "id": "y7zbC1DQsBQ",
     "title": "Vixen and Cub - 14th June 2020 - DSCF0655",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/y7zbC1DQsBQ/default.jpg",
     "channelName": "Andy Nolan",
     "uploadDate": "2020-06-15T09:21:24Z",
@@ -3599,11 +4576,16 @@
       "homeVideo": false,
       "trailCam": true
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": true,
+    "drone": false,
+    "homeVideo": false
   },
   {
     "id": "b4oVKIHTaCE",
     "title": "DSCF0046",
+    "assessment": "unreviewed",
     "thumbnail": "https://i.ytimg.com/vi/b4oVKIHTaCE/default.jpg",
     "channelName": "Mỹ Dung",
     "uploadDate": "2018-04-17T14:29:16Z",
@@ -3613,6 +4595,524 @@
         "BOOL": true
       }
     },
-    "embeddable": true
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
+  },
+  {
+    "id": "rvkeJq1JAMk",
+    "title": "PICT0013",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/rvkeJq1JAMk/default.jpg",
+    "channelName": "Richmond Canoe Club UK",
+    "uploadDate": "2013-06-29T19:57:32Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "WjhFgmkKCSI",
+    "title": "DSCF0866代官山TSUTAYAプロジェクションマッピング20150304",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/WjhFgmkKCSI/default.jpg",
+    "channelName": "MIYAGAYAOOTAHARA",
+    "uploadDate": "2015-03-05T23:55:49Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "Vyjbp0ZJVdQ",
+    "title": "PICT0015",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/Vyjbp0ZJVdQ/default.jpg",
+    "channelName": "steviesn560",
+    "uploadDate": "2011-03-17T15:57:26Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "hNCgNASqs-U",
+    "title": "DSCF0215",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/hNCgNASqs-U/default.jpg",
+    "channelName": "1968rbailey",
+    "uploadDate": "2015-08-24T00:53:33Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "x0EhF4eSuCY",
+    "title": "PICT0018",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/x0EhF4eSuCY/default.jpg",
+    "channelName": "Casey J (kcisherr1)",
+    "uploadDate": "2017-07-15T20:26:57Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "FIsvvdG4IjI",
+    "title": "DSCF0144",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/FIsvvdG4IjI/default.jpg",
+    "channelName": "neurologistspl",
+    "uploadDate": "2009-02-07T15:26:09Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "CQ6SDa6xIL8",
+    "title": "DSCF0849",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/CQ6SDa6xIL8/default.jpg",
+    "channelName": "KathimeriniCyprus",
+    "uploadDate": "2012-10-07T18:43:22Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "MMsoQywp-dE",
+    "title": "DSCF1490",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/MMsoQywp-dE/default.jpg",
+    "channelName": "saltocamille",
+    "uploadDate": "2011-06-01T20:08:07Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "YuRjIXYIXNg",
+    "title": "DSCF0216",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/YuRjIXYIXNg/default.jpg",
+    "channelName": "SINNED SALNAC",
+    "uploadDate": "2018-04-27T12:18:42Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "PzpNYm_Rjig",
+    "title": "DSCF0439.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/PzpNYm_Rjig/default.jpg",
+    "channelName": "Tygera",
+    "uploadDate": "2010-07-04T15:23:55Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "faGcWWYn5fM",
+    "title": "DSCF0077",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/faGcWWYn5fM/default.jpg",
+    "channelName": "danw73",
+    "uploadDate": "2009-04-30T06:31:59Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "YFCjWkmXmjI",
+    "title": "DSCF1012",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/YFCjWkmXmjI/default.jpg",
+    "channelName": "Marcos Monte",
+    "uploadDate": "2012-04-21T21:31:41Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "myC5AHxrKk0",
+    "title": "DSCF0326",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/myC5AHxrKk0/default.jpg",
+    "channelName": "smoochya152",
+    "uploadDate": "2011-11-02T01:25:29Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "PSM4fjYEt9I",
+    "title": "DSCF1021 High quality and size",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/PSM4fjYEt9I/default.jpg",
+    "channelName": "john rhodel enriquez",
+    "uploadDate": "2012-03-14T00:42:11Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "htheM53oves",
+    "title": "DSCF0060",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/htheM53oves/default.jpg",
+    "channelName": "石川三育保育園Ⅰ",
+    "uploadDate": "2018-06-29T09:29:41Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": {
+        "BOOL": true
+      }
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
+  },
+  {
+    "id": "34xMiHC0l34",
+    "title": "DSCF0188",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/34xMiHC0l34/default.jpg",
+    "channelName": "alexandra serrano Xana",
+    "uploadDate": "2009-05-24T22:00:31Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "-a_qJUvqOOQ",
+    "title": "DSCF0128.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/-a_qJUvqOOQ/default.jpg",
+    "channelName": "Lai Cheng",
+    "uploadDate": "2009-11-26T17:07:12Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "oGdadLAVcVI",
+    "title": "DSCF1138",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/oGdadLAVcVI/default.jpg",
+    "channelName": "Boyu Tan",
+    "uploadDate": "2016-04-03T21:33:10Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "TKz-6mdYhA0",
+    "title": "DSCF0133",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/TKz-6mdYhA0/default.jpg",
+    "channelName": "carlosklle",
+    "uploadDate": "2011-03-19T13:53:51Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "ejqh7KG6eCQ",
+    "title": "DSCF0222",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/ejqh7KG6eCQ/default.jpg",
+    "channelName": "sawan kanchana",
+    "uploadDate": "2018-10-12T01:26:29Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "2WzVilpTsXA",
+    "title": "PICT0021",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/2WzVilpTsXA/default.jpg",
+    "channelName": "Ganadores De Altura ",
+    "uploadDate": "2023-08-23T19:21:49Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "jKFLs2l34Jg",
+    "title": "DSCF0145",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/jKFLs2l34Jg/default.jpg",
+    "channelName": "cody2631",
+    "uploadDate": "2011-04-04T06:11:20Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "rwH0Q4ALTDc",
+    "title": "DSCF1320",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/rwH0Q4ALTDc/default.jpg",
+    "channelName": "JR加香教煮",
+    "uploadDate": "2020-07-23T18:27:08Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "Y4OnWqRD_94",
+    "title": "DSCF1010.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/Y4OnWqRD_94/default.jpg",
+    "channelName": "Juan Camilo Marin Cerquera",
+    "uploadDate": "2010-04-26T15:28:33Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "fDhC_1ULS3k",
+    "title": "DSCF0109",
+    "assessment": "approved",
+    "thumbnail": "https://i.ytimg.com/vi/fDhC_1ULS3k/default.jpg",
+    "channelName": "SIPRIT WORSHIP swim",
+    "uploadDate": "2016-11-30T13:52:08Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "DNSgCWSAmD8",
+    "title": "DSCF0415",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/DNSgCWSAmD8/default.jpg",
+    "channelName": "Carolina Herrera ",
+    "uploadDate": "2010-12-07T16:04:35Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "Ai_1xYSnXZk",
+    "title": "DSCF1427.AVI",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/Ai_1xYSnXZk/default.jpg",
+    "channelName": "Gustav Heinemann",
+    "uploadDate": "2012-04-14T19:00:32Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "gedO2sYBEcc",
+    "title": "DSCF1172",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/gedO2sYBEcc/default.jpg",
+    "channelName": "Calrith732",
+    "uploadDate": "2012-12-28T17:42:27Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "O_VR9TjibBU",
+    "title": "PICT0011",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/O_VR9TjibBU/default.jpg",
+    "channelName": "2005 MSM",
+    "uploadDate": "2016-06-14T23:37:33Z",
+    "fileType": "PICT",
+    "tags": {
+      "homeVideo": true
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": true
+  },
+  {
+    "id": "BvwxRTi1kbg",
+    "title": "DSCF0058",
+    "assessment": "unreviewed",
+    "thumbnail": "https://i.ytimg.com/vi/BvwxRTi1kbg/default.jpg",
+    "channelName": "lukman lutfi",
+    "uploadDate": "2012-05-31T07:35:20Z",
+    "fileType": "DSCF",
+    "tags": {
+      "homeVideo": {
+        "BOOL": true
+      }
+    },
+    "embeddable": true,
+    "dashCam": false,
+    "trailCam": false,
+    "drone": false,
+    "homeVideo": false
   }
 ]
